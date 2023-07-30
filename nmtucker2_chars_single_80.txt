@@ -1,0 +1,5040 @@
+{'num_experiments': 1, 'epochs': 1000, 'patience': 500, 'batch_size': 4096, 'lr': 0.0003, 'core_shape': [150, 150, 150], 'core2_shape': [78, 78, 78], 'core3_shape': [5, 5, 5], 'device': 'cuda', 'val_ratio': 0.1, 'model': 'ML2', 'dataset': 'chars', 'lambda_l1': 0.001, 'lambda_l2': 0.001, 'regularization': None}
+
+
+
+
+
+
+
+chars, EXPERIMENT 1, core_shape=[150, 150, 150], core2_shape=[78, 78, 78], core3_shape=[5, 5, 5]
+loading chars dataset..
+Training NMTucker model...
+Starting training...
+EPOCH 1, TRAIN LOSS:0.1652806, VALID LOSS:0.1034796
+rmse: 0.3217 -- mae: 0.2675 -- mape: 121.0514
+Validation loss decreased (inf --> 0.103480).  Saving model ...
+
+
+EPOCH 2, TRAIN LOSS:0.1029318, VALID LOSS:0.1030096
+rmse: 0.3210 -- mae: 0.2671 -- mape: 120.6721
+Validation loss decreased (0.103480 --> 0.103010).  Saving model ...
+
+
+EPOCH 3, TRAIN LOSS:0.1026170, VALID LOSS:0.1028769
+rmse: 0.3208 -- mae: 0.2667 -- mape: 120.4848
+Validation loss decreased (0.103010 --> 0.102877).  Saving model ...
+
+
+EPOCH 4, TRAIN LOSS:0.1023301, VALID LOSS:0.1024934
+rmse: 0.3202 -- mae: 0.2658 -- mape: 120.0471
+Validation loss decreased (0.102877 --> 0.102493).  Saving model ...
+
+
+EPOCH 5, TRAIN LOSS:0.1017709, VALID LOSS:0.1017736
+rmse: 0.3190 -- mae: 0.2647 -- mape: 119.6586
+Validation loss decreased (0.102493 --> 0.101774).  Saving model ...
+
+
+EPOCH 6, TRAIN LOSS:0.1009934, VALID LOSS:0.1010086
+rmse: 0.3178 -- mae: 0.2632 -- mape: 118.9187
+Validation loss decreased (0.101774 --> 0.101009).  Saving model ...
+
+
+EPOCH 7, TRAIN LOSS:0.1002124, VALID LOSS:0.1002564
+rmse: 0.3167 -- mae: 0.2618 -- mape: 118.1577
+Validation loss decreased (0.101009 --> 0.100256).  Saving model ...
+
+
+EPOCH 8, TRAIN LOSS:0.0996859, VALID LOSS:0.0997568
+rmse: 0.3159 -- mae: 0.2607 -- mape: 117.3343
+Validation loss decreased (0.100256 --> 0.099757).  Saving model ...
+
+
+EPOCH 9, TRAIN LOSS:0.0992755, VALID LOSS:0.0996861
+rmse: 0.3158 -- mae: 0.2600 -- mape: 116.4368
+Validation loss decreased (0.099757 --> 0.099686).  Saving model ...
+
+
+EPOCH 10, TRAIN LOSS:0.0989646, VALID LOSS:0.0990584
+rmse: 0.3148 -- mae: 0.2594 -- mape: 116.6732
+Validation loss decreased (0.099686 --> 0.099058).  Saving model ...
+
+
+EPOCH 11, TRAIN LOSS:0.0987379, VALID LOSS:0.0989775
+rmse: 0.3146 -- mae: 0.2591 -- mape: 116.1582
+Validation loss decreased (0.099058 --> 0.098977).  Saving model ...
+
+
+EPOCH 12, TRAIN LOSS:0.0985849, VALID LOSS:0.0988293
+rmse: 0.3144 -- mae: 0.2587 -- mape: 116.5360
+Validation loss decreased (0.098977 --> 0.098829).  Saving model ...
+
+
+EPOCH 13, TRAIN LOSS:0.0983521, VALID LOSS:0.0987946
+rmse: 0.3143 -- mae: 0.2580 -- mape: 115.5285
+Validation loss decreased (0.098829 --> 0.098795).  Saving model ...
+
+
+EPOCH 14, TRAIN LOSS:0.0981937, VALID LOSS:0.0985051
+rmse: 0.3139 -- mae: 0.2581 -- mape: 116.3160
+Validation loss decreased (0.098795 --> 0.098505).  Saving model ...
+
+
+EPOCH 15, TRAIN LOSS:0.0979802, VALID LOSS:0.0981453
+rmse: 0.3133 -- mae: 0.2575 -- mape: 115.3546
+Validation loss decreased (0.098505 --> 0.098145).  Saving model ...
+
+
+EPOCH 16, TRAIN LOSS:0.0977665, VALID LOSS:0.0982432
+rmse: 0.3135 -- mae: 0.2578 -- mape: 115.8987
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 17, TRAIN LOSS:0.0975699, VALID LOSS:0.0979360
+rmse: 0.3130 -- mae: 0.2569 -- mape: 115.3441
+Validation loss decreased (0.098145 --> 0.097936).  Saving model ...
+
+
+EPOCH 18, TRAIN LOSS:0.0974003, VALID LOSS:0.0979169
+rmse: 0.3129 -- mae: 0.2566 -- mape: 114.1383
+Validation loss decreased (0.097936 --> 0.097917).  Saving model ...
+
+
+EPOCH 19, TRAIN LOSS:0.0971916, VALID LOSS:0.0974855
+rmse: 0.3123 -- mae: 0.2560 -- mape: 115.3028
+Validation loss decreased (0.097917 --> 0.097485).  Saving model ...
+
+
+EPOCH 20, TRAIN LOSS:0.0970152, VALID LOSS:0.0975417
+rmse: 0.3123 -- mae: 0.2557 -- mape: 114.8566
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 21, TRAIN LOSS:0.0968010, VALID LOSS:0.0970257
+rmse: 0.3115 -- mae: 0.2551 -- mape: 114.0624
+Validation loss decreased (0.097485 --> 0.097026).  Saving model ...
+
+
+EPOCH 22, TRAIN LOSS:0.0965423, VALID LOSS:0.0969255
+rmse: 0.3114 -- mae: 0.2548 -- mape: 113.6798
+Validation loss decreased (0.097026 --> 0.096926).  Saving model ...
+
+
+EPOCH 23, TRAIN LOSS:0.0963507, VALID LOSS:0.0966482
+rmse: 0.3109 -- mae: 0.2548 -- mape: 115.3474
+Validation loss decreased (0.096926 --> 0.096648).  Saving model ...
+
+
+EPOCH 24, TRAIN LOSS:0.0960940, VALID LOSS:0.0965751
+rmse: 0.3108 -- mae: 0.2539 -- mape: 114.2911
+Validation loss decreased (0.096648 --> 0.096575).  Saving model ...
+
+
+EPOCH 25, TRAIN LOSS:0.0959231, VALID LOSS:0.0962782
+rmse: 0.3103 -- mae: 0.2540 -- mape: 113.6390
+Validation loss decreased (0.096575 --> 0.096278).  Saving model ...
+
+
+EPOCH 26, TRAIN LOSS:0.0956609, VALID LOSS:0.0960917
+rmse: 0.3100 -- mae: 0.2533 -- mape: 114.4025
+Validation loss decreased (0.096278 --> 0.096092).  Saving model ...
+
+
+EPOCH 27, TRAIN LOSS:0.0953591, VALID LOSS:0.0957097
+rmse: 0.3094 -- mae: 0.2531 -- mape: 113.2512
+Validation loss decreased (0.096092 --> 0.095710).  Saving model ...
+
+
+EPOCH 28, TRAIN LOSS:0.0951044, VALID LOSS:0.0956017
+rmse: 0.3092 -- mae: 0.2525 -- mape: 112.8436
+Validation loss decreased (0.095710 --> 0.095602).  Saving model ...
+
+
+EPOCH 29, TRAIN LOSS:0.0948016, VALID LOSS:0.0952570
+rmse: 0.3087 -- mae: 0.2515 -- mape: 111.9992
+Validation loss decreased (0.095602 --> 0.095257).  Saving model ...
+
+
+EPOCH 30, TRAIN LOSS:0.0944669, VALID LOSS:0.0950661
+rmse: 0.3083 -- mae: 0.2517 -- mape: 113.1792
+Validation loss decreased (0.095257 --> 0.095066).  Saving model ...
+
+
+EPOCH 31, TRAIN LOSS:0.0941024, VALID LOSS:0.0947005
+rmse: 0.3077 -- mae: 0.2509 -- mape: 112.1514
+Validation loss decreased (0.095066 --> 0.094700).  Saving model ...
+
+
+EPOCH 32, TRAIN LOSS:0.0937129, VALID LOSS:0.0944773
+rmse: 0.3074 -- mae: 0.2501 -- mape: 111.5092
+Validation loss decreased (0.094700 --> 0.094477).  Saving model ...
+
+
+EPOCH 33, TRAIN LOSS:0.0933694, VALID LOSS:0.0940253
+rmse: 0.3066 -- mae: 0.2496 -- mape: 110.8834
+Validation loss decreased (0.094477 --> 0.094025).  Saving model ...
+
+
+EPOCH 34, TRAIN LOSS:0.0929570, VALID LOSS:0.0936428
+rmse: 0.3060 -- mae: 0.2487 -- mape: 110.6329
+Validation loss decreased (0.094025 --> 0.093643).  Saving model ...
+
+
+EPOCH 35, TRAIN LOSS:0.0925069, VALID LOSS:0.0930455
+rmse: 0.3050 -- mae: 0.2485 -- mape: 111.5599
+Validation loss decreased (0.093643 --> 0.093046).  Saving model ...
+
+
+EPOCH 36, TRAIN LOSS:0.0919814, VALID LOSS:0.0926804
+rmse: 0.3044 -- mae: 0.2474 -- mape: 110.4613
+Validation loss decreased (0.093046 --> 0.092680).  Saving model ...
+
+
+EPOCH 37, TRAIN LOSS:0.0914910, VALID LOSS:0.0922423
+rmse: 0.3037 -- mae: 0.2467 -- mape: 110.5758
+Validation loss decreased (0.092680 --> 0.092242).  Saving model ...
+
+
+EPOCH 38, TRAIN LOSS:0.0909560, VALID LOSS:0.0917596
+rmse: 0.3029 -- mae: 0.2458 -- mape: 109.4987
+Validation loss decreased (0.092242 --> 0.091760).  Saving model ...
+
+
+EPOCH 39, TRAIN LOSS:0.0904417, VALID LOSS:0.0912785
+rmse: 0.3021 -- mae: 0.2448 -- mape: 108.9242
+Validation loss decreased (0.091760 --> 0.091279).  Saving model ...
+
+
+EPOCH 40, TRAIN LOSS:0.0898795, VALID LOSS:0.0908675
+rmse: 0.3014 -- mae: 0.2443 -- mape: 109.2113
+Validation loss decreased (0.091279 --> 0.090868).  Saving model ...
+
+
+EPOCH 41, TRAIN LOSS:0.0892869, VALID LOSS:0.0901343
+rmse: 0.3002 -- mae: 0.2429 -- mape: 108.7046
+Validation loss decreased (0.090868 --> 0.090134).  Saving model ...
+
+
+EPOCH 42, TRAIN LOSS:0.0887128, VALID LOSS:0.0896144
+rmse: 0.2993 -- mae: 0.2424 -- mape: 107.8820
+Validation loss decreased (0.090134 --> 0.089614).  Saving model ...
+
+
+EPOCH 43, TRAIN LOSS:0.0880554, VALID LOSS:0.0889707
+rmse: 0.2983 -- mae: 0.2405 -- mape: 107.5639
+Validation loss decreased (0.089614 --> 0.088971).  Saving model ...
+
+
+EPOCH 44, TRAIN LOSS:0.0873461, VALID LOSS:0.0882491
+rmse: 0.2971 -- mae: 0.2402 -- mape: 107.0799
+Validation loss decreased (0.088971 --> 0.088249).  Saving model ...
+
+
+EPOCH 45, TRAIN LOSS:0.0866220, VALID LOSS:0.0874372
+rmse: 0.2957 -- mae: 0.2381 -- mape: 104.6035
+Validation loss decreased (0.088249 --> 0.087437).  Saving model ...
+
+
+EPOCH 46, TRAIN LOSS:0.0859618, VALID LOSS:0.0867944
+rmse: 0.2946 -- mae: 0.2376 -- mape: 104.7307
+Validation loss decreased (0.087437 --> 0.086794).  Saving model ...
+
+
+EPOCH 47, TRAIN LOSS:0.0852897, VALID LOSS:0.0863244
+rmse: 0.2938 -- mae: 0.2365 -- mape: 104.4627
+Validation loss decreased (0.086794 --> 0.086324).  Saving model ...
+
+
+EPOCH 48, TRAIN LOSS:0.0845848, VALID LOSS:0.0857187
+rmse: 0.2927 -- mae: 0.2353 -- mape: 103.8271
+Validation loss decreased (0.086324 --> 0.085719).  Saving model ...
+
+
+EPOCH 49, TRAIN LOSS:0.0838818, VALID LOSS:0.0849141
+rmse: 0.2914 -- mae: 0.2345 -- mape: 103.2411
+Validation loss decreased (0.085719 --> 0.084914).  Saving model ...
+
+
+EPOCH 50, TRAIN LOSS:0.0831893, VALID LOSS:0.0844151
+rmse: 0.2905 -- mae: 0.2328 -- mape: 101.6321
+Validation loss decreased (0.084914 --> 0.084415).  Saving model ...
+
+
+EPOCH 51, TRAIN LOSS:0.0825466, VALID LOSS:0.0837278
+rmse: 0.2893 -- mae: 0.2322 -- mape: 102.6211
+Validation loss decreased (0.084415 --> 0.083728).  Saving model ...
+
+
+EPOCH 52, TRAIN LOSS:0.0818025, VALID LOSS:0.0830646
+rmse: 0.2882 -- mae: 0.2309 -- mape: 102.2442
+Validation loss decreased (0.083728 --> 0.083065).  Saving model ...
+
+
+EPOCH 53, TRAIN LOSS:0.0811154, VALID LOSS:0.0823064
+rmse: 0.2869 -- mae: 0.2297 -- mape: 100.5596
+Validation loss decreased (0.083065 --> 0.082306).  Saving model ...
+
+
+EPOCH 54, TRAIN LOSS:0.0803809, VALID LOSS:0.0816595
+rmse: 0.2857 -- mae: 0.2284 -- mape: 99.8190
+Validation loss decreased (0.082306 --> 0.081659).  Saving model ...
+
+
+EPOCH 55, TRAIN LOSS:0.0796729, VALID LOSS:0.0810261
+rmse: 0.2846 -- mae: 0.2273 -- mape: 100.8931
+Validation loss decreased (0.081659 --> 0.081026).  Saving model ...
+
+
+EPOCH 56, TRAIN LOSS:0.0789184, VALID LOSS:0.0806217
+rmse: 0.2839 -- mae: 0.2265 -- mape: 98.6312
+Validation loss decreased (0.081026 --> 0.080622).  Saving model ...
+
+
+EPOCH 57, TRAIN LOSS:0.0781807, VALID LOSS:0.0797775
+rmse: 0.2824 -- mae: 0.2252 -- mape: 98.2532
+Validation loss decreased (0.080622 --> 0.079778).  Saving model ...
+
+
+EPOCH 58, TRAIN LOSS:0.0774474, VALID LOSS:0.0790019
+rmse: 0.2811 -- mae: 0.2237 -- mape: 98.4259
+Validation loss decreased (0.079778 --> 0.079002).  Saving model ...
+
+
+EPOCH 59, TRAIN LOSS:0.0766666, VALID LOSS:0.0783507
+rmse: 0.2799 -- mae: 0.2225 -- mape: 97.6785
+Validation loss decreased (0.079002 --> 0.078351).  Saving model ...
+
+
+EPOCH 60, TRAIN LOSS:0.0759238, VALID LOSS:0.0775228
+rmse: 0.2784 -- mae: 0.2209 -- mape: 96.5192
+Validation loss decreased (0.078351 --> 0.077523).  Saving model ...
+
+
+EPOCH 61, TRAIN LOSS:0.0751221, VALID LOSS:0.0769827
+rmse: 0.2774 -- mae: 0.2198 -- mape: 95.4977
+Validation loss decreased (0.077523 --> 0.076983).  Saving model ...
+
+
+EPOCH 62, TRAIN LOSS:0.0743673, VALID LOSS:0.0762770
+rmse: 0.2762 -- mae: 0.2187 -- mape: 95.2896
+Validation loss decreased (0.076983 --> 0.076277).  Saving model ...
+
+
+EPOCH 63, TRAIN LOSS:0.0736250, VALID LOSS:0.0755965
+rmse: 0.2750 -- mae: 0.2176 -- mape: 94.9585
+Validation loss decreased (0.076277 --> 0.075596).  Saving model ...
+
+
+EPOCH 64, TRAIN LOSS:0.0729216, VALID LOSS:0.0749798
+rmse: 0.2738 -- mae: 0.2165 -- mape: 94.5418
+Validation loss decreased (0.075596 --> 0.074980).  Saving model ...
+
+
+EPOCH 65, TRAIN LOSS:0.0721814, VALID LOSS:0.0744748
+rmse: 0.2729 -- mae: 0.2153 -- mape: 93.5782
+Validation loss decreased (0.074980 --> 0.074475).  Saving model ...
+
+
+EPOCH 66, TRAIN LOSS:0.0714633, VALID LOSS:0.0737414
+rmse: 0.2716 -- mae: 0.2141 -- mape: 92.5360
+Validation loss decreased (0.074475 --> 0.073741).  Saving model ...
+
+
+EPOCH 67, TRAIN LOSS:0.0707841, VALID LOSS:0.0730585
+rmse: 0.2703 -- mae: 0.2128 -- mape: 92.0330
+Validation loss decreased (0.073741 --> 0.073059).  Saving model ...
+
+
+EPOCH 68, TRAIN LOSS:0.0700640, VALID LOSS:0.0724853
+rmse: 0.2692 -- mae: 0.2120 -- mape: 91.6869
+Validation loss decreased (0.073059 --> 0.072485).  Saving model ...
+
+
+EPOCH 69, TRAIN LOSS:0.0693797, VALID LOSS:0.0719168
+rmse: 0.2682 -- mae: 0.2111 -- mape: 91.9998
+Validation loss decreased (0.072485 --> 0.071917).  Saving model ...
+
+
+EPOCH 70, TRAIN LOSS:0.0687439, VALID LOSS:0.0712905
+rmse: 0.2670 -- mae: 0.2096 -- mape: 90.5956
+Validation loss decreased (0.071917 --> 0.071291).  Saving model ...
+
+
+EPOCH 71, TRAIN LOSS:0.0680955, VALID LOSS:0.0706246
+rmse: 0.2658 -- mae: 0.2084 -- mape: 90.5008
+Validation loss decreased (0.071291 --> 0.070625).  Saving model ...
+
+
+EPOCH 72, TRAIN LOSS:0.0674434, VALID LOSS:0.0701038
+rmse: 0.2648 -- mae: 0.2076 -- mape: 89.7452
+Validation loss decreased (0.070625 --> 0.070104).  Saving model ...
+
+
+EPOCH 73, TRAIN LOSS:0.0667771, VALID LOSS:0.0694559
+rmse: 0.2636 -- mae: 0.2064 -- mape: 89.0526
+Validation loss decreased (0.070104 --> 0.069456).  Saving model ...
+
+
+EPOCH 74, TRAIN LOSS:0.0661583, VALID LOSS:0.0689252
+rmse: 0.2626 -- mae: 0.2053 -- mape: 88.9307
+Validation loss decreased (0.069456 --> 0.068925).  Saving model ...
+
+
+EPOCH 75, TRAIN LOSS:0.0655265, VALID LOSS:0.0683314
+rmse: 0.2614 -- mae: 0.2043 -- mape: 88.7593
+Validation loss decreased (0.068925 --> 0.068331).  Saving model ...
+
+
+EPOCH 76, TRAIN LOSS:0.0649445, VALID LOSS:0.0677753
+rmse: 0.2604 -- mae: 0.2032 -- mape: 87.6779
+Validation loss decreased (0.068331 --> 0.067775).  Saving model ...
+
+
+EPOCH 77, TRAIN LOSS:0.0643698, VALID LOSS:0.0672449
+rmse: 0.2593 -- mae: 0.2025 -- mape: 87.0148
+Validation loss decreased (0.067775 --> 0.067245).  Saving model ...
+
+
+EPOCH 78, TRAIN LOSS:0.0637672, VALID LOSS:0.0667899
+rmse: 0.2585 -- mae: 0.2015 -- mape: 87.1434
+Validation loss decreased (0.067245 --> 0.066790).  Saving model ...
+
+
+EPOCH 79, TRAIN LOSS:0.0631590, VALID LOSS:0.0662197
+rmse: 0.2573 -- mae: 0.2005 -- mape: 86.4854
+Validation loss decreased (0.066790 --> 0.066220).  Saving model ...
+
+
+EPOCH 80, TRAIN LOSS:0.0625969, VALID LOSS:0.0657269
+rmse: 0.2564 -- mae: 0.1996 -- mape: 86.3592
+Validation loss decreased (0.066220 --> 0.065727).  Saving model ...
+
+
+EPOCH 81, TRAIN LOSS:0.0620385, VALID LOSS:0.0651190
+rmse: 0.2552 -- mae: 0.1983 -- mape: 84.8058
+Validation loss decreased (0.065727 --> 0.065119).  Saving model ...
+
+
+EPOCH 82, TRAIN LOSS:0.0614870, VALID LOSS:0.0645579
+rmse: 0.2541 -- mae: 0.1973 -- mape: 84.4988
+Validation loss decreased (0.065119 --> 0.064558).  Saving model ...
+
+
+EPOCH 83, TRAIN LOSS:0.0608947, VALID LOSS:0.0641265
+rmse: 0.2532 -- mae: 0.1967 -- mape: 84.8441
+Validation loss decreased (0.064558 --> 0.064126).  Saving model ...
+
+
+EPOCH 84, TRAIN LOSS:0.0603481, VALID LOSS:0.0635970
+rmse: 0.2522 -- mae: 0.1957 -- mape: 83.7919
+Validation loss decreased (0.064126 --> 0.063597).  Saving model ...
+
+
+EPOCH 85, TRAIN LOSS:0.0597901, VALID LOSS:0.0631818
+rmse: 0.2514 -- mae: 0.1947 -- mape: 83.2658
+Validation loss decreased (0.063597 --> 0.063182).  Saving model ...
+
+
+EPOCH 86, TRAIN LOSS:0.0591968, VALID LOSS:0.0625746
+rmse: 0.2502 -- mae: 0.1934 -- mape: 82.8489
+Validation loss decreased (0.063182 --> 0.062575).  Saving model ...
+
+
+EPOCH 87, TRAIN LOSS:0.0586323, VALID LOSS:0.0619478
+rmse: 0.2489 -- mae: 0.1925 -- mape: 82.6037
+Validation loss decreased (0.062575 --> 0.061948).  Saving model ...
+
+
+EPOCH 88, TRAIN LOSS:0.0580926, VALID LOSS:0.0616857
+rmse: 0.2484 -- mae: 0.1916 -- mape: 81.5300
+Validation loss decreased (0.061948 --> 0.061686).  Saving model ...
+
+
+EPOCH 89, TRAIN LOSS:0.0575422, VALID LOSS:0.0610594
+rmse: 0.2471 -- mae: 0.1907 -- mape: 80.9317
+Validation loss decreased (0.061686 --> 0.061059).  Saving model ...
+
+
+EPOCH 90, TRAIN LOSS:0.0569962, VALID LOSS:0.0605385
+rmse: 0.2461 -- mae: 0.1898 -- mape: 81.0727
+Validation loss decreased (0.061059 --> 0.060539).  Saving model ...
+
+
+EPOCH 91, TRAIN LOSS:0.0564137, VALID LOSS:0.0600076
+rmse: 0.2450 -- mae: 0.1889 -- mape: 80.5118
+Validation loss decreased (0.060539 --> 0.060008).  Saving model ...
+
+
+EPOCH 92, TRAIN LOSS:0.0559129, VALID LOSS:0.0595875
+rmse: 0.2441 -- mae: 0.1880 -- mape: 80.6460
+Validation loss decreased (0.060008 --> 0.059587).  Saving model ...
+
+
+EPOCH 93, TRAIN LOSS:0.0553488, VALID LOSS:0.0589417
+rmse: 0.2428 -- mae: 0.1870 -- mape: 79.3932
+Validation loss decreased (0.059587 --> 0.058942).  Saving model ...
+
+
+EPOCH 94, TRAIN LOSS:0.0547906, VALID LOSS:0.0584505
+rmse: 0.2418 -- mae: 0.1861 -- mape: 79.1300
+Validation loss decreased (0.058942 --> 0.058450).  Saving model ...
+
+
+EPOCH 95, TRAIN LOSS:0.0542887, VALID LOSS:0.0580299
+rmse: 0.2409 -- mae: 0.1851 -- mape: 78.4698
+Validation loss decreased (0.058450 --> 0.058030).  Saving model ...
+
+
+EPOCH 96, TRAIN LOSS:0.0537405, VALID LOSS:0.0575714
+rmse: 0.2399 -- mae: 0.1844 -- mape: 77.6389
+Validation loss decreased (0.058030 --> 0.057571).  Saving model ...
+
+
+EPOCH 97, TRAIN LOSS:0.0532348, VALID LOSS:0.0569732
+rmse: 0.2387 -- mae: 0.1834 -- mape: 78.3468
+Validation loss decreased (0.057571 --> 0.056973).  Saving model ...
+
+
+EPOCH 98, TRAIN LOSS:0.0526847, VALID LOSS:0.0565921
+rmse: 0.2379 -- mae: 0.1823 -- mape: 77.7779
+Validation loss decreased (0.056973 --> 0.056592).  Saving model ...
+
+
+EPOCH 99, TRAIN LOSS:0.0521858, VALID LOSS:0.0560705
+rmse: 0.2368 -- mae: 0.1813 -- mape: 77.1241
+Validation loss decreased (0.056592 --> 0.056070).  Saving model ...
+
+
+EPOCH 100, TRAIN LOSS:0.0516986, VALID LOSS:0.0555737
+rmse: 0.2357 -- mae: 0.1807 -- mape: 76.9622
+Validation loss decreased (0.056070 --> 0.055574).  Saving model ...
+
+
+EPOCH 101, TRAIN LOSS:0.0511373, VALID LOSS:0.0551383
+rmse: 0.2348 -- mae: 0.1797 -- mape: 76.1755
+Validation loss decreased (0.055574 --> 0.055138).  Saving model ...
+
+
+EPOCH 102, TRAIN LOSS:0.0506939, VALID LOSS:0.0547339
+rmse: 0.2340 -- mae: 0.1792 -- mape: 75.8286
+Validation loss decreased (0.055138 --> 0.054734).  Saving model ...
+
+
+EPOCH 103, TRAIN LOSS:0.0501721, VALID LOSS:0.0542048
+rmse: 0.2328 -- mae: 0.1780 -- mape: 75.1537
+Validation loss decreased (0.054734 --> 0.054205).  Saving model ...
+
+
+EPOCH 104, TRAIN LOSS:0.0496978, VALID LOSS:0.0537818
+rmse: 0.2319 -- mae: 0.1773 -- mape: 75.0541
+Validation loss decreased (0.054205 --> 0.053782).  Saving model ...
+
+
+EPOCH 105, TRAIN LOSS:0.0492264, VALID LOSS:0.0534587
+rmse: 0.2312 -- mae: 0.1765 -- mape: 74.5922
+Validation loss decreased (0.053782 --> 0.053459).  Saving model ...
+
+
+EPOCH 106, TRAIN LOSS:0.0487489, VALID LOSS:0.0530414
+rmse: 0.2303 -- mae: 0.1756 -- mape: 74.2104
+Validation loss decreased (0.053459 --> 0.053041).  Saving model ...
+
+
+EPOCH 107, TRAIN LOSS:0.0483240, VALID LOSS:0.0525608
+rmse: 0.2293 -- mae: 0.1748 -- mape: 74.0595
+Validation loss decreased (0.053041 --> 0.052561).  Saving model ...
+
+
+EPOCH 108, TRAIN LOSS:0.0478301, VALID LOSS:0.0520354
+rmse: 0.2281 -- mae: 0.1739 -- mape: 73.1495
+Validation loss decreased (0.052561 --> 0.052035).  Saving model ...
+
+
+EPOCH 109, TRAIN LOSS:0.0474363, VALID LOSS:0.0517716
+rmse: 0.2275 -- mae: 0.1735 -- mape: 73.2977
+Validation loss decreased (0.052035 --> 0.051772).  Saving model ...
+
+
+EPOCH 110, TRAIN LOSS:0.0469667, VALID LOSS:0.0512962
+rmse: 0.2265 -- mae: 0.1725 -- mape: 73.2056
+Validation loss decreased (0.051772 --> 0.051296).  Saving model ...
+
+
+EPOCH 111, TRAIN LOSS:0.0465142, VALID LOSS:0.0508412
+rmse: 0.2255 -- mae: 0.1714 -- mape: 71.8578
+Validation loss decreased (0.051296 --> 0.050841).  Saving model ...
+
+
+EPOCH 112, TRAIN LOSS:0.0460627, VALID LOSS:0.0505050
+rmse: 0.2247 -- mae: 0.1707 -- mape: 71.8791
+Validation loss decreased (0.050841 --> 0.050505).  Saving model ...
+
+
+EPOCH 113, TRAIN LOSS:0.0456539, VALID LOSS:0.0501854
+rmse: 0.2240 -- mae: 0.1702 -- mape: 71.5143
+Validation loss decreased (0.050505 --> 0.050185).  Saving model ...
+
+
+EPOCH 114, TRAIN LOSS:0.0452291, VALID LOSS:0.0497369
+rmse: 0.2230 -- mae: 0.1694 -- mape: 71.8102
+Validation loss decreased (0.050185 --> 0.049737).  Saving model ...
+
+
+EPOCH 115, TRAIN LOSS:0.0448458, VALID LOSS:0.0494778
+rmse: 0.2224 -- mae: 0.1687 -- mape: 70.8038
+Validation loss decreased (0.049737 --> 0.049478).  Saving model ...
+
+
+EPOCH 116, TRAIN LOSS:0.0444320, VALID LOSS:0.0489469
+rmse: 0.2212 -- mae: 0.1676 -- mape: 70.2737
+Validation loss decreased (0.049478 --> 0.048947).  Saving model ...
+
+
+EPOCH 117, TRAIN LOSS:0.0440240, VALID LOSS:0.0485729
+rmse: 0.2204 -- mae: 0.1668 -- mape: 70.2090
+Validation loss decreased (0.048947 --> 0.048573).  Saving model ...
+
+
+EPOCH 118, TRAIN LOSS:0.0436448, VALID LOSS:0.0482784
+rmse: 0.2197 -- mae: 0.1661 -- mape: 69.8957
+Validation loss decreased (0.048573 --> 0.048278).  Saving model ...
+
+
+EPOCH 119, TRAIN LOSS:0.0432807, VALID LOSS:0.0478657
+rmse: 0.2188 -- mae: 0.1654 -- mape: 69.4916
+Validation loss decreased (0.048278 --> 0.047866).  Saving model ...
+
+
+EPOCH 120, TRAIN LOSS:0.0428490, VALID LOSS:0.0476064
+rmse: 0.2182 -- mae: 0.1646 -- mape: 69.0561
+Validation loss decreased (0.047866 --> 0.047606).  Saving model ...
+
+
+EPOCH 121, TRAIN LOSS:0.0425043, VALID LOSS:0.0472902
+rmse: 0.2175 -- mae: 0.1642 -- mape: 68.9755
+Validation loss decreased (0.047606 --> 0.047290).  Saving model ...
+
+
+EPOCH 122, TRAIN LOSS:0.0421389, VALID LOSS:0.0469594
+rmse: 0.2167 -- mae: 0.1633 -- mape: 68.6128
+Validation loss decreased (0.047290 --> 0.046959).  Saving model ...
+
+
+EPOCH 123, TRAIN LOSS:0.0418021, VALID LOSS:0.0464903
+rmse: 0.2156 -- mae: 0.1625 -- mape: 68.1655
+Validation loss decreased (0.046959 --> 0.046490).  Saving model ...
+
+
+EPOCH 124, TRAIN LOSS:0.0414100, VALID LOSS:0.0462705
+rmse: 0.2151 -- mae: 0.1618 -- mape: 67.2300
+Validation loss decreased (0.046490 --> 0.046271).  Saving model ...
+
+
+EPOCH 125, TRAIN LOSS:0.0410856, VALID LOSS:0.0459017
+rmse: 0.2142 -- mae: 0.1612 -- mape: 67.4917
+Validation loss decreased (0.046271 --> 0.045902).  Saving model ...
+
+
+EPOCH 126, TRAIN LOSS:0.0407320, VALID LOSS:0.0455852
+rmse: 0.2135 -- mae: 0.1605 -- mape: 67.2557
+Validation loss decreased (0.045902 --> 0.045585).  Saving model ...
+
+
+EPOCH 127, TRAIN LOSS:0.0403792, VALID LOSS:0.0453153
+rmse: 0.2129 -- mae: 0.1597 -- mape: 66.7556
+Validation loss decreased (0.045585 --> 0.045315).  Saving model ...
+
+
+EPOCH 128, TRAIN LOSS:0.0400613, VALID LOSS:0.0450266
+rmse: 0.2122 -- mae: 0.1592 -- mape: 66.7423
+Validation loss decreased (0.045315 --> 0.045027).  Saving model ...
+
+
+EPOCH 129, TRAIN LOSS:0.0397170, VALID LOSS:0.0445898
+rmse: 0.2112 -- mae: 0.1587 -- mape: 66.1397
+Validation loss decreased (0.045027 --> 0.044590).  Saving model ...
+
+
+EPOCH 130, TRAIN LOSS:0.0393927, VALID LOSS:0.0443584
+rmse: 0.2106 -- mae: 0.1580 -- mape: 65.9298
+Validation loss decreased (0.044590 --> 0.044358).  Saving model ...
+
+
+EPOCH 131, TRAIN LOSS:0.0390527, VALID LOSS:0.0441356
+rmse: 0.2101 -- mae: 0.1575 -- mape: 65.4788
+Validation loss decreased (0.044358 --> 0.044136).  Saving model ...
+
+
+EPOCH 132, TRAIN LOSS:0.0387634, VALID LOSS:0.0438462
+rmse: 0.2094 -- mae: 0.1568 -- mape: 64.9073
+Validation loss decreased (0.044136 --> 0.043846).  Saving model ...
+
+
+EPOCH 133, TRAIN LOSS:0.0384640, VALID LOSS:0.0435711
+rmse: 0.2087 -- mae: 0.1561 -- mape: 64.9964
+Validation loss decreased (0.043846 --> 0.043571).  Saving model ...
+
+
+EPOCH 134, TRAIN LOSS:0.0381553, VALID LOSS:0.0432794
+rmse: 0.2080 -- mae: 0.1554 -- mape: 65.0017
+Validation loss decreased (0.043571 --> 0.043279).  Saving model ...
+
+
+EPOCH 135, TRAIN LOSS:0.0378657, VALID LOSS:0.0429793
+rmse: 0.2073 -- mae: 0.1546 -- mape: 64.2693
+Validation loss decreased (0.043279 --> 0.042979).  Saving model ...
+
+
+EPOCH 136, TRAIN LOSS:0.0375425, VALID LOSS:0.0426506
+rmse: 0.2065 -- mae: 0.1543 -- mape: 64.2242
+Validation loss decreased (0.042979 --> 0.042651).  Saving model ...
+
+
+EPOCH 137, TRAIN LOSS:0.0372635, VALID LOSS:0.0423613
+rmse: 0.2058 -- mae: 0.1535 -- mape: 63.9655
+Validation loss decreased (0.042651 --> 0.042361).  Saving model ...
+
+
+EPOCH 138, TRAIN LOSS:0.0369780, VALID LOSS:0.0422338
+rmse: 0.2055 -- mae: 0.1532 -- mape: 63.4615
+Validation loss decreased (0.042361 --> 0.042234).  Saving model ...
+
+
+EPOCH 139, TRAIN LOSS:0.0366953, VALID LOSS:0.0419068
+rmse: 0.2047 -- mae: 0.1523 -- mape: 63.2704
+Validation loss decreased (0.042234 --> 0.041907).  Saving model ...
+
+
+EPOCH 140, TRAIN LOSS:0.0364414, VALID LOSS:0.0416403
+rmse: 0.2040 -- mae: 0.1517 -- mape: 62.6297
+Validation loss decreased (0.041907 --> 0.041640).  Saving model ...
+
+
+EPOCH 141, TRAIN LOSS:0.0361389, VALID LOSS:0.0413553
+rmse: 0.2034 -- mae: 0.1514 -- mape: 62.6689
+Validation loss decreased (0.041640 --> 0.041355).  Saving model ...
+
+
+EPOCH 142, TRAIN LOSS:0.0358941, VALID LOSS:0.0411792
+rmse: 0.2029 -- mae: 0.1508 -- mape: 62.7272
+Validation loss decreased (0.041355 --> 0.041179).  Saving model ...
+
+
+EPOCH 143, TRAIN LOSS:0.0356463, VALID LOSS:0.0409055
+rmse: 0.2022 -- mae: 0.1502 -- mape: 62.1750
+Validation loss decreased (0.041179 --> 0.040905).  Saving model ...
+
+
+EPOCH 144, TRAIN LOSS:0.0353848, VALID LOSS:0.0407168
+rmse: 0.2018 -- mae: 0.1500 -- mape: 62.4299
+Validation loss decreased (0.040905 --> 0.040717).  Saving model ...
+
+
+EPOCH 145, TRAIN LOSS:0.0351515, VALID LOSS:0.0404292
+rmse: 0.2011 -- mae: 0.1490 -- mape: 61.9238
+Validation loss decreased (0.040717 --> 0.040429).  Saving model ...
+
+
+EPOCH 146, TRAIN LOSS:0.0348929, VALID LOSS:0.0403235
+rmse: 0.2008 -- mae: 0.1489 -- mape: 61.9216
+Validation loss decreased (0.040429 --> 0.040324).  Saving model ...
+
+
+EPOCH 147, TRAIN LOSS:0.0346625, VALID LOSS:0.0401040
+rmse: 0.2003 -- mae: 0.1484 -- mape: 61.2976
+Validation loss decreased (0.040324 --> 0.040104).  Saving model ...
+
+
+EPOCH 148, TRAIN LOSS:0.0344210, VALID LOSS:0.0399493
+rmse: 0.1999 -- mae: 0.1480 -- mape: 61.2774
+Validation loss decreased (0.040104 --> 0.039949).  Saving model ...
+
+
+EPOCH 149, TRAIN LOSS:0.0341698, VALID LOSS:0.0395927
+rmse: 0.1990 -- mae: 0.1472 -- mape: 61.1384
+Validation loss decreased (0.039949 --> 0.039593).  Saving model ...
+
+
+EPOCH 150, TRAIN LOSS:0.0339772, VALID LOSS:0.0394158
+rmse: 0.1985 -- mae: 0.1468 -- mape: 60.6988
+Validation loss decreased (0.039593 --> 0.039416).  Saving model ...
+
+
+EPOCH 151, TRAIN LOSS:0.0337346, VALID LOSS:0.0391699
+rmse: 0.1979 -- mae: 0.1460 -- mape: 60.4616
+Validation loss decreased (0.039416 --> 0.039170).  Saving model ...
+
+
+EPOCH 152, TRAIN LOSS:0.0335116, VALID LOSS:0.0390669
+rmse: 0.1977 -- mae: 0.1457 -- mape: 60.2106
+Validation loss decreased (0.039170 --> 0.039067).  Saving model ...
+
+
+EPOCH 153, TRAIN LOSS:0.0333110, VALID LOSS:0.0388017
+rmse: 0.1970 -- mae: 0.1453 -- mape: 60.2982
+Validation loss decreased (0.039067 --> 0.038802).  Saving model ...
+
+
+EPOCH 154, TRAIN LOSS:0.0330731, VALID LOSS:0.0385498
+rmse: 0.1963 -- mae: 0.1443 -- mape: 59.4833
+Validation loss decreased (0.038802 --> 0.038550).  Saving model ...
+
+
+EPOCH 155, TRAIN LOSS:0.0328883, VALID LOSS:0.0384241
+rmse: 0.1960 -- mae: 0.1443 -- mape: 60.0515
+Validation loss decreased (0.038550 --> 0.038424).  Saving model ...
+
+
+EPOCH 156, TRAIN LOSS:0.0326695, VALID LOSS:0.0382289
+rmse: 0.1955 -- mae: 0.1440 -- mape: 59.1566
+Validation loss decreased (0.038424 --> 0.038229).  Saving model ...
+
+
+EPOCH 157, TRAIN LOSS:0.0324576, VALID LOSS:0.0380179
+rmse: 0.1950 -- mae: 0.1433 -- mape: 58.9018
+Validation loss decreased (0.038229 --> 0.038018).  Saving model ...
+
+
+EPOCH 158, TRAIN LOSS:0.0322666, VALID LOSS:0.0379211
+rmse: 0.1947 -- mae: 0.1429 -- mape: 58.7043
+Validation loss decreased (0.038018 --> 0.037921).  Saving model ...
+
+
+EPOCH 159, TRAIN LOSS:0.0320613, VALID LOSS:0.0376806
+rmse: 0.1941 -- mae: 0.1424 -- mape: 58.3231
+Validation loss decreased (0.037921 --> 0.037681).  Saving model ...
+
+
+EPOCH 160, TRAIN LOSS:0.0318905, VALID LOSS:0.0374412
+rmse: 0.1935 -- mae: 0.1421 -- mape: 58.7632
+Validation loss decreased (0.037681 --> 0.037441).  Saving model ...
+
+
+EPOCH 161, TRAIN LOSS:0.0316899, VALID LOSS:0.0372511
+rmse: 0.1930 -- mae: 0.1415 -- mape: 58.0450
+Validation loss decreased (0.037441 --> 0.037251).  Saving model ...
+
+
+EPOCH 162, TRAIN LOSS:0.0315071, VALID LOSS:0.0371598
+rmse: 0.1928 -- mae: 0.1410 -- mape: 57.9342
+Validation loss decreased (0.037251 --> 0.037160).  Saving model ...
+
+
+EPOCH 163, TRAIN LOSS:0.0313330, VALID LOSS:0.0368998
+rmse: 0.1921 -- mae: 0.1407 -- mape: 57.6995
+Validation loss decreased (0.037160 --> 0.036900).  Saving model ...
+
+
+EPOCH 164, TRAIN LOSS:0.0311417, VALID LOSS:0.0368882
+rmse: 0.1921 -- mae: 0.1404 -- mape: 57.5977
+Validation loss decreased (0.036900 --> 0.036888).  Saving model ...
+
+
+EPOCH 165, TRAIN LOSS:0.0309683, VALID LOSS:0.0366688
+rmse: 0.1915 -- mae: 0.1400 -- mape: 57.6891
+Validation loss decreased (0.036888 --> 0.036669).  Saving model ...
+
+
+EPOCH 166, TRAIN LOSS:0.0307812, VALID LOSS:0.0364496
+rmse: 0.1909 -- mae: 0.1396 -- mape: 57.4225
+Validation loss decreased (0.036669 --> 0.036450).  Saving model ...
+
+
+EPOCH 167, TRAIN LOSS:0.0306155, VALID LOSS:0.0362748
+rmse: 0.1905 -- mae: 0.1390 -- mape: 57.1662
+Validation loss decreased (0.036450 --> 0.036275).  Saving model ...
+
+
+EPOCH 168, TRAIN LOSS:0.0304494, VALID LOSS:0.0362377
+rmse: 0.1904 -- mae: 0.1388 -- mape: 57.1838
+Validation loss decreased (0.036275 --> 0.036238).  Saving model ...
+
+
+EPOCH 169, TRAIN LOSS:0.0302641, VALID LOSS:0.0360005
+rmse: 0.1898 -- mae: 0.1381 -- mape: 56.5682
+Validation loss decreased (0.036238 --> 0.036001).  Saving model ...
+
+
+EPOCH 170, TRAIN LOSS:0.0301356, VALID LOSS:0.0358815
+rmse: 0.1894 -- mae: 0.1378 -- mape: 56.7836
+Validation loss decreased (0.036001 --> 0.035881).  Saving model ...
+
+
+EPOCH 171, TRAIN LOSS:0.0299547, VALID LOSS:0.0357775
+rmse: 0.1892 -- mae: 0.1375 -- mape: 56.0411
+Validation loss decreased (0.035881 --> 0.035777).  Saving model ...
+
+
+EPOCH 172, TRAIN LOSS:0.0297991, VALID LOSS:0.0355571
+rmse: 0.1886 -- mae: 0.1371 -- mape: 56.1865
+Validation loss decreased (0.035777 --> 0.035557).  Saving model ...
+
+
+EPOCH 173, TRAIN LOSS:0.0296426, VALID LOSS:0.0354042
+rmse: 0.1882 -- mae: 0.1366 -- mape: 56.4137
+Validation loss decreased (0.035557 --> 0.035404).  Saving model ...
+
+
+EPOCH 174, TRAIN LOSS:0.0294794, VALID LOSS:0.0353910
+rmse: 0.1881 -- mae: 0.1367 -- mape: 55.9948
+Validation loss decreased (0.035404 --> 0.035391).  Saving model ...
+
+
+EPOCH 175, TRAIN LOSS:0.0293445, VALID LOSS:0.0351531
+rmse: 0.1875 -- mae: 0.1361 -- mape: 55.8876
+Validation loss decreased (0.035391 --> 0.035153).  Saving model ...
+
+
+EPOCH 176, TRAIN LOSS:0.0291623, VALID LOSS:0.0351248
+rmse: 0.1874 -- mae: 0.1356 -- mape: 55.3184
+Validation loss decreased (0.035153 --> 0.035125).  Saving model ...
+
+
+EPOCH 177, TRAIN LOSS:0.0290470, VALID LOSS:0.0349815
+rmse: 0.1870 -- mae: 0.1357 -- mape: 55.2860
+Validation loss decreased (0.035125 --> 0.034982).  Saving model ...
+
+
+EPOCH 178, TRAIN LOSS:0.0289033, VALID LOSS:0.0347450
+rmse: 0.1864 -- mae: 0.1348 -- mape: 55.3676
+Validation loss decreased (0.034982 --> 0.034745).  Saving model ...
+
+
+EPOCH 179, TRAIN LOSS:0.0287449, VALID LOSS:0.0345954
+rmse: 0.1860 -- mae: 0.1344 -- mape: 54.8673
+Validation loss decreased (0.034745 --> 0.034595).  Saving model ...
+
+
+EPOCH 180, TRAIN LOSS:0.0286027, VALID LOSS:0.0345531
+rmse: 0.1859 -- mae: 0.1344 -- mape: 55.0442
+Validation loss decreased (0.034595 --> 0.034553).  Saving model ...
+
+
+EPOCH 181, TRAIN LOSS:0.0284691, VALID LOSS:0.0344055
+rmse: 0.1855 -- mae: 0.1339 -- mape: 54.6648
+Validation loss decreased (0.034553 --> 0.034405).  Saving model ...
+
+
+EPOCH 182, TRAIN LOSS:0.0283458, VALID LOSS:0.0342281
+rmse: 0.1850 -- mae: 0.1335 -- mape: 54.6437
+Validation loss decreased (0.034405 --> 0.034228).  Saving model ...
+
+
+EPOCH 183, TRAIN LOSS:0.0281924, VALID LOSS:0.0341931
+rmse: 0.1849 -- mae: 0.1335 -- mape: 54.4782
+Validation loss decreased (0.034228 --> 0.034193).  Saving model ...
+
+
+EPOCH 184, TRAIN LOSS:0.0280957, VALID LOSS:0.0341280
+rmse: 0.1848 -- mae: 0.1330 -- mape: 54.4121
+Validation loss decreased (0.034193 --> 0.034128).  Saving model ...
+
+
+EPOCH 185, TRAIN LOSS:0.0279467, VALID LOSS:0.0338183
+rmse: 0.1839 -- mae: 0.1326 -- mape: 54.5781
+Validation loss decreased (0.034128 --> 0.033818).  Saving model ...
+
+
+EPOCH 186, TRAIN LOSS:0.0278163, VALID LOSS:0.0337615
+rmse: 0.1838 -- mae: 0.1321 -- mape: 54.1848
+Validation loss decreased (0.033818 --> 0.033762).  Saving model ...
+
+
+EPOCH 187, TRAIN LOSS:0.0276639, VALID LOSS:0.0337606
+rmse: 0.1838 -- mae: 0.1322 -- mape: 54.0983
+Validation loss decreased (0.033762 --> 0.033761).  Saving model ...
+
+
+EPOCH 188, TRAIN LOSS:0.0275793, VALID LOSS:0.0335763
+rmse: 0.1833 -- mae: 0.1318 -- mape: 54.1897
+Validation loss decreased (0.033761 --> 0.033576).  Saving model ...
+
+
+EPOCH 189, TRAIN LOSS:0.0274616, VALID LOSS:0.0333839
+rmse: 0.1827 -- mae: 0.1311 -- mape: 53.5401
+Validation loss decreased (0.033576 --> 0.033384).  Saving model ...
+
+
+EPOCH 190, TRAIN LOSS:0.0273140, VALID LOSS:0.0333956
+rmse: 0.1828 -- mae: 0.1309 -- mape: 53.2906
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 191, TRAIN LOSS:0.0271977, VALID LOSS:0.0332611
+rmse: 0.1824 -- mae: 0.1308 -- mape: 53.4824
+Validation loss decreased (0.033384 --> 0.033261).  Saving model ...
+
+
+EPOCH 192, TRAIN LOSS:0.0270951, VALID LOSS:0.0331048
+rmse: 0.1820 -- mae: 0.1302 -- mape: 52.8868
+Validation loss decreased (0.033261 --> 0.033105).  Saving model ...
+
+
+EPOCH 193, TRAIN LOSS:0.0269538, VALID LOSS:0.0331094
+rmse: 0.1820 -- mae: 0.1302 -- mape: 52.8661
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 194, TRAIN LOSS:0.0268377, VALID LOSS:0.0329488
+rmse: 0.1815 -- mae: 0.1297 -- mape: 52.9831
+Validation loss decreased (0.033105 --> 0.032949).  Saving model ...
+
+
+EPOCH 195, TRAIN LOSS:0.0267497, VALID LOSS:0.0328574
+rmse: 0.1813 -- mae: 0.1296 -- mape: 52.8858
+Validation loss decreased (0.032949 --> 0.032857).  Saving model ...
+
+
+EPOCH 196, TRAIN LOSS:0.0266382, VALID LOSS:0.0326629
+rmse: 0.1807 -- mae: 0.1289 -- mape: 52.6535
+Validation loss decreased (0.032857 --> 0.032663).  Saving model ...
+
+
+EPOCH 197, TRAIN LOSS:0.0265224, VALID LOSS:0.0326857
+rmse: 0.1808 -- mae: 0.1291 -- mape: 52.4736
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 198, TRAIN LOSS:0.0264083, VALID LOSS:0.0325909
+rmse: 0.1805 -- mae: 0.1287 -- mape: 52.5270
+Validation loss decreased (0.032663 --> 0.032591).  Saving model ...
+
+
+EPOCH 199, TRAIN LOSS:0.0263064, VALID LOSS:0.0324334
+rmse: 0.1801 -- mae: 0.1284 -- mape: 52.1697
+Validation loss decreased (0.032591 --> 0.032433).  Saving model ...
+
+
+EPOCH 200, TRAIN LOSS:0.0262101, VALID LOSS:0.0323428
+rmse: 0.1799 -- mae: 0.1280 -- mape: 51.8611
+Validation loss decreased (0.032433 --> 0.032343).  Saving model ...
+
+
+EPOCH 201, TRAIN LOSS:0.0260887, VALID LOSS:0.0322698
+rmse: 0.1797 -- mae: 0.1281 -- mape: 52.4131
+Validation loss decreased (0.032343 --> 0.032270).  Saving model ...
+
+
+EPOCH 202, TRAIN LOSS:0.0259723, VALID LOSS:0.0321355
+rmse: 0.1793 -- mae: 0.1275 -- mape: 51.7777
+Validation loss decreased (0.032270 --> 0.032135).  Saving model ...
+
+
+EPOCH 203, TRAIN LOSS:0.0258936, VALID LOSS:0.0321089
+rmse: 0.1792 -- mae: 0.1275 -- mape: 51.6385
+Validation loss decreased (0.032135 --> 0.032109).  Saving model ...
+
+
+EPOCH 204, TRAIN LOSS:0.0257803, VALID LOSS:0.0320392
+rmse: 0.1790 -- mae: 0.1272 -- mape: 51.6821
+Validation loss decreased (0.032109 --> 0.032039).  Saving model ...
+
+
+EPOCH 205, TRAIN LOSS:0.0256825, VALID LOSS:0.0319251
+rmse: 0.1787 -- mae: 0.1267 -- mape: 51.7006
+Validation loss decreased (0.032039 --> 0.031925).  Saving model ...
+
+
+EPOCH 206, TRAIN LOSS:0.0256161, VALID LOSS:0.0318328
+rmse: 0.1784 -- mae: 0.1267 -- mape: 51.4355
+Validation loss decreased (0.031925 --> 0.031833).  Saving model ...
+
+
+EPOCH 207, TRAIN LOSS:0.0255157, VALID LOSS:0.0317025
+rmse: 0.1781 -- mae: 0.1264 -- mape: 51.4916
+Validation loss decreased (0.031833 --> 0.031702).  Saving model ...
+
+
+EPOCH 208, TRAIN LOSS:0.0253896, VALID LOSS:0.0317113
+rmse: 0.1781 -- mae: 0.1260 -- mape: 50.9966
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 209, TRAIN LOSS:0.0252819, VALID LOSS:0.0315616
+rmse: 0.1777 -- mae: 0.1259 -- mape: 51.1456
+Validation loss decreased (0.031702 --> 0.031562).  Saving model ...
+
+
+EPOCH 210, TRAIN LOSS:0.0252335, VALID LOSS:0.0314696
+rmse: 0.1774 -- mae: 0.1256 -- mape: 51.1173
+Validation loss decreased (0.031562 --> 0.031470).  Saving model ...
+
+
+EPOCH 211, TRAIN LOSS:0.0251188, VALID LOSS:0.0313434
+rmse: 0.1771 -- mae: 0.1253 -- mape: 51.1283
+Validation loss decreased (0.031470 --> 0.031343).  Saving model ...
+
+
+EPOCH 212, TRAIN LOSS:0.0250244, VALID LOSS:0.0313536
+rmse: 0.1771 -- mae: 0.1252 -- mape: 50.9807
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 213, TRAIN LOSS:0.0249635, VALID LOSS:0.0313147
+rmse: 0.1770 -- mae: 0.1250 -- mape: 50.5455
+Validation loss decreased (0.031343 --> 0.031315).  Saving model ...
+
+
+EPOCH 214, TRAIN LOSS:0.0248496, VALID LOSS:0.0311530
+rmse: 0.1765 -- mae: 0.1246 -- mape: 50.7831
+Validation loss decreased (0.031315 --> 0.031153).  Saving model ...
+
+
+EPOCH 215, TRAIN LOSS:0.0247690, VALID LOSS:0.0311112
+rmse: 0.1764 -- mae: 0.1245 -- mape: 50.4820
+Validation loss decreased (0.031153 --> 0.031111).  Saving model ...
+
+
+EPOCH 216, TRAIN LOSS:0.0246710, VALID LOSS:0.0310680
+rmse: 0.1763 -- mae: 0.1244 -- mape: 50.6770
+Validation loss decreased (0.031111 --> 0.031068).  Saving model ...
+
+
+EPOCH 217, TRAIN LOSS:0.0246075, VALID LOSS:0.0309707
+rmse: 0.1760 -- mae: 0.1240 -- mape: 50.3256
+Validation loss decreased (0.031068 --> 0.030971).  Saving model ...
+
+
+EPOCH 218, TRAIN LOSS:0.0245135, VALID LOSS:0.0309556
+rmse: 0.1760 -- mae: 0.1241 -- mape: 50.5004
+Validation loss decreased (0.030971 --> 0.030956).  Saving model ...
+
+
+EPOCH 219, TRAIN LOSS:0.0244368, VALID LOSS:0.0307893
+rmse: 0.1755 -- mae: 0.1234 -- mape: 49.9819
+Validation loss decreased (0.030956 --> 0.030789).  Saving model ...
+
+
+EPOCH 220, TRAIN LOSS:0.0243608, VALID LOSS:0.0307493
+rmse: 0.1754 -- mae: 0.1234 -- mape: 50.0333
+Validation loss decreased (0.030789 --> 0.030749).  Saving model ...
+
+
+EPOCH 221, TRAIN LOSS:0.0242728, VALID LOSS:0.0306777
+rmse: 0.1752 -- mae: 0.1231 -- mape: 50.1988
+Validation loss decreased (0.030749 --> 0.030678).  Saving model ...
+
+
+EPOCH 222, TRAIN LOSS:0.0241937, VALID LOSS:0.0306809
+rmse: 0.1752 -- mae: 0.1231 -- mape: 50.3890
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 223, TRAIN LOSS:0.0241035, VALID LOSS:0.0305458
+rmse: 0.1748 -- mae: 0.1227 -- mape: 49.7819
+Validation loss decreased (0.030678 --> 0.030546).  Saving model ...
+
+
+EPOCH 224, TRAIN LOSS:0.0240366, VALID LOSS:0.0304529
+rmse: 0.1745 -- mae: 0.1226 -- mape: 49.5338
+Validation loss decreased (0.030546 --> 0.030453).  Saving model ...
+
+
+EPOCH 225, TRAIN LOSS:0.0239767, VALID LOSS:0.0304702
+rmse: 0.1746 -- mae: 0.1225 -- mape: 49.7500
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 226, TRAIN LOSS:0.0238906, VALID LOSS:0.0303771
+rmse: 0.1743 -- mae: 0.1222 -- mape: 49.5403
+Validation loss decreased (0.030453 --> 0.030377).  Saving model ...
+
+
+EPOCH 227, TRAIN LOSS:0.0238184, VALID LOSS:0.0302695
+rmse: 0.1740 -- mae: 0.1219 -- mape: 49.4085
+Validation loss decreased (0.030377 --> 0.030270).  Saving model ...
+
+
+EPOCH 228, TRAIN LOSS:0.0237572, VALID LOSS:0.0302363
+rmse: 0.1739 -- mae: 0.1219 -- mape: 49.4646
+Validation loss decreased (0.030270 --> 0.030236).  Saving model ...
+
+
+EPOCH 229, TRAIN LOSS:0.0236889, VALID LOSS:0.0302025
+rmse: 0.1738 -- mae: 0.1217 -- mape: 48.7297
+Validation loss decreased (0.030236 --> 0.030203).  Saving model ...
+
+
+EPOCH 230, TRAIN LOSS:0.0235923, VALID LOSS:0.0302711
+rmse: 0.1740 -- mae: 0.1220 -- mape: 49.3145
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 231, TRAIN LOSS:0.0235271, VALID LOSS:0.0300615
+rmse: 0.1734 -- mae: 0.1215 -- mape: 49.2739
+Validation loss decreased (0.030203 --> 0.030061).  Saving model ...
+
+
+EPOCH 232, TRAIN LOSS:0.0234736, VALID LOSS:0.0300475
+rmse: 0.1734 -- mae: 0.1211 -- mape: 48.9348
+Validation loss decreased (0.030061 --> 0.030047).  Saving model ...
+
+
+EPOCH 233, TRAIN LOSS:0.0233890, VALID LOSS:0.0299160
+rmse: 0.1730 -- mae: 0.1207 -- mape: 48.5469
+Validation loss decreased (0.030047 --> 0.029916).  Saving model ...
+
+
+EPOCH 234, TRAIN LOSS:0.0233262, VALID LOSS:0.0299044
+rmse: 0.1729 -- mae: 0.1207 -- mape: 48.6076
+Validation loss decreased (0.029916 --> 0.029904).  Saving model ...
+
+
+EPOCH 235, TRAIN LOSS:0.0232439, VALID LOSS:0.0298612
+rmse: 0.1728 -- mae: 0.1207 -- mape: 48.9167
+Validation loss decreased (0.029904 --> 0.029861).  Saving model ...
+
+
+EPOCH 236, TRAIN LOSS:0.0231788, VALID LOSS:0.0297652
+rmse: 0.1726 -- mae: 0.1204 -- mape: 48.9449
+Validation loss decreased (0.029861 --> 0.029765).  Saving model ...
+
+
+EPOCH 237, TRAIN LOSS:0.0230957, VALID LOSS:0.0296843
+rmse: 0.1723 -- mae: 0.1200 -- mape: 48.2134
+Validation loss decreased (0.029765 --> 0.029684).  Saving model ...
+
+
+EPOCH 238, TRAIN LOSS:0.0230554, VALID LOSS:0.0296530
+rmse: 0.1722 -- mae: 0.1201 -- mape: 48.5869
+Validation loss decreased (0.029684 --> 0.029653).  Saving model ...
+
+
+EPOCH 239, TRAIN LOSS:0.0229994, VALID LOSS:0.0296346
+rmse: 0.1722 -- mae: 0.1199 -- mape: 48.2009
+Validation loss decreased (0.029653 --> 0.029635).  Saving model ...
+
+
+EPOCH 240, TRAIN LOSS:0.0229226, VALID LOSS:0.0295679
+rmse: 0.1720 -- mae: 0.1197 -- mape: 48.2824
+Validation loss decreased (0.029635 --> 0.029568).  Saving model ...
+
+
+EPOCH 241, TRAIN LOSS:0.0228571, VALID LOSS:0.0295466
+rmse: 0.1719 -- mae: 0.1196 -- mape: 48.1976
+Validation loss decreased (0.029568 --> 0.029547).  Saving model ...
+
+
+EPOCH 242, TRAIN LOSS:0.0227873, VALID LOSS:0.0294505
+rmse: 0.1716 -- mae: 0.1196 -- mape: 48.4300
+Validation loss decreased (0.029547 --> 0.029451).  Saving model ...
+
+
+EPOCH 243, TRAIN LOSS:0.0227253, VALID LOSS:0.0294485
+rmse: 0.1716 -- mae: 0.1191 -- mape: 47.9271
+Validation loss decreased (0.029451 --> 0.029448).  Saving model ...
+
+
+EPOCH 244, TRAIN LOSS:0.0226745, VALID LOSS:0.0292738
+rmse: 0.1711 -- mae: 0.1190 -- mape: 48.0735
+Validation loss decreased (0.029448 --> 0.029274).  Saving model ...
+
+
+EPOCH 245, TRAIN LOSS:0.0225970, VALID LOSS:0.0293215
+rmse: 0.1713 -- mae: 0.1192 -- mape: 48.1232
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 246, TRAIN LOSS:0.0225550, VALID LOSS:0.0291759
+rmse: 0.1708 -- mae: 0.1187 -- mape: 47.8143
+Validation loss decreased (0.029274 --> 0.029176).  Saving model ...
+
+
+EPOCH 247, TRAIN LOSS:0.0224979, VALID LOSS:0.0292175
+rmse: 0.1710 -- mae: 0.1188 -- mape: 47.9368
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 248, TRAIN LOSS:0.0224301, VALID LOSS:0.0291489
+rmse: 0.1708 -- mae: 0.1184 -- mape: 47.6879
+Validation loss decreased (0.029176 --> 0.029149).  Saving model ...
+
+
+EPOCH 249, TRAIN LOSS:0.0224034, VALID LOSS:0.0291300
+rmse: 0.1707 -- mae: 0.1184 -- mape: 47.5540
+Validation loss decreased (0.029149 --> 0.029130).  Saving model ...
+
+
+EPOCH 250, TRAIN LOSS:0.0223238, VALID LOSS:0.0290635
+rmse: 0.1705 -- mae: 0.1184 -- mape: 47.6081
+Validation loss decreased (0.029130 --> 0.029063).  Saving model ...
+
+
+EPOCH 251, TRAIN LOSS:0.0222647, VALID LOSS:0.0289818
+rmse: 0.1703 -- mae: 0.1180 -- mape: 47.5694
+Validation loss decreased (0.029063 --> 0.028982).  Saving model ...
+
+
+EPOCH 252, TRAIN LOSS:0.0222107, VALID LOSS:0.0289028
+rmse: 0.1700 -- mae: 0.1180 -- mape: 47.6549
+Validation loss decreased (0.028982 --> 0.028903).  Saving model ...
+
+
+EPOCH 253, TRAIN LOSS:0.0221478, VALID LOSS:0.0289288
+rmse: 0.1701 -- mae: 0.1178 -- mape: 47.4680
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 254, TRAIN LOSS:0.0221065, VALID LOSS:0.0288939
+rmse: 0.1700 -- mae: 0.1180 -- mape: 47.9074
+Validation loss decreased (0.028903 --> 0.028894).  Saving model ...
+
+
+EPOCH 255, TRAIN LOSS:0.0220339, VALID LOSS:0.0287829
+rmse: 0.1697 -- mae: 0.1175 -- mape: 47.4671
+Validation loss decreased (0.028894 --> 0.028783).  Saving model ...
+
+
+EPOCH 256, TRAIN LOSS:0.0219948, VALID LOSS:0.0287898
+rmse: 0.1697 -- mae: 0.1174 -- mape: 47.5131
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 257, TRAIN LOSS:0.0219452, VALID LOSS:0.0287231
+rmse: 0.1695 -- mae: 0.1172 -- mape: 47.3550
+Validation loss decreased (0.028783 --> 0.028723).  Saving model ...
+
+
+EPOCH 258, TRAIN LOSS:0.0218915, VALID LOSS:0.0287056
+rmse: 0.1694 -- mae: 0.1170 -- mape: 47.2516
+Validation loss decreased (0.028723 --> 0.028706).  Saving model ...
+
+
+EPOCH 259, TRAIN LOSS:0.0218247, VALID LOSS:0.0287711
+rmse: 0.1696 -- mae: 0.1170 -- mape: 46.9917
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 260, TRAIN LOSS:0.0217569, VALID LOSS:0.0286298
+rmse: 0.1692 -- mae: 0.1169 -- mape: 47.4350
+Validation loss decreased (0.028706 --> 0.028630).  Saving model ...
+
+
+EPOCH 261, TRAIN LOSS:0.0217244, VALID LOSS:0.0285876
+rmse: 0.1691 -- mae: 0.1170 -- mape: 47.0890
+Validation loss decreased (0.028630 --> 0.028588).  Saving model ...
+
+
+EPOCH 262, TRAIN LOSS:0.0216818, VALID LOSS:0.0284904
+rmse: 0.1688 -- mae: 0.1166 -- mape: 46.8893
+Validation loss decreased (0.028588 --> 0.028490).  Saving model ...
+
+
+EPOCH 263, TRAIN LOSS:0.0216131, VALID LOSS:0.0285156
+rmse: 0.1689 -- mae: 0.1166 -- mape: 47.0923
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 264, TRAIN LOSS:0.0215858, VALID LOSS:0.0284206
+rmse: 0.1686 -- mae: 0.1163 -- mape: 46.7580
+Validation loss decreased (0.028490 --> 0.028421).  Saving model ...
+
+
+EPOCH 265, TRAIN LOSS:0.0215310, VALID LOSS:0.0283866
+rmse: 0.1685 -- mae: 0.1163 -- mape: 46.8116
+Validation loss decreased (0.028421 --> 0.028387).  Saving model ...
+
+
+EPOCH 266, TRAIN LOSS:0.0214793, VALID LOSS:0.0284237
+rmse: 0.1686 -- mae: 0.1164 -- mape: 47.3044
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 267, TRAIN LOSS:0.0214359, VALID LOSS:0.0282671
+rmse: 0.1681 -- mae: 0.1158 -- mape: 46.5797
+Validation loss decreased (0.028387 --> 0.028267).  Saving model ...
+
+
+EPOCH 268, TRAIN LOSS:0.0213783, VALID LOSS:0.0283426
+rmse: 0.1684 -- mae: 0.1160 -- mape: 46.7384
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 269, TRAIN LOSS:0.0213360, VALID LOSS:0.0282962
+rmse: 0.1682 -- mae: 0.1157 -- mape: 46.5550
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 270, TRAIN LOSS:0.0212715, VALID LOSS:0.0282341
+rmse: 0.1680 -- mae: 0.1155 -- mape: 46.6103
+Validation loss decreased (0.028267 --> 0.028234).  Saving model ...
+
+
+EPOCH 271, TRAIN LOSS:0.0212259, VALID LOSS:0.0282383
+rmse: 0.1681 -- mae: 0.1158 -- mape: 46.7054
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 272, TRAIN LOSS:0.0211856, VALID LOSS:0.0281560
+rmse: 0.1678 -- mae: 0.1156 -- mape: 46.5379
+Validation loss decreased (0.028234 --> 0.028156).  Saving model ...
+
+
+EPOCH 273, TRAIN LOSS:0.0211636, VALID LOSS:0.0280988
+rmse: 0.1676 -- mae: 0.1153 -- mape: 46.3588
+Validation loss decreased (0.028156 --> 0.028099).  Saving model ...
+
+
+EPOCH 274, TRAIN LOSS:0.0210894, VALID LOSS:0.0281229
+rmse: 0.1677 -- mae: 0.1152 -- mape: 46.2870
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 275, TRAIN LOSS:0.0210479, VALID LOSS:0.0280197
+rmse: 0.1674 -- mae: 0.1151 -- mape: 46.4567
+Validation loss decreased (0.028099 --> 0.028020).  Saving model ...
+
+
+EPOCH 276, TRAIN LOSS:0.0210104, VALID LOSS:0.0280395
+rmse: 0.1675 -- mae: 0.1148 -- mape: 46.0323
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 277, TRAIN LOSS:0.0209772, VALID LOSS:0.0279256
+rmse: 0.1671 -- mae: 0.1149 -- mape: 46.1338
+Validation loss decreased (0.028020 --> 0.027926).  Saving model ...
+
+
+EPOCH 278, TRAIN LOSS:0.0209342, VALID LOSS:0.0279263
+rmse: 0.1671 -- mae: 0.1147 -- mape: 45.7671
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 279, TRAIN LOSS:0.0208713, VALID LOSS:0.0279033
+rmse: 0.1671 -- mae: 0.1146 -- mape: 46.0580
+Validation loss decreased (0.027926 --> 0.027903).  Saving model ...
+
+
+EPOCH 280, TRAIN LOSS:0.0208265, VALID LOSS:0.0279401
+rmse: 0.1672 -- mae: 0.1146 -- mape: 46.1428
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 281, TRAIN LOSS:0.0207882, VALID LOSS:0.0278899
+rmse: 0.1670 -- mae: 0.1144 -- mape: 45.7302
+Validation loss decreased (0.027903 --> 0.027890).  Saving model ...
+
+
+EPOCH 282, TRAIN LOSS:0.0207403, VALID LOSS:0.0278169
+rmse: 0.1668 -- mae: 0.1145 -- mape: 46.0826
+Validation loss decreased (0.027890 --> 0.027817).  Saving model ...
+
+
+EPOCH 283, TRAIN LOSS:0.0207036, VALID LOSS:0.0277466
+rmse: 0.1666 -- mae: 0.1141 -- mape: 45.5448
+Validation loss decreased (0.027817 --> 0.027747).  Saving model ...
+
+
+EPOCH 284, TRAIN LOSS:0.0206535, VALID LOSS:0.0277292
+rmse: 0.1665 -- mae: 0.1141 -- mape: 45.8075
+Validation loss decreased (0.027747 --> 0.027729).  Saving model ...
+
+
+EPOCH 285, TRAIN LOSS:0.0206093, VALID LOSS:0.0276895
+rmse: 0.1664 -- mae: 0.1139 -- mape: 45.3506
+Validation loss decreased (0.027729 --> 0.027690).  Saving model ...
+
+
+EPOCH 286, TRAIN LOSS:0.0205676, VALID LOSS:0.0276191
+rmse: 0.1662 -- mae: 0.1138 -- mape: 45.8487
+Validation loss decreased (0.027690 --> 0.027619).  Saving model ...
+
+
+EPOCH 287, TRAIN LOSS:0.0205391, VALID LOSS:0.0276235
+rmse: 0.1662 -- mae: 0.1139 -- mape: 45.9686
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 288, TRAIN LOSS:0.0205140, VALID LOSS:0.0276584
+rmse: 0.1663 -- mae: 0.1141 -- mape: 45.8552
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 289, TRAIN LOSS:0.0204420, VALID LOSS:0.0275952
+rmse: 0.1661 -- mae: 0.1134 -- mape: 45.5148
+Validation loss decreased (0.027619 --> 0.027595).  Saving model ...
+
+
+EPOCH 290, TRAIN LOSS:0.0204067, VALID LOSS:0.0275135
+rmse: 0.1659 -- mae: 0.1135 -- mape: 45.9246
+Validation loss decreased (0.027595 --> 0.027513).  Saving model ...
+
+
+EPOCH 291, TRAIN LOSS:0.0203709, VALID LOSS:0.0275274
+rmse: 0.1659 -- mae: 0.1134 -- mape: 45.8377
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 292, TRAIN LOSS:0.0203392, VALID LOSS:0.0274973
+rmse: 0.1658 -- mae: 0.1134 -- mape: 45.3999
+Validation loss decreased (0.027513 --> 0.027497).  Saving model ...
+
+
+EPOCH 293, TRAIN LOSS:0.0203062, VALID LOSS:0.0274757
+rmse: 0.1658 -- mae: 0.1133 -- mape: 45.4856
+Validation loss decreased (0.027497 --> 0.027476).  Saving model ...
+
+
+EPOCH 294, TRAIN LOSS:0.0202675, VALID LOSS:0.0274544
+rmse: 0.1657 -- mae: 0.1130 -- mape: 45.4596
+Validation loss decreased (0.027476 --> 0.027454).  Saving model ...
+
+
+EPOCH 295, TRAIN LOSS:0.0202296, VALID LOSS:0.0274734
+rmse: 0.1658 -- mae: 0.1132 -- mape: 45.4629
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 296, TRAIN LOSS:0.0201868, VALID LOSS:0.0273319
+rmse: 0.1653 -- mae: 0.1129 -- mape: 45.0903
+Validation loss decreased (0.027454 --> 0.027332).  Saving model ...
+
+
+EPOCH 297, TRAIN LOSS:0.0201619, VALID LOSS:0.0273659
+rmse: 0.1654 -- mae: 0.1130 -- mape: 45.4812
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 298, TRAIN LOSS:0.0201058, VALID LOSS:0.0273304
+rmse: 0.1653 -- mae: 0.1129 -- mape: 45.5346
+Validation loss decreased (0.027332 --> 0.027330).  Saving model ...
+
+
+EPOCH 299, TRAIN LOSS:0.0200592, VALID LOSS:0.0273441
+rmse: 0.1654 -- mae: 0.1128 -- mape: 45.3032
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 300, TRAIN LOSS:0.0200551, VALID LOSS:0.0273350
+rmse: 0.1653 -- mae: 0.1128 -- mape: 45.1475
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 301, TRAIN LOSS:0.0200055, VALID LOSS:0.0272610
+rmse: 0.1651 -- mae: 0.1127 -- mape: 45.3767
+Validation loss decreased (0.027330 --> 0.027261).  Saving model ...
+
+
+EPOCH 302, TRAIN LOSS:0.0199661, VALID LOSS:0.0272356
+rmse: 0.1650 -- mae: 0.1127 -- mape: 45.6592
+Validation loss decreased (0.027261 --> 0.027236).  Saving model ...
+
+
+EPOCH 303, TRAIN LOSS:0.0199181, VALID LOSS:0.0272105
+rmse: 0.1650 -- mae: 0.1125 -- mape: 45.2709
+Validation loss decreased (0.027236 --> 0.027210).  Saving model ...
+
+
+EPOCH 304, TRAIN LOSS:0.0199115, VALID LOSS:0.0271868
+rmse: 0.1649 -- mae: 0.1121 -- mape: 45.0515
+Validation loss decreased (0.027210 --> 0.027187).  Saving model ...
+
+
+EPOCH 305, TRAIN LOSS:0.0198598, VALID LOSS:0.0271454
+rmse: 0.1648 -- mae: 0.1123 -- mape: 45.3940
+Validation loss decreased (0.027187 --> 0.027145).  Saving model ...
+
+
+EPOCH 306, TRAIN LOSS:0.0198359, VALID LOSS:0.0270838
+rmse: 0.1646 -- mae: 0.1119 -- mape: 44.9142
+Validation loss decreased (0.027145 --> 0.027084).  Saving model ...
+
+
+EPOCH 307, TRAIN LOSS:0.0197962, VALID LOSS:0.0270836
+rmse: 0.1646 -- mae: 0.1120 -- mape: 44.9089
+Validation loss decreased (0.027084 --> 0.027084).  Saving model ...
+
+
+EPOCH 308, TRAIN LOSS:0.0197319, VALID LOSS:0.0270409
+rmse: 0.1644 -- mae: 0.1119 -- mape: 44.8284
+Validation loss decreased (0.027084 --> 0.027041).  Saving model ...
+
+
+EPOCH 309, TRAIN LOSS:0.0197284, VALID LOSS:0.0269823
+rmse: 0.1643 -- mae: 0.1117 -- mape: 44.8756
+Validation loss decreased (0.027041 --> 0.026982).  Saving model ...
+
+
+EPOCH 310, TRAIN LOSS:0.0197039, VALID LOSS:0.0269349
+rmse: 0.1641 -- mae: 0.1115 -- mape: 44.7742
+Validation loss decreased (0.026982 --> 0.026935).  Saving model ...
+
+
+EPOCH 311, TRAIN LOSS:0.0196629, VALID LOSS:0.0269782
+rmse: 0.1642 -- mae: 0.1116 -- mape: 44.6630
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 312, TRAIN LOSS:0.0196330, VALID LOSS:0.0269241
+rmse: 0.1641 -- mae: 0.1116 -- mape: 44.7448
+Validation loss decreased (0.026935 --> 0.026924).  Saving model ...
+
+
+EPOCH 313, TRAIN LOSS:0.0195820, VALID LOSS:0.0269023
+rmse: 0.1640 -- mae: 0.1115 -- mape: 44.9248
+Validation loss decreased (0.026924 --> 0.026902).  Saving model ...
+
+
+EPOCH 314, TRAIN LOSS:0.0195542, VALID LOSS:0.0268602
+rmse: 0.1639 -- mae: 0.1114 -- mape: 44.7630
+Validation loss decreased (0.026902 --> 0.026860).  Saving model ...
+
+
+EPOCH 315, TRAIN LOSS:0.0195047, VALID LOSS:0.0268478
+rmse: 0.1639 -- mae: 0.1113 -- mape: 44.3890
+Validation loss decreased (0.026860 --> 0.026848).  Saving model ...
+
+
+EPOCH 316, TRAIN LOSS:0.0194715, VALID LOSS:0.0268808
+rmse: 0.1640 -- mae: 0.1113 -- mape: 44.6396
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 317, TRAIN LOSS:0.0194372, VALID LOSS:0.0268054
+rmse: 0.1637 -- mae: 0.1110 -- mape: 44.3778
+Validation loss decreased (0.026848 --> 0.026805).  Saving model ...
+
+
+EPOCH 318, TRAIN LOSS:0.0194002, VALID LOSS:0.0268972
+rmse: 0.1640 -- mae: 0.1115 -- mape: 44.8815
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 319, TRAIN LOSS:0.0194121, VALID LOSS:0.0267792
+rmse: 0.1636 -- mae: 0.1111 -- mape: 44.4280
+Validation loss decreased (0.026805 --> 0.026779).  Saving model ...
+
+
+EPOCH 320, TRAIN LOSS:0.0193494, VALID LOSS:0.0267639
+rmse: 0.1636 -- mae: 0.1110 -- mape: 44.5593
+Validation loss decreased (0.026779 --> 0.026764).  Saving model ...
+
+
+EPOCH 321, TRAIN LOSS:0.0193279, VALID LOSS:0.0266701
+rmse: 0.1633 -- mae: 0.1106 -- mape: 44.3126
+Validation loss decreased (0.026764 --> 0.026670).  Saving model ...
+
+
+EPOCH 322, TRAIN LOSS:0.0192896, VALID LOSS:0.0267058
+rmse: 0.1634 -- mae: 0.1110 -- mape: 44.6801
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 323, TRAIN LOSS:0.0192597, VALID LOSS:0.0266750
+rmse: 0.1633 -- mae: 0.1107 -- mape: 44.2968
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 324, TRAIN LOSS:0.0192381, VALID LOSS:0.0267213
+rmse: 0.1635 -- mae: 0.1105 -- mape: 44.1767
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 325, TRAIN LOSS:0.0191933, VALID LOSS:0.0266889
+rmse: 0.1634 -- mae: 0.1106 -- mape: 44.2611
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 326, TRAIN LOSS:0.0191640, VALID LOSS:0.0265787
+rmse: 0.1630 -- mae: 0.1105 -- mape: 44.3018
+Validation loss decreased (0.026670 --> 0.026579).  Saving model ...
+
+
+EPOCH 327, TRAIN LOSS:0.0191331, VALID LOSS:0.0266077
+rmse: 0.1631 -- mae: 0.1105 -- mape: 44.4053
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 328, TRAIN LOSS:0.0190929, VALID LOSS:0.0265270
+rmse: 0.1629 -- mae: 0.1104 -- mape: 44.3667
+Validation loss decreased (0.026579 --> 0.026527).  Saving model ...
+
+
+EPOCH 329, TRAIN LOSS:0.0190708, VALID LOSS:0.0265843
+rmse: 0.1630 -- mae: 0.1103 -- mape: 44.3743
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 330, TRAIN LOSS:0.0190369, VALID LOSS:0.0265206
+rmse: 0.1628 -- mae: 0.1102 -- mape: 44.0702
+Validation loss decreased (0.026527 --> 0.026521).  Saving model ...
+
+
+EPOCH 331, TRAIN LOSS:0.0190242, VALID LOSS:0.0264326
+rmse: 0.1626 -- mae: 0.1102 -- mape: 44.2156
+Validation loss decreased (0.026521 --> 0.026433).  Saving model ...
+
+
+EPOCH 332, TRAIN LOSS:0.0189959, VALID LOSS:0.0264738
+rmse: 0.1627 -- mae: 0.1101 -- mape: 44.2777
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 333, TRAIN LOSS:0.0189541, VALID LOSS:0.0263896
+rmse: 0.1624 -- mae: 0.1099 -- mape: 44.1618
+Validation loss decreased (0.026433 --> 0.026390).  Saving model ...
+
+
+EPOCH 334, TRAIN LOSS:0.0189096, VALID LOSS:0.0264718
+rmse: 0.1627 -- mae: 0.1098 -- mape: 43.7991
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 335, TRAIN LOSS:0.0189099, VALID LOSS:0.0264168
+rmse: 0.1625 -- mae: 0.1100 -- mape: 43.9403
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 336, TRAIN LOSS:0.0188536, VALID LOSS:0.0264534
+rmse: 0.1626 -- mae: 0.1101 -- mape: 44.2295
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 337, TRAIN LOSS:0.0188417, VALID LOSS:0.0263138
+rmse: 0.1622 -- mae: 0.1098 -- mape: 43.7812
+Validation loss decreased (0.026390 --> 0.026314).  Saving model ...
+
+
+EPOCH 338, TRAIN LOSS:0.0187986, VALID LOSS:0.0263311
+rmse: 0.1623 -- mae: 0.1096 -- mape: 44.1584
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 339, TRAIN LOSS:0.0187680, VALID LOSS:0.0263084
+rmse: 0.1622 -- mae: 0.1096 -- mape: 43.8461
+Validation loss decreased (0.026314 --> 0.026308).  Saving model ...
+
+
+EPOCH 340, TRAIN LOSS:0.0187521, VALID LOSS:0.0264127
+rmse: 0.1625 -- mae: 0.1095 -- mape: 43.9419
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 341, TRAIN LOSS:0.0187254, VALID LOSS:0.0262799
+rmse: 0.1621 -- mae: 0.1093 -- mape: 43.6940
+Validation loss decreased (0.026308 --> 0.026280).  Saving model ...
+
+
+EPOCH 342, TRAIN LOSS:0.0186953, VALID LOSS:0.0262655
+rmse: 0.1621 -- mae: 0.1094 -- mape: 43.6693
+Validation loss decreased (0.026280 --> 0.026266).  Saving model ...
+
+
+EPOCH 343, TRAIN LOSS:0.0186643, VALID LOSS:0.0263559
+rmse: 0.1623 -- mae: 0.1093 -- mape: 43.7749
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 344, TRAIN LOSS:0.0186285, VALID LOSS:0.0262027
+rmse: 0.1619 -- mae: 0.1093 -- mape: 43.8997
+Validation loss decreased (0.026266 --> 0.026203).  Saving model ...
+
+
+EPOCH 345, TRAIN LOSS:0.0186056, VALID LOSS:0.0262203
+rmse: 0.1619 -- mae: 0.1092 -- mape: 43.5870
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 346, TRAIN LOSS:0.0185692, VALID LOSS:0.0261606
+rmse: 0.1617 -- mae: 0.1089 -- mape: 43.4229
+Validation loss decreased (0.026203 --> 0.026161).  Saving model ...
+
+
+EPOCH 347, TRAIN LOSS:0.0185596, VALID LOSS:0.0261992
+rmse: 0.1619 -- mae: 0.1090 -- mape: 43.3885
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 348, TRAIN LOSS:0.0185252, VALID LOSS:0.0261636
+rmse: 0.1617 -- mae: 0.1090 -- mape: 43.5850
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 349, TRAIN LOSS:0.0184975, VALID LOSS:0.0260770
+rmse: 0.1615 -- mae: 0.1089 -- mape: 43.8569
+Validation loss decreased (0.026161 --> 0.026077).  Saving model ...
+
+
+EPOCH 350, TRAIN LOSS:0.0184860, VALID LOSS:0.0261928
+rmse: 0.1618 -- mae: 0.1091 -- mape: 43.7673
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 351, TRAIN LOSS:0.0184573, VALID LOSS:0.0260288
+rmse: 0.1613 -- mae: 0.1089 -- mape: 43.8272
+Validation loss decreased (0.026077 --> 0.026029).  Saving model ...
+
+
+EPOCH 352, TRAIN LOSS:0.0184144, VALID LOSS:0.0260681
+rmse: 0.1614 -- mae: 0.1086 -- mape: 43.5424
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 353, TRAIN LOSS:0.0183965, VALID LOSS:0.0260747
+rmse: 0.1615 -- mae: 0.1088 -- mape: 43.5907
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 354, TRAIN LOSS:0.0183568, VALID LOSS:0.0259712
+rmse: 0.1611 -- mae: 0.1085 -- mape: 43.3202
+Validation loss decreased (0.026029 --> 0.025971).  Saving model ...
+
+
+EPOCH 355, TRAIN LOSS:0.0183221, VALID LOSS:0.0259731
+rmse: 0.1611 -- mae: 0.1086 -- mape: 43.4790
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 356, TRAIN LOSS:0.0183236, VALID LOSS:0.0260808
+rmse: 0.1615 -- mae: 0.1088 -- mape: 43.4161
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 357, TRAIN LOSS:0.0182993, VALID LOSS:0.0260112
+rmse: 0.1613 -- mae: 0.1086 -- mape: 43.3888
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 358, TRAIN LOSS:0.0182601, VALID LOSS:0.0260318
+rmse: 0.1613 -- mae: 0.1086 -- mape: 43.4164
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 359, TRAIN LOSS:0.0182374, VALID LOSS:0.0259612
+rmse: 0.1611 -- mae: 0.1083 -- mape: 43.3449
+Validation loss decreased (0.025971 --> 0.025961).  Saving model ...
+
+
+EPOCH 360, TRAIN LOSS:0.0182141, VALID LOSS:0.0259451
+rmse: 0.1611 -- mae: 0.1083 -- mape: 43.3890
+Validation loss decreased (0.025961 --> 0.025945).  Saving model ...
+
+
+EPOCH 361, TRAIN LOSS:0.0181801, VALID LOSS:0.0258940
+rmse: 0.1609 -- mae: 0.1084 -- mape: 43.4768
+Validation loss decreased (0.025945 --> 0.025894).  Saving model ...
+
+
+EPOCH 362, TRAIN LOSS:0.0181465, VALID LOSS:0.0258776
+rmse: 0.1609 -- mae: 0.1081 -- mape: 43.4493
+Validation loss decreased (0.025894 --> 0.025878).  Saving model ...
+
+
+EPOCH 363, TRAIN LOSS:0.0181289, VALID LOSS:0.0258558
+rmse: 0.1608 -- mae: 0.1081 -- mape: 43.1703
+Validation loss decreased (0.025878 --> 0.025856).  Saving model ...
+
+
+EPOCH 364, TRAIN LOSS:0.0181159, VALID LOSS:0.0259290
+rmse: 0.1610 -- mae: 0.1082 -- mape: 43.4405
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 365, TRAIN LOSS:0.0180729, VALID LOSS:0.0259163
+rmse: 0.1610 -- mae: 0.1082 -- mape: 43.2163
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 366, TRAIN LOSS:0.0180514, VALID LOSS:0.0258912
+rmse: 0.1609 -- mae: 0.1082 -- mape: 43.4125
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 367, TRAIN LOSS:0.0180341, VALID LOSS:0.0258571
+rmse: 0.1608 -- mae: 0.1080 -- mape: 43.3496
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 368, TRAIN LOSS:0.0179983, VALID LOSS:0.0258703
+rmse: 0.1608 -- mae: 0.1081 -- mape: 43.3156
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 369, TRAIN LOSS:0.0179862, VALID LOSS:0.0257533
+rmse: 0.1605 -- mae: 0.1077 -- mape: 42.9533
+Validation loss decreased (0.025856 --> 0.025753).  Saving model ...
+
+
+EPOCH 370, TRAIN LOSS:0.0179635, VALID LOSS:0.0257737
+rmse: 0.1605 -- mae: 0.1078 -- mape: 43.2960
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 371, TRAIN LOSS:0.0179300, VALID LOSS:0.0257922
+rmse: 0.1606 -- mae: 0.1080 -- mape: 43.2568
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 372, TRAIN LOSS:0.0179100, VALID LOSS:0.0257826
+rmse: 0.1606 -- mae: 0.1078 -- mape: 42.8210
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 373, TRAIN LOSS:0.0178863, VALID LOSS:0.0256755
+rmse: 0.1602 -- mae: 0.1075 -- mape: 42.9951
+Validation loss decreased (0.025753 --> 0.025676).  Saving model ...
+
+
+EPOCH 374, TRAIN LOSS:0.0178455, VALID LOSS:0.0257135
+rmse: 0.1603 -- mae: 0.1078 -- mape: 43.2089
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 375, TRAIN LOSS:0.0178374, VALID LOSS:0.0257124
+rmse: 0.1603 -- mae: 0.1078 -- mape: 43.2838
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 376, TRAIN LOSS:0.0178056, VALID LOSS:0.0257050
+rmse: 0.1603 -- mae: 0.1075 -- mape: 42.9076
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 377, TRAIN LOSS:0.0177893, VALID LOSS:0.0257003
+rmse: 0.1603 -- mae: 0.1075 -- mape: 43.0350
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 378, TRAIN LOSS:0.0177628, VALID LOSS:0.0256700
+rmse: 0.1602 -- mae: 0.1075 -- mape: 42.9608
+Validation loss decreased (0.025676 --> 0.025670).  Saving model ...
+
+
+EPOCH 379, TRAIN LOSS:0.0177540, VALID LOSS:0.0256287
+rmse: 0.1601 -- mae: 0.1075 -- mape: 42.7551
+Validation loss decreased (0.025670 --> 0.025629).  Saving model ...
+
+
+EPOCH 380, TRAIN LOSS:0.0177250, VALID LOSS:0.0256179
+rmse: 0.1600 -- mae: 0.1072 -- mape: 42.6699
+Validation loss decreased (0.025629 --> 0.025618).  Saving model ...
+
+
+EPOCH 381, TRAIN LOSS:0.0176774, VALID LOSS:0.0256258
+rmse: 0.1601 -- mae: 0.1074 -- mape: 42.9706
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 382, TRAIN LOSS:0.0176639, VALID LOSS:0.0255291
+rmse: 0.1598 -- mae: 0.1073 -- mape: 43.0699
+Validation loss decreased (0.025618 --> 0.025529).  Saving model ...
+
+
+EPOCH 383, TRAIN LOSS:0.0176384, VALID LOSS:0.0256333
+rmse: 0.1601 -- mae: 0.1072 -- mape: 42.7459
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 384, TRAIN LOSS:0.0176221, VALID LOSS:0.0255343
+rmse: 0.1598 -- mae: 0.1072 -- mape: 43.1526
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 385, TRAIN LOSS:0.0176122, VALID LOSS:0.0255801
+rmse: 0.1599 -- mae: 0.1073 -- mape: 42.9434
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 386, TRAIN LOSS:0.0175895, VALID LOSS:0.0255655
+rmse: 0.1599 -- mae: 0.1071 -- mape: 42.9249
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 387, TRAIN LOSS:0.0175593, VALID LOSS:0.0255667
+rmse: 0.1599 -- mae: 0.1071 -- mape: 42.9111
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 388, TRAIN LOSS:0.0175386, VALID LOSS:0.0255998
+rmse: 0.1600 -- mae: 0.1074 -- mape: 43.1637
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 389, TRAIN LOSS:0.0175106, VALID LOSS:0.0255361
+rmse: 0.1598 -- mae: 0.1071 -- mape: 43.0904
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 390, TRAIN LOSS:0.0174956, VALID LOSS:0.0254835
+rmse: 0.1596 -- mae: 0.1069 -- mape: 42.8696
+Validation loss decreased (0.025529 --> 0.025483).  Saving model ...
+
+
+EPOCH 391, TRAIN LOSS:0.0174712, VALID LOSS:0.0255055
+rmse: 0.1597 -- mae: 0.1069 -- mape: 42.7374
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 392, TRAIN LOSS:0.0174403, VALID LOSS:0.0254988
+rmse: 0.1597 -- mae: 0.1070 -- mape: 42.6885
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 393, TRAIN LOSS:0.0174147, VALID LOSS:0.0254580
+rmse: 0.1595 -- mae: 0.1067 -- mape: 42.7622
+Validation loss decreased (0.025483 --> 0.025458).  Saving model ...
+
+
+EPOCH 394, TRAIN LOSS:0.0173960, VALID LOSS:0.0254670
+rmse: 0.1596 -- mae: 0.1069 -- mape: 42.8595
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 395, TRAIN LOSS:0.0173923, VALID LOSS:0.0254370
+rmse: 0.1595 -- mae: 0.1065 -- mape: 42.4556
+Validation loss decreased (0.025458 --> 0.025437).  Saving model ...
+
+
+EPOCH 396, TRAIN LOSS:0.0173637, VALID LOSS:0.0253738
+rmse: 0.1593 -- mae: 0.1065 -- mape: 42.4956
+Validation loss decreased (0.025437 --> 0.025374).  Saving model ...
+
+
+EPOCH 397, TRAIN LOSS:0.0173256, VALID LOSS:0.0253636
+rmse: 0.1592 -- mae: 0.1064 -- mape: 42.5065
+Validation loss decreased (0.025374 --> 0.025364).  Saving model ...
+
+
+EPOCH 398, TRAIN LOSS:0.0173219, VALID LOSS:0.0253793
+rmse: 0.1593 -- mae: 0.1066 -- mape: 42.5316
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 399, TRAIN LOSS:0.0172952, VALID LOSS:0.0253628
+rmse: 0.1592 -- mae: 0.1064 -- mape: 42.6826
+Validation loss decreased (0.025364 --> 0.025363).  Saving model ...
+
+
+EPOCH 400, TRAIN LOSS:0.0172693, VALID LOSS:0.0254033
+rmse: 0.1594 -- mae: 0.1066 -- mape: 42.5007
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 401, TRAIN LOSS:0.0172384, VALID LOSS:0.0253596
+rmse: 0.1592 -- mae: 0.1065 -- mape: 42.5126
+Validation loss decreased (0.025363 --> 0.025360).  Saving model ...
+
+
+EPOCH 402, TRAIN LOSS:0.0172124, VALID LOSS:0.0254153
+rmse: 0.1594 -- mae: 0.1064 -- mape: 42.4454
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 403, TRAIN LOSS:0.0171942, VALID LOSS:0.0253151
+rmse: 0.1591 -- mae: 0.1065 -- mape: 42.7017
+Validation loss decreased (0.025360 --> 0.025315).  Saving model ...
+
+
+EPOCH 404, TRAIN LOSS:0.0171840, VALID LOSS:0.0253214
+rmse: 0.1591 -- mae: 0.1062 -- mape: 42.4702
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 405, TRAIN LOSS:0.0171482, VALID LOSS:0.0253149
+rmse: 0.1591 -- mae: 0.1065 -- mape: 42.8088
+Validation loss decreased (0.025315 --> 0.025315).  Saving model ...
+
+
+EPOCH 406, TRAIN LOSS:0.0171440, VALID LOSS:0.0252830
+rmse: 0.1590 -- mae: 0.1062 -- mape: 42.4695
+Validation loss decreased (0.025315 --> 0.025283).  Saving model ...
+
+
+EPOCH 407, TRAIN LOSS:0.0171117, VALID LOSS:0.0254169
+rmse: 0.1594 -- mae: 0.1065 -- mape: 42.6345
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 408, TRAIN LOSS:0.0170982, VALID LOSS:0.0253358
+rmse: 0.1592 -- mae: 0.1061 -- mape: 42.3092
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 409, TRAIN LOSS:0.0170703, VALID LOSS:0.0253016
+rmse: 0.1590 -- mae: 0.1061 -- mape: 42.4087
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 410, TRAIN LOSS:0.0170576, VALID LOSS:0.0252753
+rmse: 0.1590 -- mae: 0.1062 -- mape: 42.4394
+Validation loss decreased (0.025283 --> 0.025275).  Saving model ...
+
+
+EPOCH 411, TRAIN LOSS:0.0170355, VALID LOSS:0.0252605
+rmse: 0.1589 -- mae: 0.1061 -- mape: 42.5582
+Validation loss decreased (0.025275 --> 0.025261).  Saving model ...
+
+
+EPOCH 412, TRAIN LOSS:0.0170090, VALID LOSS:0.0252242
+rmse: 0.1588 -- mae: 0.1060 -- mape: 42.3096
+Validation loss decreased (0.025261 --> 0.025224).  Saving model ...
+
+
+EPOCH 413, TRAIN LOSS:0.0169970, VALID LOSS:0.0253335
+rmse: 0.1591 -- mae: 0.1062 -- mape: 42.5969
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 414, TRAIN LOSS:0.0169607, VALID LOSS:0.0252634
+rmse: 0.1589 -- mae: 0.1060 -- mape: 42.1262
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 415, TRAIN LOSS:0.0169465, VALID LOSS:0.0253260
+rmse: 0.1591 -- mae: 0.1063 -- mape: 42.2727
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 416, TRAIN LOSS:0.0169253, VALID LOSS:0.0253038
+rmse: 0.1591 -- mae: 0.1062 -- mape: 42.2161
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 417, TRAIN LOSS:0.0169006, VALID LOSS:0.0252213
+rmse: 0.1588 -- mae: 0.1059 -- mape: 42.5595
+Validation loss decreased (0.025224 --> 0.025221).  Saving model ...
+
+
+EPOCH 418, TRAIN LOSS:0.0168833, VALID LOSS:0.0251599
+rmse: 0.1586 -- mae: 0.1059 -- mape: 42.3789
+Validation loss decreased (0.025221 --> 0.025160).  Saving model ...
+
+
+EPOCH 419, TRAIN LOSS:0.0168582, VALID LOSS:0.0251941
+rmse: 0.1587 -- mae: 0.1059 -- mape: 42.3408
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 420, TRAIN LOSS:0.0168611, VALID LOSS:0.0252359
+rmse: 0.1588 -- mae: 0.1059 -- mape: 42.1374
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 421, TRAIN LOSS:0.0168372, VALID LOSS:0.0252141
+rmse: 0.1588 -- mae: 0.1060 -- mape: 42.2589
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 422, TRAIN LOSS:0.0168102, VALID LOSS:0.0251725
+rmse: 0.1586 -- mae: 0.1058 -- mape: 42.4347
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 423, TRAIN LOSS:0.0167945, VALID LOSS:0.0251204
+rmse: 0.1585 -- mae: 0.1057 -- mape: 42.2887
+Validation loss decreased (0.025160 --> 0.025120).  Saving model ...
+
+
+EPOCH 424, TRAIN LOSS:0.0167609, VALID LOSS:0.0252518
+rmse: 0.1589 -- mae: 0.1057 -- mape: 41.7053
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 425, TRAIN LOSS:0.0167576, VALID LOSS:0.0251552
+rmse: 0.1586 -- mae: 0.1056 -- mape: 41.8796
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 426, TRAIN LOSS:0.0167372, VALID LOSS:0.0251332
+rmse: 0.1585 -- mae: 0.1059 -- mape: 42.4170
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 427, TRAIN LOSS:0.0167041, VALID LOSS:0.0251719
+rmse: 0.1586 -- mae: 0.1061 -- mape: 42.5101
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 428, TRAIN LOSS:0.0167022, VALID LOSS:0.0250624
+rmse: 0.1583 -- mae: 0.1055 -- mape: 42.1271
+Validation loss decreased (0.025120 --> 0.025062).  Saving model ...
+
+
+EPOCH 429, TRAIN LOSS:0.0166578, VALID LOSS:0.0251287
+rmse: 0.1585 -- mae: 0.1057 -- mape: 41.9371
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 430, TRAIN LOSS:0.0166613, VALID LOSS:0.0251215
+rmse: 0.1585 -- mae: 0.1056 -- mape: 42.2052
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 431, TRAIN LOSS:0.0166490, VALID LOSS:0.0250766
+rmse: 0.1583 -- mae: 0.1054 -- mape: 41.9533
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 432, TRAIN LOSS:0.0166047, VALID LOSS:0.0249730
+rmse: 0.1580 -- mae: 0.1054 -- mape: 42.0822
+Validation loss decreased (0.025062 --> 0.024973).  Saving model ...
+
+
+EPOCH 433, TRAIN LOSS:0.0165891, VALID LOSS:0.0251202
+rmse: 0.1585 -- mae: 0.1054 -- mape: 41.7695
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 434, TRAIN LOSS:0.0165731, VALID LOSS:0.0250804
+rmse: 0.1583 -- mae: 0.1053 -- mape: 42.0191
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 435, TRAIN LOSS:0.0165585, VALID LOSS:0.0250580
+rmse: 0.1583 -- mae: 0.1053 -- mape: 42.1460
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 436, TRAIN LOSS:0.0165326, VALID LOSS:0.0250143
+rmse: 0.1581 -- mae: 0.1056 -- mape: 42.1321
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 437, TRAIN LOSS:0.0165153, VALID LOSS:0.0250449
+rmse: 0.1582 -- mae: 0.1054 -- mape: 42.3204
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 438, TRAIN LOSS:0.0164891, VALID LOSS:0.0250303
+rmse: 0.1582 -- mae: 0.1053 -- mape: 41.8641
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 439, TRAIN LOSS:0.0164808, VALID LOSS:0.0250034
+rmse: 0.1581 -- mae: 0.1051 -- mape: 41.8912
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 440, TRAIN LOSS:0.0164489, VALID LOSS:0.0249727
+rmse: 0.1580 -- mae: 0.1054 -- mape: 42.3315
+Validation loss decreased (0.024973 --> 0.024973).  Saving model ...
+
+
+EPOCH 441, TRAIN LOSS:0.0164466, VALID LOSS:0.0249574
+rmse: 0.1580 -- mae: 0.1052 -- mape: 42.0102
+Validation loss decreased (0.024973 --> 0.024957).  Saving model ...
+
+
+EPOCH 442, TRAIN LOSS:0.0164022, VALID LOSS:0.0250236
+rmse: 0.1582 -- mae: 0.1055 -- mape: 42.2820
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 443, TRAIN LOSS:0.0163994, VALID LOSS:0.0249834
+rmse: 0.1580 -- mae: 0.1052 -- mape: 42.0314
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 444, TRAIN LOSS:0.0163684, VALID LOSS:0.0249270
+rmse: 0.1579 -- mae: 0.1050 -- mape: 42.1114
+Validation loss decreased (0.024957 --> 0.024927).  Saving model ...
+
+
+EPOCH 445, TRAIN LOSS:0.0163551, VALID LOSS:0.0248819
+rmse: 0.1577 -- mae: 0.1051 -- mape: 42.0618
+Validation loss decreased (0.024927 --> 0.024882).  Saving model ...
+
+
+EPOCH 446, TRAIN LOSS:0.0163588, VALID LOSS:0.0248825
+rmse: 0.1577 -- mae: 0.1052 -- mape: 42.1998
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 447, TRAIN LOSS:0.0163221, VALID LOSS:0.0249657
+rmse: 0.1580 -- mae: 0.1049 -- mape: 41.8366
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 448, TRAIN LOSS:0.0162987, VALID LOSS:0.0249493
+rmse: 0.1579 -- mae: 0.1051 -- mape: 41.8972
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 449, TRAIN LOSS:0.0162876, VALID LOSS:0.0249301
+rmse: 0.1579 -- mae: 0.1052 -- mape: 41.9396
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 450, TRAIN LOSS:0.0162693, VALID LOSS:0.0249347
+rmse: 0.1579 -- mae: 0.1051 -- mape: 42.0055
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 451, TRAIN LOSS:0.0162464, VALID LOSS:0.0249752
+rmse: 0.1580 -- mae: 0.1051 -- mape: 41.6041
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 452, TRAIN LOSS:0.0162250, VALID LOSS:0.0249131
+rmse: 0.1578 -- mae: 0.1050 -- mape: 41.7577
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 453, TRAIN LOSS:0.0162080, VALID LOSS:0.0248789
+rmse: 0.1577 -- mae: 0.1049 -- mape: 41.8139
+Validation loss decreased (0.024882 --> 0.024879).  Saving model ...
+
+
+EPOCH 454, TRAIN LOSS:0.0161975, VALID LOSS:0.0248839
+rmse: 0.1577 -- mae: 0.1048 -- mape: 41.9615
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 455, TRAIN LOSS:0.0161651, VALID LOSS:0.0249073
+rmse: 0.1578 -- mae: 0.1052 -- mape: 42.2208
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 456, TRAIN LOSS:0.0161640, VALID LOSS:0.0248909
+rmse: 0.1577 -- mae: 0.1051 -- mape: 41.8820
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 457, TRAIN LOSS:0.0161297, VALID LOSS:0.0249007
+rmse: 0.1578 -- mae: 0.1050 -- mape: 42.0739
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 458, TRAIN LOSS:0.0161200, VALID LOSS:0.0248630
+rmse: 0.1577 -- mae: 0.1048 -- mape: 41.8554
+Validation loss decreased (0.024879 --> 0.024863).  Saving model ...
+
+
+EPOCH 459, TRAIN LOSS:0.0160964, VALID LOSS:0.0248536
+rmse: 0.1576 -- mae: 0.1048 -- mape: 41.9472
+Validation loss decreased (0.024863 --> 0.024854).  Saving model ...
+
+
+EPOCH 460, TRAIN LOSS:0.0161000, VALID LOSS:0.0248733
+rmse: 0.1577 -- mae: 0.1047 -- mape: 41.4883
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 461, TRAIN LOSS:0.0160722, VALID LOSS:0.0248666
+rmse: 0.1577 -- mae: 0.1048 -- mape: 41.5856
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 462, TRAIN LOSS:0.0160545, VALID LOSS:0.0247919
+rmse: 0.1574 -- mae: 0.1046 -- mape: 41.7111
+Validation loss decreased (0.024854 --> 0.024792).  Saving model ...
+
+
+EPOCH 463, TRAIN LOSS:0.0160381, VALID LOSS:0.0248955
+rmse: 0.1578 -- mae: 0.1048 -- mape: 41.7219
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 464, TRAIN LOSS:0.0160191, VALID LOSS:0.0248260
+rmse: 0.1575 -- mae: 0.1049 -- mape: 41.9134
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 465, TRAIN LOSS:0.0160048, VALID LOSS:0.0249320
+rmse: 0.1579 -- mae: 0.1050 -- mape: 42.0428
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 466, TRAIN LOSS:0.0159808, VALID LOSS:0.0248492
+rmse: 0.1576 -- mae: 0.1048 -- mape: 42.0686
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 467, TRAIN LOSS:0.0159477, VALID LOSS:0.0248151
+rmse: 0.1575 -- mae: 0.1047 -- mape: 41.6611
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 468, TRAIN LOSS:0.0159443, VALID LOSS:0.0247727
+rmse: 0.1574 -- mae: 0.1046 -- mape: 41.6897
+Validation loss decreased (0.024792 --> 0.024773).  Saving model ...
+
+
+EPOCH 469, TRAIN LOSS:0.0159268, VALID LOSS:0.0248473
+rmse: 0.1576 -- mae: 0.1047 -- mape: 41.8435
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 470, TRAIN LOSS:0.0159086, VALID LOSS:0.0248361
+rmse: 0.1576 -- mae: 0.1047 -- mape: 41.6290
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 471, TRAIN LOSS:0.0158852, VALID LOSS:0.0248130
+rmse: 0.1575 -- mae: 0.1046 -- mape: 41.9310
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 472, TRAIN LOSS:0.0158781, VALID LOSS:0.0248913
+rmse: 0.1577 -- mae: 0.1046 -- mape: 41.8416
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 473, TRAIN LOSS:0.0158591, VALID LOSS:0.0247869
+rmse: 0.1574 -- mae: 0.1047 -- mape: 41.7879
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 474, TRAIN LOSS:0.0158191, VALID LOSS:0.0247275
+rmse: 0.1572 -- mae: 0.1045 -- mape: 41.5874
+Validation loss decreased (0.024773 --> 0.024727).  Saving model ...
+
+
+EPOCH 475, TRAIN LOSS:0.0158393, VALID LOSS:0.0247972
+rmse: 0.1574 -- mae: 0.1045 -- mape: 41.6947
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 476, TRAIN LOSS:0.0158236, VALID LOSS:0.0247739
+rmse: 0.1574 -- mae: 0.1044 -- mape: 41.3666
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 477, TRAIN LOSS:0.0157964, VALID LOSS:0.0247278
+rmse: 0.1572 -- mae: 0.1043 -- mape: 41.4939
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 478, TRAIN LOSS:0.0157951, VALID LOSS:0.0248129
+rmse: 0.1575 -- mae: 0.1046 -- mape: 41.7504
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 479, TRAIN LOSS:0.0157593, VALID LOSS:0.0247988
+rmse: 0.1575 -- mae: 0.1044 -- mape: 41.5255
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 480, TRAIN LOSS:0.0157474, VALID LOSS:0.0247553
+rmse: 0.1573 -- mae: 0.1044 -- mape: 41.5389
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 481, TRAIN LOSS:0.0157187, VALID LOSS:0.0247053
+rmse: 0.1572 -- mae: 0.1043 -- mape: 41.5624
+Validation loss decreased (0.024727 --> 0.024705).  Saving model ...
+
+
+EPOCH 482, TRAIN LOSS:0.0156778, VALID LOSS:0.0247337
+rmse: 0.1572 -- mae: 0.1042 -- mape: 41.1809
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 483, TRAIN LOSS:0.0156899, VALID LOSS:0.0248057
+rmse: 0.1575 -- mae: 0.1047 -- mape: 41.7257
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 484, TRAIN LOSS:0.0156776, VALID LOSS:0.0247110
+rmse: 0.1572 -- mae: 0.1045 -- mape: 41.6791
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 485, TRAIN LOSS:0.0156449, VALID LOSS:0.0247353
+rmse: 0.1572 -- mae: 0.1043 -- mape: 41.7759
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 486, TRAIN LOSS:0.0156357, VALID LOSS:0.0247555
+rmse: 0.1573 -- mae: 0.1045 -- mape: 41.5502
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 487, TRAIN LOSS:0.0156101, VALID LOSS:0.0247288
+rmse: 0.1572 -- mae: 0.1043 -- mape: 41.5489
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 488, TRAIN LOSS:0.0156025, VALID LOSS:0.0247349
+rmse: 0.1572 -- mae: 0.1042 -- mape: 41.3922
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 489, TRAIN LOSS:0.0155885, VALID LOSS:0.0246746
+rmse: 0.1571 -- mae: 0.1042 -- mape: 41.3815
+Validation loss decreased (0.024705 --> 0.024675).  Saving model ...
+
+
+EPOCH 490, TRAIN LOSS:0.0155724, VALID LOSS:0.0246949
+rmse: 0.1571 -- mae: 0.1042 -- mape: 41.5116
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 491, TRAIN LOSS:0.0155513, VALID LOSS:0.0246945
+rmse: 0.1571 -- mae: 0.1043 -- mape: 41.6524
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 492, TRAIN LOSS:0.0155384, VALID LOSS:0.0246749
+rmse: 0.1571 -- mae: 0.1042 -- mape: 41.5129
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 493, TRAIN LOSS:0.0155167, VALID LOSS:0.0246630
+rmse: 0.1570 -- mae: 0.1040 -- mape: 41.5770
+Validation loss decreased (0.024675 --> 0.024663).  Saving model ...
+
+
+EPOCH 494, TRAIN LOSS:0.0154984, VALID LOSS:0.0247325
+rmse: 0.1572 -- mae: 0.1043 -- mape: 41.5631
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 495, TRAIN LOSS:0.0154856, VALID LOSS:0.0246457
+rmse: 0.1570 -- mae: 0.1041 -- mape: 41.4857
+Validation loss decreased (0.024663 --> 0.024646).  Saving model ...
+
+
+EPOCH 496, TRAIN LOSS:0.0154738, VALID LOSS:0.0246384
+rmse: 0.1569 -- mae: 0.1042 -- mape: 41.7279
+Validation loss decreased (0.024646 --> 0.024638).  Saving model ...
+
+
+EPOCH 497, TRAIN LOSS:0.0154396, VALID LOSS:0.0246906
+rmse: 0.1571 -- mae: 0.1042 -- mape: 41.5994
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 498, TRAIN LOSS:0.0154325, VALID LOSS:0.0246837
+rmse: 0.1571 -- mae: 0.1041 -- mape: 41.4162
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 499, TRAIN LOSS:0.0154290, VALID LOSS:0.0246355
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.5282
+Validation loss decreased (0.024638 --> 0.024636).  Saving model ...
+
+
+EPOCH 500, TRAIN LOSS:0.0154076, VALID LOSS:0.0246159
+rmse: 0.1569 -- mae: 0.1041 -- mape: 41.5486
+Validation loss decreased (0.024636 --> 0.024616).  Saving model ...
+
+
+EPOCH 501, TRAIN LOSS:0.0154045, VALID LOSS:0.0246840
+rmse: 0.1571 -- mae: 0.1041 -- mape: 41.5178
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 502, TRAIN LOSS:0.0153772, VALID LOSS:0.0246842
+rmse: 0.1571 -- mae: 0.1041 -- mape: 41.4289
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 503, TRAIN LOSS:0.0153482, VALID LOSS:0.0246517
+rmse: 0.1570 -- mae: 0.1042 -- mape: 41.4659
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 504, TRAIN LOSS:0.0153350, VALID LOSS:0.0246776
+rmse: 0.1571 -- mae: 0.1043 -- mape: 41.7456
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 505, TRAIN LOSS:0.0153227, VALID LOSS:0.0246148
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.5372
+Validation loss decreased (0.024616 --> 0.024615).  Saving model ...
+
+
+EPOCH 506, TRAIN LOSS:0.0153121, VALID LOSS:0.0246985
+rmse: 0.1571 -- mae: 0.1041 -- mape: 41.5428
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 507, TRAIN LOSS:0.0152701, VALID LOSS:0.0246787
+rmse: 0.1571 -- mae: 0.1040 -- mape: 41.3355
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 508, TRAIN LOSS:0.0152674, VALID LOSS:0.0246604
+rmse: 0.1570 -- mae: 0.1039 -- mape: 41.2826
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 509, TRAIN LOSS:0.0152532, VALID LOSS:0.0246498
+rmse: 0.1570 -- mae: 0.1038 -- mape: 41.1638
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 510, TRAIN LOSS:0.0152313, VALID LOSS:0.0245923
+rmse: 0.1568 -- mae: 0.1038 -- mape: 41.1387
+Validation loss decreased (0.024615 --> 0.024592).  Saving model ...
+
+
+EPOCH 511, TRAIN LOSS:0.0152294, VALID LOSS:0.0246580
+rmse: 0.1570 -- mae: 0.1043 -- mape: 41.6913
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 512, TRAIN LOSS:0.0152113, VALID LOSS:0.0246369
+rmse: 0.1569 -- mae: 0.1041 -- mape: 41.5047
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 513, TRAIN LOSS:0.0151909, VALID LOSS:0.0246194
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.3611
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 514, TRAIN LOSS:0.0151794, VALID LOSS:0.0246387
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.2606
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 515, TRAIN LOSS:0.0151778, VALID LOSS:0.0246396
+rmse: 0.1570 -- mae: 0.1041 -- mape: 41.2367
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 516, TRAIN LOSS:0.0151448, VALID LOSS:0.0246285
+rmse: 0.1569 -- mae: 0.1039 -- mape: 41.2551
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 517, TRAIN LOSS:0.0151241, VALID LOSS:0.0245413
+rmse: 0.1566 -- mae: 0.1039 -- mape: 41.2577
+Validation loss decreased (0.024592 --> 0.024541).  Saving model ...
+
+
+EPOCH 518, TRAIN LOSS:0.0151095, VALID LOSS:0.0246019
+rmse: 0.1568 -- mae: 0.1042 -- mape: 41.6940
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 519, TRAIN LOSS:0.0150954, VALID LOSS:0.0245746
+rmse: 0.1567 -- mae: 0.1038 -- mape: 41.2537
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 520, TRAIN LOSS:0.0150899, VALID LOSS:0.0246078
+rmse: 0.1568 -- mae: 0.1040 -- mape: 41.2361
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 521, TRAIN LOSS:0.0150666, VALID LOSS:0.0245818
+rmse: 0.1568 -- mae: 0.1041 -- mape: 41.4253
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 522, TRAIN LOSS:0.0150597, VALID LOSS:0.0246125
+rmse: 0.1569 -- mae: 0.1038 -- mape: 41.2454
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 523, TRAIN LOSS:0.0150460, VALID LOSS:0.0245818
+rmse: 0.1568 -- mae: 0.1038 -- mape: 41.0985
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 524, TRAIN LOSS:0.0150044, VALID LOSS:0.0245983
+rmse: 0.1568 -- mae: 0.1037 -- mape: 41.0235
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 525, TRAIN LOSS:0.0150143, VALID LOSS:0.0245469
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.2262
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 526, TRAIN LOSS:0.0149727, VALID LOSS:0.0245265
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.3104
+Validation loss decreased (0.024541 --> 0.024526).  Saving model ...
+
+
+EPOCH 527, TRAIN LOSS:0.0149838, VALID LOSS:0.0245549
+rmse: 0.1567 -- mae: 0.1039 -- mape: 41.4633
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 528, TRAIN LOSS:0.0149615, VALID LOSS:0.0245942
+rmse: 0.1568 -- mae: 0.1038 -- mape: 41.3435
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 529, TRAIN LOSS:0.0149452, VALID LOSS:0.0245320
+rmse: 0.1566 -- mae: 0.1039 -- mape: 41.5015
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 530, TRAIN LOSS:0.0149352, VALID LOSS:0.0246204
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.4567
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 531, TRAIN LOSS:0.0149187, VALID LOSS:0.0246147
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.4827
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 532, TRAIN LOSS:0.0148909, VALID LOSS:0.0245211
+rmse: 0.1566 -- mae: 0.1037 -- mape: 41.2657
+Validation loss decreased (0.024526 --> 0.024521).  Saving model ...
+
+
+EPOCH 533, TRAIN LOSS:0.0148733, VALID LOSS:0.0244982
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.3501
+Validation loss decreased (0.024521 --> 0.024498).  Saving model ...
+
+
+EPOCH 534, TRAIN LOSS:0.0148570, VALID LOSS:0.0245514
+rmse: 0.1567 -- mae: 0.1036 -- mape: 41.2469
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 535, TRAIN LOSS:0.0148456, VALID LOSS:0.0245232
+rmse: 0.1566 -- mae: 0.1037 -- mape: 41.3057
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 536, TRAIN LOSS:0.0148490, VALID LOSS:0.0245494
+rmse: 0.1567 -- mae: 0.1036 -- mape: 41.1647
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 537, TRAIN LOSS:0.0148098, VALID LOSS:0.0245109
+rmse: 0.1565 -- mae: 0.1036 -- mape: 41.1526
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 538, TRAIN LOSS:0.0148142, VALID LOSS:0.0245550
+rmse: 0.1567 -- mae: 0.1038 -- mape: 41.2125
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 539, TRAIN LOSS:0.0147864, VALID LOSS:0.0245578
+rmse: 0.1567 -- mae: 0.1039 -- mape: 41.4826
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 540, TRAIN LOSS:0.0147817, VALID LOSS:0.0245026
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.2622
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 541, TRAIN LOSS:0.0147614, VALID LOSS:0.0245740
+rmse: 0.1567 -- mae: 0.1039 -- mape: 41.3588
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 542, TRAIN LOSS:0.0147467, VALID LOSS:0.0245304
+rmse: 0.1566 -- mae: 0.1037 -- mape: 41.1377
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 543, TRAIN LOSS:0.0147370, VALID LOSS:0.0244978
+rmse: 0.1565 -- mae: 0.1038 -- mape: 41.3661
+Validation loss decreased (0.024498 --> 0.024498).  Saving model ...
+
+
+EPOCH 544, TRAIN LOSS:0.0147127, VALID LOSS:0.0245214
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.2328
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 545, TRAIN LOSS:0.0147018, VALID LOSS:0.0245368
+rmse: 0.1566 -- mae: 0.1036 -- mape: 41.0743
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 546, TRAIN LOSS:0.0146843, VALID LOSS:0.0245772
+rmse: 0.1568 -- mae: 0.1038 -- mape: 41.1950
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 547, TRAIN LOSS:0.0146673, VALID LOSS:0.0245696
+rmse: 0.1567 -- mae: 0.1039 -- mape: 41.4309
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 548, TRAIN LOSS:0.0146377, VALID LOSS:0.0245502
+rmse: 0.1567 -- mae: 0.1036 -- mape: 41.0841
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 549, TRAIN LOSS:0.0146306, VALID LOSS:0.0245526
+rmse: 0.1567 -- mae: 0.1040 -- mape: 41.7530
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 550, TRAIN LOSS:0.0146178, VALID LOSS:0.0245184
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.3038
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 551, TRAIN LOSS:0.0146153, VALID LOSS:0.0245127
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.3390
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 552, TRAIN LOSS:0.0146061, VALID LOSS:0.0245929
+rmse: 0.1568 -- mae: 0.1040 -- mape: 41.3371
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 553, TRAIN LOSS:0.0145768, VALID LOSS:0.0245906
+rmse: 0.1568 -- mae: 0.1040 -- mape: 41.4183
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 554, TRAIN LOSS:0.0145571, VALID LOSS:0.0245936
+rmse: 0.1568 -- mae: 0.1040 -- mape: 41.3253
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 555, TRAIN LOSS:0.0145471, VALID LOSS:0.0245477
+rmse: 0.1567 -- mae: 0.1040 -- mape: 41.6041
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 556, TRAIN LOSS:0.0145301, VALID LOSS:0.0246237
+rmse: 0.1569 -- mae: 0.1040 -- mape: 41.1427
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 557, TRAIN LOSS:0.0145118, VALID LOSS:0.0245343
+rmse: 0.1566 -- mae: 0.1037 -- mape: 41.0872
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 558, TRAIN LOSS:0.0144999, VALID LOSS:0.0245636
+rmse: 0.1567 -- mae: 0.1038 -- mape: 41.4501
+EarlyStopping counter: 15 out of 500
+
+
+EPOCH 559, TRAIN LOSS:0.0144770, VALID LOSS:0.0245008
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.0844
+EarlyStopping counter: 16 out of 500
+
+
+EPOCH 560, TRAIN LOSS:0.0144686, VALID LOSS:0.0244845
+rmse: 0.1565 -- mae: 0.1038 -- mape: 41.3047
+Validation loss decreased (0.024498 --> 0.024485).  Saving model ...
+
+
+EPOCH 561, TRAIN LOSS:0.0144521, VALID LOSS:0.0244641
+rmse: 0.1564 -- mae: 0.1038 -- mape: 41.4353
+Validation loss decreased (0.024485 --> 0.024464).  Saving model ...
+
+
+EPOCH 562, TRAIN LOSS:0.0144425, VALID LOSS:0.0245750
+rmse: 0.1567 -- mae: 0.1037 -- mape: 41.0809
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 563, TRAIN LOSS:0.0144278, VALID LOSS:0.0245057
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.0429
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 564, TRAIN LOSS:0.0144102, VALID LOSS:0.0244880
+rmse: 0.1565 -- mae: 0.1039 -- mape: 41.3558
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 565, TRAIN LOSS:0.0143941, VALID LOSS:0.0244409
+rmse: 0.1563 -- mae: 0.1038 -- mape: 41.3454
+Validation loss decreased (0.024464 --> 0.024441).  Saving model ...
+
+
+EPOCH 566, TRAIN LOSS:0.0143844, VALID LOSS:0.0244394
+rmse: 0.1563 -- mae: 0.1035 -- mape: 41.0976
+Validation loss decreased (0.024441 --> 0.024439).  Saving model ...
+
+
+EPOCH 567, TRAIN LOSS:0.0143636, VALID LOSS:0.0244647
+rmse: 0.1564 -- mae: 0.1036 -- mape: 41.1345
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 568, TRAIN LOSS:0.0143499, VALID LOSS:0.0245289
+rmse: 0.1566 -- mae: 0.1039 -- mape: 41.6267
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 569, TRAIN LOSS:0.0143339, VALID LOSS:0.0244838
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.2664
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 570, TRAIN LOSS:0.0143277, VALID LOSS:0.0244560
+rmse: 0.1564 -- mae: 0.1035 -- mape: 41.1758
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 571, TRAIN LOSS:0.0143151, VALID LOSS:0.0244432
+rmse: 0.1563 -- mae: 0.1035 -- mape: 41.0767
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 572, TRAIN LOSS:0.0143028, VALID LOSS:0.0244577
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.1585
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 573, TRAIN LOSS:0.0142712, VALID LOSS:0.0245067
+rmse: 0.1565 -- mae: 0.1039 -- mape: 41.7434
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 574, TRAIN LOSS:0.0142579, VALID LOSS:0.0244813
+rmse: 0.1564 -- mae: 0.1036 -- mape: 40.9878
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 575, TRAIN LOSS:0.0142599, VALID LOSS:0.0245359
+rmse: 0.1566 -- mae: 0.1036 -- mape: 40.9407
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 576, TRAIN LOSS:0.0142314, VALID LOSS:0.0245149
+rmse: 0.1566 -- mae: 0.1036 -- mape: 41.2241
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 577, TRAIN LOSS:0.0142140, VALID LOSS:0.0245229
+rmse: 0.1566 -- mae: 0.1039 -- mape: 41.3651
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 578, TRAIN LOSS:0.0142020, VALID LOSS:0.0245330
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.1669
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 579, TRAIN LOSS:0.0141748, VALID LOSS:0.0245878
+rmse: 0.1568 -- mae: 0.1038 -- mape: 41.0508
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 580, TRAIN LOSS:0.0141684, VALID LOSS:0.0244752
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.1869
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 581, TRAIN LOSS:0.0141668, VALID LOSS:0.0244940
+rmse: 0.1565 -- mae: 0.1036 -- mape: 40.9599
+EarlyStopping counter: 15 out of 500
+
+
+EPOCH 582, TRAIN LOSS:0.0141332, VALID LOSS:0.0246044
+rmse: 0.1568 -- mae: 0.1037 -- mape: 40.9076
+EarlyStopping counter: 16 out of 500
+
+
+EPOCH 583, TRAIN LOSS:0.0141238, VALID LOSS:0.0244270
+rmse: 0.1563 -- mae: 0.1036 -- mape: 41.2803
+Validation loss decreased (0.024439 --> 0.024427).  Saving model ...
+
+
+EPOCH 584, TRAIN LOSS:0.0141013, VALID LOSS:0.0245711
+rmse: 0.1567 -- mae: 0.1039 -- mape: 41.4154
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 585, TRAIN LOSS:0.0140930, VALID LOSS:0.0245035
+rmse: 0.1565 -- mae: 0.1036 -- mape: 41.0997
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 586, TRAIN LOSS:0.0140779, VALID LOSS:0.0244929
+rmse: 0.1565 -- mae: 0.1040 -- mape: 41.4394
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 587, TRAIN LOSS:0.0140703, VALID LOSS:0.0244782
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.2807
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 588, TRAIN LOSS:0.0140425, VALID LOSS:0.0244151
+rmse: 0.1562 -- mae: 0.1036 -- mape: 41.0794
+Validation loss decreased (0.024427 --> 0.024415).  Saving model ...
+
+
+EPOCH 589, TRAIN LOSS:0.0140364, VALID LOSS:0.0244907
+rmse: 0.1565 -- mae: 0.1037 -- mape: 41.1670
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 590, TRAIN LOSS:0.0140057, VALID LOSS:0.0244991
+rmse: 0.1565 -- mae: 0.1036 -- mape: 41.1181
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 591, TRAIN LOSS:0.0140024, VALID LOSS:0.0244464
+rmse: 0.1563 -- mae: 0.1037 -- mape: 41.1886
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 592, TRAIN LOSS:0.0139842, VALID LOSS:0.0244260
+rmse: 0.1563 -- mae: 0.1035 -- mape: 41.0209
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 593, TRAIN LOSS:0.0139837, VALID LOSS:0.0244720
+rmse: 0.1564 -- mae: 0.1036 -- mape: 41.1753
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 594, TRAIN LOSS:0.0139702, VALID LOSS:0.0244611
+rmse: 0.1564 -- mae: 0.1038 -- mape: 41.1728
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 595, TRAIN LOSS:0.0139559, VALID LOSS:0.0244495
+rmse: 0.1563 -- mae: 0.1037 -- mape: 41.1318
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 596, TRAIN LOSS:0.0139134, VALID LOSS:0.0244598
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.1640
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 597, TRAIN LOSS:0.0139130, VALID LOSS:0.0244514
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.0763
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 598, TRAIN LOSS:0.0138922, VALID LOSS:0.0244765
+rmse: 0.1564 -- mae: 0.1039 -- mape: 41.2016
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 599, TRAIN LOSS:0.0138682, VALID LOSS:0.0244534
+rmse: 0.1564 -- mae: 0.1037 -- mape: 40.8423
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 600, TRAIN LOSS:0.0138702, VALID LOSS:0.0244829
+rmse: 0.1565 -- mae: 0.1039 -- mape: 41.4503
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 601, TRAIN LOSS:0.0138521, VALID LOSS:0.0244627
+rmse: 0.1564 -- mae: 0.1038 -- mape: 41.3627
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 602, TRAIN LOSS:0.0138332, VALID LOSS:0.0245162
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.2013
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 603, TRAIN LOSS:0.0138249, VALID LOSS:0.0245352
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.1609
+EarlyStopping counter: 15 out of 500
+
+
+EPOCH 604, TRAIN LOSS:0.0137925, VALID LOSS:0.0245296
+rmse: 0.1566 -- mae: 0.1039 -- mape: 41.3368
+EarlyStopping counter: 16 out of 500
+
+
+EPOCH 605, TRAIN LOSS:0.0137993, VALID LOSS:0.0244137
+rmse: 0.1562 -- mae: 0.1036 -- mape: 41.2315
+Validation loss decreased (0.024415 --> 0.024414).  Saving model ...
+
+
+EPOCH 606, TRAIN LOSS:0.0137713, VALID LOSS:0.0244474
+rmse: 0.1563 -- mae: 0.1040 -- mape: 41.2291
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 607, TRAIN LOSS:0.0137565, VALID LOSS:0.0243749
+rmse: 0.1561 -- mae: 0.1037 -- mape: 41.3732
+Validation loss decreased (0.024414 --> 0.024375).  Saving model ...
+
+
+EPOCH 608, TRAIN LOSS:0.0137547, VALID LOSS:0.0245191
+rmse: 0.1566 -- mae: 0.1038 -- mape: 41.1708
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 609, TRAIN LOSS:0.0137256, VALID LOSS:0.0244539
+rmse: 0.1564 -- mae: 0.1037 -- mape: 41.2166
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 610, TRAIN LOSS:0.0137047, VALID LOSS:0.0245021
+rmse: 0.1565 -- mae: 0.1039 -- mape: 41.0546
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 611, TRAIN LOSS:0.0136811, VALID LOSS:0.0244631
+rmse: 0.1564 -- mae: 0.1038 -- mape: 41.3832
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 612, TRAIN LOSS:0.0136744, VALID LOSS:0.0244301
+rmse: 0.1563 -- mae: 0.1037 -- mape: 41.0930
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 613, TRAIN LOSS:0.0136710, VALID LOSS:0.0244666
+rmse: 0.1564 -- mae: 0.1038 -- mape: 40.9871
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 614, TRAIN LOSS:0.0136561, VALID LOSS:0.0244492
+rmse: 0.1563 -- mae: 0.1038 -- mape: 41.3110
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 615, TRAIN LOSS:0.0136230, VALID LOSS:0.0243835
+rmse: 0.1561 -- mae: 0.1037 -- mape: 41.0078
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 616, TRAIN LOSS:0.0136161, VALID LOSS:0.0244926
+rmse: 0.1565 -- mae: 0.1039 -- mape: 41.0918
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 617, TRAIN LOSS:0.0136097, VALID LOSS:0.0245091
+rmse: 0.1565 -- mae: 0.1038 -- mape: 41.2423
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 618, TRAIN LOSS:0.0135690, VALID LOSS:0.0244036
+rmse: 0.1562 -- mae: 0.1037 -- mape: 41.1253
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 619, TRAIN LOSS:0.0135690, VALID LOSS:0.0244384
+rmse: 0.1563 -- mae: 0.1039 -- mape: 41.3775
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 620, TRAIN LOSS:0.0135505, VALID LOSS:0.0244902
+rmse: 0.1565 -- mae: 0.1041 -- mape: 41.3280
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 621, TRAIN LOSS:0.0135364, VALID LOSS:0.0244221
+rmse: 0.1563 -- mae: 0.1038 -- mape: 41.1802
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 622, TRAIN LOSS:0.0135258, VALID LOSS:0.0243643
+rmse: 0.1561 -- mae: 0.1037 -- mape: 40.9849
+Validation loss decreased (0.024375 --> 0.024364).  Saving model ...
+
+
+EPOCH 623, TRAIN LOSS:0.0135035, VALID LOSS:0.0244710
+rmse: 0.1564 -- mae: 0.1040 -- mape: 41.2995
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 624, TRAIN LOSS:0.0134863, VALID LOSS:0.0244834
+rmse: 0.1565 -- mae: 0.1038 -- mape: 40.7955
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 625, TRAIN LOSS:0.0134607, VALID LOSS:0.0244705
+rmse: 0.1564 -- mae: 0.1040 -- mape: 41.2852
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 626, TRAIN LOSS:0.0134545, VALID LOSS:0.0244377
+rmse: 0.1563 -- mae: 0.1040 -- mape: 41.5469
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 627, TRAIN LOSS:0.0134401, VALID LOSS:0.0244374
+rmse: 0.1563 -- mae: 0.1037 -- mape: 40.8273
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 628, TRAIN LOSS:0.0134198, VALID LOSS:0.0244194
+rmse: 0.1562 -- mae: 0.1038 -- mape: 41.0469
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 629, TRAIN LOSS:0.0134025, VALID LOSS:0.0244020
+rmse: 0.1562 -- mae: 0.1041 -- mape: 41.3404
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 630, TRAIN LOSS:0.0133853, VALID LOSS:0.0244083
+rmse: 0.1562 -- mae: 0.1039 -- mape: 41.1269
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 631, TRAIN LOSS:0.0133636, VALID LOSS:0.0244111
+rmse: 0.1562 -- mae: 0.1040 -- mape: 41.1853
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 632, TRAIN LOSS:0.0133568, VALID LOSS:0.0244574
+rmse: 0.1564 -- mae: 0.1042 -- mape: 41.6110
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 633, TRAIN LOSS:0.0133501, VALID LOSS:0.0244064
+rmse: 0.1562 -- mae: 0.1037 -- mape: 41.0722
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 634, TRAIN LOSS:0.0133205, VALID LOSS:0.0244083
+rmse: 0.1562 -- mae: 0.1042 -- mape: 41.3900
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 635, TRAIN LOSS:0.0133146, VALID LOSS:0.0244481
+rmse: 0.1563 -- mae: 0.1041 -- mape: 41.2097
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 636, TRAIN LOSS:0.0132881, VALID LOSS:0.0243523
+rmse: 0.1560 -- mae: 0.1040 -- mape: 41.1401
+Validation loss decreased (0.024364 --> 0.024352).  Saving model ...
+
+
+EPOCH 637, TRAIN LOSS:0.0132755, VALID LOSS:0.0244492
+rmse: 0.1563 -- mae: 0.1041 -- mape: 41.3312
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 638, TRAIN LOSS:0.0132504, VALID LOSS:0.0244275
+rmse: 0.1563 -- mae: 0.1041 -- mape: 41.2594
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 639, TRAIN LOSS:0.0132529, VALID LOSS:0.0243707
+rmse: 0.1561 -- mae: 0.1039 -- mape: 41.2970
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 640, TRAIN LOSS:0.0132324, VALID LOSS:0.0243724
+rmse: 0.1561 -- mae: 0.1038 -- mape: 41.3231
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 641, TRAIN LOSS:0.0131996, VALID LOSS:0.0243855
+rmse: 0.1561 -- mae: 0.1041 -- mape: 41.2551
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 642, TRAIN LOSS:0.0131843, VALID LOSS:0.0243729
+rmse: 0.1561 -- mae: 0.1039 -- mape: 41.0718
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 643, TRAIN LOSS:0.0131712, VALID LOSS:0.0243849
+rmse: 0.1561 -- mae: 0.1039 -- mape: 40.9708
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 644, TRAIN LOSS:0.0131370, VALID LOSS:0.0243370
+rmse: 0.1560 -- mae: 0.1041 -- mape: 41.2195
+Validation loss decreased (0.024352 --> 0.024337).  Saving model ...
+
+
+EPOCH 645, TRAIN LOSS:0.0131443, VALID LOSS:0.0244310
+rmse: 0.1563 -- mae: 0.1040 -- mape: 41.1897
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 646, TRAIN LOSS:0.0131192, VALID LOSS:0.0243747
+rmse: 0.1561 -- mae: 0.1041 -- mape: 41.4009
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 647, TRAIN LOSS:0.0131078, VALID LOSS:0.0243081
+rmse: 0.1559 -- mae: 0.1039 -- mape: 41.0635
+Validation loss decreased (0.024337 --> 0.024308).  Saving model ...
+
+
+EPOCH 648, TRAIN LOSS:0.0130660, VALID LOSS:0.0242821
+rmse: 0.1558 -- mae: 0.1039 -- mape: 41.2065
+Validation loss decreased (0.024308 --> 0.024282).  Saving model ...
+
+
+EPOCH 649, TRAIN LOSS:0.0130582, VALID LOSS:0.0243037
+rmse: 0.1559 -- mae: 0.1038 -- mape: 41.0362
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 650, TRAIN LOSS:0.0130447, VALID LOSS:0.0243885
+rmse: 0.1561 -- mae: 0.1041 -- mape: 41.0484
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 651, TRAIN LOSS:0.0130333, VALID LOSS:0.0243440
+rmse: 0.1560 -- mae: 0.1041 -- mape: 41.2035
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 652, TRAIN LOSS:0.0130092, VALID LOSS:0.0243298
+rmse: 0.1560 -- mae: 0.1040 -- mape: 41.2513
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 653, TRAIN LOSS:0.0129897, VALID LOSS:0.0243371
+rmse: 0.1560 -- mae: 0.1042 -- mape: 41.2563
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 654, TRAIN LOSS:0.0129798, VALID LOSS:0.0242885
+rmse: 0.1558 -- mae: 0.1039 -- mape: 40.9548
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 655, TRAIN LOSS:0.0129566, VALID LOSS:0.0243537
+rmse: 0.1560 -- mae: 0.1041 -- mape: 41.2425
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 656, TRAIN LOSS:0.0129513, VALID LOSS:0.0242735
+rmse: 0.1558 -- mae: 0.1040 -- mape: 41.2316
+Validation loss decreased (0.024282 --> 0.024273).  Saving model ...
+
+
+EPOCH 657, TRAIN LOSS:0.0129366, VALID LOSS:0.0243400
+rmse: 0.1560 -- mae: 0.1041 -- mape: 41.3303
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 658, TRAIN LOSS:0.0129182, VALID LOSS:0.0242720
+rmse: 0.1558 -- mae: 0.1040 -- mape: 41.0669
+Validation loss decreased (0.024273 --> 0.024272).  Saving model ...
+
+
+EPOCH 659, TRAIN LOSS:0.0128956, VALID LOSS:0.0243984
+rmse: 0.1562 -- mae: 0.1043 -- mape: 41.2263
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 660, TRAIN LOSS:0.0128763, VALID LOSS:0.0243040
+rmse: 0.1559 -- mae: 0.1041 -- mape: 41.1890
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 661, TRAIN LOSS:0.0128676, VALID LOSS:0.0242450
+rmse: 0.1557 -- mae: 0.1040 -- mape: 41.2660
+Validation loss decreased (0.024272 --> 0.024245).  Saving model ...
+
+
+EPOCH 662, TRAIN LOSS:0.0128347, VALID LOSS:0.0242874
+rmse: 0.1558 -- mae: 0.1042 -- mape: 41.3132
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 663, TRAIN LOSS:0.0128325, VALID LOSS:0.0241891
+rmse: 0.1555 -- mae: 0.1039 -- mape: 41.0681
+Validation loss decreased (0.024245 --> 0.024189).  Saving model ...
+
+
+EPOCH 664, TRAIN LOSS:0.0128026, VALID LOSS:0.0241944
+rmse: 0.1555 -- mae: 0.1039 -- mape: 41.1944
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 665, TRAIN LOSS:0.0127831, VALID LOSS:0.0242597
+rmse: 0.1557 -- mae: 0.1040 -- mape: 41.2807
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 666, TRAIN LOSS:0.0127659, VALID LOSS:0.0242529
+rmse: 0.1557 -- mae: 0.1041 -- mape: 41.2841
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 667, TRAIN LOSS:0.0127348, VALID LOSS:0.0241856
+rmse: 0.1555 -- mae: 0.1041 -- mape: 41.2316
+Validation loss decreased (0.024189 --> 0.024186).  Saving model ...
+
+
+EPOCH 668, TRAIN LOSS:0.0127337, VALID LOSS:0.0241700
+rmse: 0.1554 -- mae: 0.1041 -- mape: 41.4418
+Validation loss decreased (0.024186 --> 0.024170).  Saving model ...
+
+
+EPOCH 669, TRAIN LOSS:0.0127244, VALID LOSS:0.0242365
+rmse: 0.1557 -- mae: 0.1041 -- mape: 41.0997
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 670, TRAIN LOSS:0.0126983, VALID LOSS:0.0242195
+rmse: 0.1556 -- mae: 0.1043 -- mape: 41.3501
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 671, TRAIN LOSS:0.0126840, VALID LOSS:0.0242078
+rmse: 0.1556 -- mae: 0.1041 -- mape: 41.2118
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 672, TRAIN LOSS:0.0126558, VALID LOSS:0.0242207
+rmse: 0.1556 -- mae: 0.1042 -- mape: 41.1653
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 673, TRAIN LOSS:0.0126553, VALID LOSS:0.0241602
+rmse: 0.1554 -- mae: 0.1040 -- mape: 41.1930
+Validation loss decreased (0.024170 --> 0.024160).  Saving model ...
+
+
+EPOCH 674, TRAIN LOSS:0.0126195, VALID LOSS:0.0241843
+rmse: 0.1555 -- mae: 0.1042 -- mape: 41.2324
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 675, TRAIN LOSS:0.0126131, VALID LOSS:0.0241393
+rmse: 0.1553 -- mae: 0.1041 -- mape: 41.0824
+Validation loss decreased (0.024160 --> 0.024139).  Saving model ...
+
+
+EPOCH 676, TRAIN LOSS:0.0125953, VALID LOSS:0.0241619
+rmse: 0.1554 -- mae: 0.1040 -- mape: 41.0878
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 677, TRAIN LOSS:0.0125651, VALID LOSS:0.0240756
+rmse: 0.1551 -- mae: 0.1039 -- mape: 41.2332
+Validation loss decreased (0.024139 --> 0.024076).  Saving model ...
+
+
+EPOCH 678, TRAIN LOSS:0.0125455, VALID LOSS:0.0240817
+rmse: 0.1552 -- mae: 0.1041 -- mape: 41.1350
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 679, TRAIN LOSS:0.0125314, VALID LOSS:0.0240993
+rmse: 0.1552 -- mae: 0.1041 -- mape: 41.1339
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 680, TRAIN LOSS:0.0125057, VALID LOSS:0.0240554
+rmse: 0.1551 -- mae: 0.1039 -- mape: 40.9858
+Validation loss decreased (0.024076 --> 0.024055).  Saving model ...
+
+
+EPOCH 681, TRAIN LOSS:0.0125124, VALID LOSS:0.0241183
+rmse: 0.1553 -- mae: 0.1042 -- mape: 41.1744
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 682, TRAIN LOSS:0.0124969, VALID LOSS:0.0240351
+rmse: 0.1550 -- mae: 0.1041 -- mape: 41.3624
+Validation loss decreased (0.024055 --> 0.024035).  Saving model ...
+
+
+EPOCH 683, TRAIN LOSS:0.0124686, VALID LOSS:0.0239803
+rmse: 0.1548 -- mae: 0.1039 -- mape: 41.0009
+Validation loss decreased (0.024035 --> 0.023980).  Saving model ...
+
+
+EPOCH 684, TRAIN LOSS:0.0124496, VALID LOSS:0.0240548
+rmse: 0.1551 -- mae: 0.1041 -- mape: 41.1620
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 685, TRAIN LOSS:0.0124285, VALID LOSS:0.0239873
+rmse: 0.1549 -- mae: 0.1040 -- mape: 41.1881
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 686, TRAIN LOSS:0.0124016, VALID LOSS:0.0240451
+rmse: 0.1550 -- mae: 0.1040 -- mape: 41.1026
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 687, TRAIN LOSS:0.0123977, VALID LOSS:0.0240261
+rmse: 0.1550 -- mae: 0.1041 -- mape: 41.0195
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 688, TRAIN LOSS:0.0123848, VALID LOSS:0.0240158
+rmse: 0.1549 -- mae: 0.1039 -- mape: 41.0630
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 689, TRAIN LOSS:0.0123578, VALID LOSS:0.0239666
+rmse: 0.1548 -- mae: 0.1040 -- mape: 41.2145
+Validation loss decreased (0.023980 --> 0.023967).  Saving model ...
+
+
+EPOCH 690, TRAIN LOSS:0.0123509, VALID LOSS:0.0240303
+rmse: 0.1550 -- mae: 0.1040 -- mape: 40.9378
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 691, TRAIN LOSS:0.0123212, VALID LOSS:0.0239800
+rmse: 0.1548 -- mae: 0.1040 -- mape: 41.4738
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 692, TRAIN LOSS:0.0123070, VALID LOSS:0.0239784
+rmse: 0.1548 -- mae: 0.1041 -- mape: 41.2323
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 693, TRAIN LOSS:0.0122983, VALID LOSS:0.0239893
+rmse: 0.1549 -- mae: 0.1041 -- mape: 41.1359
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 694, TRAIN LOSS:0.0122823, VALID LOSS:0.0239384
+rmse: 0.1547 -- mae: 0.1040 -- mape: 41.0032
+Validation loss decreased (0.023967 --> 0.023938).  Saving model ...
+
+
+EPOCH 695, TRAIN LOSS:0.0122490, VALID LOSS:0.0240081
+rmse: 0.1549 -- mae: 0.1040 -- mape: 40.9620
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 696, TRAIN LOSS:0.0122458, VALID LOSS:0.0238617
+rmse: 0.1545 -- mae: 0.1039 -- mape: 41.0129
+Validation loss decreased (0.023938 --> 0.023862).  Saving model ...
+
+
+EPOCH 697, TRAIN LOSS:0.0122288, VALID LOSS:0.0239209
+rmse: 0.1546 -- mae: 0.1039 -- mape: 41.0896
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 698, TRAIN LOSS:0.0122036, VALID LOSS:0.0239128
+rmse: 0.1546 -- mae: 0.1041 -- mape: 41.0017
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 699, TRAIN LOSS:0.0121864, VALID LOSS:0.0238905
+rmse: 0.1545 -- mae: 0.1039 -- mape: 41.1798
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 700, TRAIN LOSS:0.0121755, VALID LOSS:0.0239067
+rmse: 0.1546 -- mae: 0.1041 -- mape: 41.2186
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 701, TRAIN LOSS:0.0121433, VALID LOSS:0.0239215
+rmse: 0.1546 -- mae: 0.1040 -- mape: 41.0200
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 702, TRAIN LOSS:0.0121359, VALID LOSS:0.0238711
+rmse: 0.1545 -- mae: 0.1040 -- mape: 41.2524
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 703, TRAIN LOSS:0.0121104, VALID LOSS:0.0238533
+rmse: 0.1544 -- mae: 0.1039 -- mape: 41.0898
+Validation loss decreased (0.023862 --> 0.023853).  Saving model ...
+
+
+EPOCH 704, TRAIN LOSS:0.0121014, VALID LOSS:0.0238032
+rmse: 0.1543 -- mae: 0.1038 -- mape: 40.8517
+Validation loss decreased (0.023853 --> 0.023803).  Saving model ...
+
+
+EPOCH 705, TRAIN LOSS:0.0120916, VALID LOSS:0.0238708
+rmse: 0.1545 -- mae: 0.1040 -- mape: 40.8763
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 706, TRAIN LOSS:0.0120698, VALID LOSS:0.0237778
+rmse: 0.1542 -- mae: 0.1037 -- mape: 40.8783
+Validation loss decreased (0.023803 --> 0.023778).  Saving model ...
+
+
+EPOCH 707, TRAIN LOSS:0.0120514, VALID LOSS:0.0238169
+rmse: 0.1543 -- mae: 0.1039 -- mape: 40.9856
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 708, TRAIN LOSS:0.0120339, VALID LOSS:0.0238527
+rmse: 0.1544 -- mae: 0.1040 -- mape: 41.0923
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 709, TRAIN LOSS:0.0120309, VALID LOSS:0.0237413
+rmse: 0.1541 -- mae: 0.1038 -- mape: 41.0147
+Validation loss decreased (0.023778 --> 0.023741).  Saving model ...
+
+
+EPOCH 710, TRAIN LOSS:0.0119929, VALID LOSS:0.0238135
+rmse: 0.1543 -- mae: 0.1040 -- mape: 40.9846
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 711, TRAIN LOSS:0.0119901, VALID LOSS:0.0237683
+rmse: 0.1541 -- mae: 0.1040 -- mape: 41.1966
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 712, TRAIN LOSS:0.0119808, VALID LOSS:0.0238009
+rmse: 0.1542 -- mae: 0.1038 -- mape: 41.0018
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 713, TRAIN LOSS:0.0119656, VALID LOSS:0.0237351
+rmse: 0.1540 -- mae: 0.1039 -- mape: 40.8226
+Validation loss decreased (0.023741 --> 0.023735).  Saving model ...
+
+
+EPOCH 714, TRAIN LOSS:0.0119404, VALID LOSS:0.0238038
+rmse: 0.1543 -- mae: 0.1040 -- mape: 41.0163
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 715, TRAIN LOSS:0.0119289, VALID LOSS:0.0237168
+rmse: 0.1540 -- mae: 0.1038 -- mape: 40.8986
+Validation loss decreased (0.023735 --> 0.023717).  Saving model ...
+
+
+EPOCH 716, TRAIN LOSS:0.0119073, VALID LOSS:0.0236854
+rmse: 0.1539 -- mae: 0.1037 -- mape: 40.9592
+Validation loss decreased (0.023717 --> 0.023685).  Saving model ...
+
+
+EPOCH 717, TRAIN LOSS:0.0118885, VALID LOSS:0.0236713
+rmse: 0.1538 -- mae: 0.1038 -- mape: 40.9595
+Validation loss decreased (0.023685 --> 0.023671).  Saving model ...
+
+
+EPOCH 718, TRAIN LOSS:0.0118751, VALID LOSS:0.0236974
+rmse: 0.1539 -- mae: 0.1038 -- mape: 40.9978
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 719, TRAIN LOSS:0.0118731, VALID LOSS:0.0237335
+rmse: 0.1540 -- mae: 0.1039 -- mape: 40.9491
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 720, TRAIN LOSS:0.0118626, VALID LOSS:0.0236965
+rmse: 0.1539 -- mae: 0.1037 -- mape: 40.8440
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 721, TRAIN LOSS:0.0118453, VALID LOSS:0.0236731
+rmse: 0.1538 -- mae: 0.1038 -- mape: 40.8585
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 722, TRAIN LOSS:0.0118188, VALID LOSS:0.0236730
+rmse: 0.1538 -- mae: 0.1039 -- mape: 41.0849
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 723, TRAIN LOSS:0.0118136, VALID LOSS:0.0236255
+rmse: 0.1537 -- mae: 0.1037 -- mape: 40.9499
+Validation loss decreased (0.023671 --> 0.023625).  Saving model ...
+
+
+EPOCH 724, TRAIN LOSS:0.0117693, VALID LOSS:0.0236791
+rmse: 0.1539 -- mae: 0.1039 -- mape: 40.9267
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 725, TRAIN LOSS:0.0117799, VALID LOSS:0.0236726
+rmse: 0.1538 -- mae: 0.1039 -- mape: 41.1159
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 726, TRAIN LOSS:0.0117557, VALID LOSS:0.0236053
+rmse: 0.1536 -- mae: 0.1038 -- mape: 40.9097
+Validation loss decreased (0.023625 --> 0.023605).  Saving model ...
+
+
+EPOCH 727, TRAIN LOSS:0.0117258, VALID LOSS:0.0236470
+rmse: 0.1538 -- mae: 0.1037 -- mape: 40.9409
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 728, TRAIN LOSS:0.0117333, VALID LOSS:0.0236155
+rmse: 0.1536 -- mae: 0.1037 -- mape: 40.7805
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 729, TRAIN LOSS:0.0117144, VALID LOSS:0.0235996
+rmse: 0.1536 -- mae: 0.1037 -- mape: 40.9758
+Validation loss decreased (0.023605 --> 0.023600).  Saving model ...
+
+
+EPOCH 730, TRAIN LOSS:0.0117039, VALID LOSS:0.0235922
+rmse: 0.1536 -- mae: 0.1035 -- mape: 40.8545
+Validation loss decreased (0.023600 --> 0.023592).  Saving model ...
+
+
+EPOCH 731, TRAIN LOSS:0.0116916, VALID LOSS:0.0235860
+rmse: 0.1536 -- mae: 0.1036 -- mape: 40.8966
+Validation loss decreased (0.023592 --> 0.023586).  Saving model ...
+
+
+EPOCH 732, TRAIN LOSS:0.0116732, VALID LOSS:0.0235574
+rmse: 0.1535 -- mae: 0.1035 -- mape: 40.9236
+Validation loss decreased (0.023586 --> 0.023557).  Saving model ...
+
+
+EPOCH 733, TRAIN LOSS:0.0116603, VALID LOSS:0.0236204
+rmse: 0.1537 -- mae: 0.1037 -- mape: 40.7153
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 734, TRAIN LOSS:0.0116318, VALID LOSS:0.0236097
+rmse: 0.1536 -- mae: 0.1038 -- mape: 40.7493
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 735, TRAIN LOSS:0.0116423, VALID LOSS:0.0235557
+rmse: 0.1535 -- mae: 0.1038 -- mape: 41.0190
+Validation loss decreased (0.023557 --> 0.023556).  Saving model ...
+
+
+EPOCH 736, TRAIN LOSS:0.0116209, VALID LOSS:0.0234898
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.5458
+Validation loss decreased (0.023556 --> 0.023490).  Saving model ...
+
+
+EPOCH 737, TRAIN LOSS:0.0115942, VALID LOSS:0.0235576
+rmse: 0.1535 -- mae: 0.1036 -- mape: 40.8102
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 738, TRAIN LOSS:0.0115842, VALID LOSS:0.0234806
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.7141
+Validation loss decreased (0.023490 --> 0.023481).  Saving model ...
+
+
+EPOCH 739, TRAIN LOSS:0.0115646, VALID LOSS:0.0235640
+rmse: 0.1535 -- mae: 0.1036 -- mape: 40.7677
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 740, TRAIN LOSS:0.0115576, VALID LOSS:0.0235539
+rmse: 0.1535 -- mae: 0.1037 -- mape: 40.7105
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 741, TRAIN LOSS:0.0115470, VALID LOSS:0.0235335
+rmse: 0.1534 -- mae: 0.1036 -- mape: 40.8438
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 742, TRAIN LOSS:0.0115280, VALID LOSS:0.0234931
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.9518
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 743, TRAIN LOSS:0.0115217, VALID LOSS:0.0234648
+rmse: 0.1532 -- mae: 0.1034 -- mape: 40.7973
+Validation loss decreased (0.023481 --> 0.023465).  Saving model ...
+
+
+EPOCH 744, TRAIN LOSS:0.0114991, VALID LOSS:0.0234817
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.8278
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 745, TRAIN LOSS:0.0114914, VALID LOSS:0.0234913
+rmse: 0.1533 -- mae: 0.1036 -- mape: 40.7998
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 746, TRAIN LOSS:0.0114755, VALID LOSS:0.0235591
+rmse: 0.1535 -- mae: 0.1037 -- mape: 41.0406
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 747, TRAIN LOSS:0.0114605, VALID LOSS:0.0234647
+rmse: 0.1532 -- mae: 0.1036 -- mape: 40.7974
+Validation loss decreased (0.023465 --> 0.023465).  Saving model ...
+
+
+EPOCH 748, TRAIN LOSS:0.0114484, VALID LOSS:0.0234677
+rmse: 0.1532 -- mae: 0.1037 -- mape: 40.9730
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 749, TRAIN LOSS:0.0114382, VALID LOSS:0.0234786
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.6589
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 750, TRAIN LOSS:0.0114207, VALID LOSS:0.0234501
+rmse: 0.1531 -- mae: 0.1034 -- mape: 40.7657
+Validation loss decreased (0.023465 --> 0.023450).  Saving model ...
+
+
+EPOCH 751, TRAIN LOSS:0.0113938, VALID LOSS:0.0234076
+rmse: 0.1530 -- mae: 0.1035 -- mape: 40.7526
+Validation loss decreased (0.023450 --> 0.023408).  Saving model ...
+
+
+EPOCH 752, TRAIN LOSS:0.0113911, VALID LOSS:0.0234085
+rmse: 0.1530 -- mae: 0.1034 -- mape: 40.6700
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 753, TRAIN LOSS:0.0113779, VALID LOSS:0.0234578
+rmse: 0.1531 -- mae: 0.1035 -- mape: 40.7417
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 754, TRAIN LOSS:0.0113575, VALID LOSS:0.0234709
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.8224
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 755, TRAIN LOSS:0.0113678, VALID LOSS:0.0234148
+rmse: 0.1530 -- mae: 0.1034 -- mape: 40.7549
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 756, TRAIN LOSS:0.0113548, VALID LOSS:0.0234753
+rmse: 0.1532 -- mae: 0.1035 -- mape: 40.6595
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 757, TRAIN LOSS:0.0113189, VALID LOSS:0.0233705
+rmse: 0.1529 -- mae: 0.1034 -- mape: 40.7110
+Validation loss decreased (0.023408 --> 0.023371).  Saving model ...
+
+
+EPOCH 758, TRAIN LOSS:0.0113155, VALID LOSS:0.0234372
+rmse: 0.1531 -- mae: 0.1035 -- mape: 40.8088
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 759, TRAIN LOSS:0.0112977, VALID LOSS:0.0234532
+rmse: 0.1531 -- mae: 0.1037 -- mape: 40.9227
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 760, TRAIN LOSS:0.0112910, VALID LOSS:0.0233702
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.7837
+Validation loss decreased (0.023371 --> 0.023370).  Saving model ...
+
+
+EPOCH 761, TRAIN LOSS:0.0112687, VALID LOSS:0.0233854
+rmse: 0.1529 -- mae: 0.1033 -- mape: 40.8337
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 762, TRAIN LOSS:0.0112533, VALID LOSS:0.0234274
+rmse: 0.1530 -- mae: 0.1035 -- mape: 40.8149
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 763, TRAIN LOSS:0.0112540, VALID LOSS:0.0233644
+rmse: 0.1528 -- mae: 0.1033 -- mape: 40.5777
+Validation loss decreased (0.023370 --> 0.023364).  Saving model ...
+
+
+EPOCH 764, TRAIN LOSS:0.0112365, VALID LOSS:0.0233699
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.7896
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 765, TRAIN LOSS:0.0112280, VALID LOSS:0.0233501
+rmse: 0.1528 -- mae: 0.1033 -- mape: 40.5440
+Validation loss decreased (0.023364 --> 0.023350).  Saving model ...
+
+
+EPOCH 766, TRAIN LOSS:0.0112082, VALID LOSS:0.0233326
+rmse: 0.1527 -- mae: 0.1033 -- mape: 40.7228
+Validation loss decreased (0.023350 --> 0.023333).  Saving model ...
+
+
+EPOCH 767, TRAIN LOSS:0.0111942, VALID LOSS:0.0234104
+rmse: 0.1530 -- mae: 0.1035 -- mape: 40.8744
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 768, TRAIN LOSS:0.0111991, VALID LOSS:0.0233542
+rmse: 0.1528 -- mae: 0.1035 -- mape: 40.7566
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 769, TRAIN LOSS:0.0111842, VALID LOSS:0.0234185
+rmse: 0.1530 -- mae: 0.1035 -- mape: 40.5380
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 770, TRAIN LOSS:0.0111613, VALID LOSS:0.0233847
+rmse: 0.1529 -- mae: 0.1033 -- mape: 40.9082
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 771, TRAIN LOSS:0.0111613, VALID LOSS:0.0233760
+rmse: 0.1529 -- mae: 0.1034 -- mape: 40.7959
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 772, TRAIN LOSS:0.0111420, VALID LOSS:0.0233473
+rmse: 0.1528 -- mae: 0.1033 -- mape: 40.5756
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 773, TRAIN LOSS:0.0111214, VALID LOSS:0.0234000
+rmse: 0.1529 -- mae: 0.1035 -- mape: 40.7572
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 774, TRAIN LOSS:0.0111028, VALID LOSS:0.0233924
+rmse: 0.1529 -- mae: 0.1033 -- mape: 40.6061
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 775, TRAIN LOSS:0.0111085, VALID LOSS:0.0233758
+rmse: 0.1529 -- mae: 0.1034 -- mape: 40.6537
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 776, TRAIN LOSS:0.0110875, VALID LOSS:0.0233765
+rmse: 0.1529 -- mae: 0.1036 -- mape: 40.7086
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 777, TRAIN LOSS:0.0110772, VALID LOSS:0.0233009
+rmse: 0.1526 -- mae: 0.1032 -- mape: 40.6234
+Validation loss decreased (0.023333 --> 0.023301).  Saving model ...
+
+
+EPOCH 778, TRAIN LOSS:0.0110791, VALID LOSS:0.0233288
+rmse: 0.1527 -- mae: 0.1033 -- mape: 40.7013
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 779, TRAIN LOSS:0.0110540, VALID LOSS:0.0233319
+rmse: 0.1527 -- mae: 0.1034 -- mape: 40.6979
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 780, TRAIN LOSS:0.0110363, VALID LOSS:0.0233478
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.6487
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 781, TRAIN LOSS:0.0110417, VALID LOSS:0.0233567
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.6712
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 782, TRAIN LOSS:0.0110330, VALID LOSS:0.0233172
+rmse: 0.1527 -- mae: 0.1034 -- mape: 40.8023
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 783, TRAIN LOSS:0.0110041, VALID LOSS:0.0233795
+rmse: 0.1529 -- mae: 0.1035 -- mape: 40.7914
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 784, TRAIN LOSS:0.0110077, VALID LOSS:0.0233481
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.6336
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 785, TRAIN LOSS:0.0109917, VALID LOSS:0.0232892
+rmse: 0.1526 -- mae: 0.1034 -- mape: 40.6472
+Validation loss decreased (0.023301 --> 0.023289).  Saving model ...
+
+
+EPOCH 786, TRAIN LOSS:0.0109676, VALID LOSS:0.0233005
+rmse: 0.1526 -- mae: 0.1032 -- mape: 40.6898
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 787, TRAIN LOSS:0.0109571, VALID LOSS:0.0232691
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.8522
+Validation loss decreased (0.023289 --> 0.023269).  Saving model ...
+
+
+EPOCH 788, TRAIN LOSS:0.0109468, VALID LOSS:0.0232726
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.7800
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 789, TRAIN LOSS:0.0109331, VALID LOSS:0.0232535
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.7105
+Validation loss decreased (0.023269 --> 0.023254).  Saving model ...
+
+
+EPOCH 790, TRAIN LOSS:0.0109208, VALID LOSS:0.0233261
+rmse: 0.1527 -- mae: 0.1034 -- mape: 40.6366
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 791, TRAIN LOSS:0.0109005, VALID LOSS:0.0233270
+rmse: 0.1527 -- mae: 0.1034 -- mape: 40.6203
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 792, TRAIN LOSS:0.0109118, VALID LOSS:0.0232689
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.6434
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 793, TRAIN LOSS:0.0108937, VALID LOSS:0.0232510
+rmse: 0.1525 -- mae: 0.1031 -- mape: 40.5854
+Validation loss decreased (0.023254 --> 0.023251).  Saving model ...
+
+
+EPOCH 794, TRAIN LOSS:0.0108743, VALID LOSS:0.0232141
+rmse: 0.1523 -- mae: 0.1031 -- mape: 40.6579
+Validation loss decreased (0.023251 --> 0.023214).  Saving model ...
+
+
+EPOCH 795, TRAIN LOSS:0.0108548, VALID LOSS:0.0233345
+rmse: 0.1527 -- mae: 0.1035 -- mape: 40.7159
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 796, TRAIN LOSS:0.0108574, VALID LOSS:0.0232481
+rmse: 0.1525 -- mae: 0.1032 -- mape: 40.5989
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 797, TRAIN LOSS:0.0108462, VALID LOSS:0.0232767
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.6447
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 798, TRAIN LOSS:0.0108259, VALID LOSS:0.0232487
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.5345
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 799, TRAIN LOSS:0.0108199, VALID LOSS:0.0233405
+rmse: 0.1528 -- mae: 0.1034 -- mape: 40.7027
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 800, TRAIN LOSS:0.0108041, VALID LOSS:0.0232095
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.6345
+Validation loss decreased (0.023214 --> 0.023209).  Saving model ...
+
+
+EPOCH 801, TRAIN LOSS:0.0107969, VALID LOSS:0.0232805
+rmse: 0.1526 -- mae: 0.1034 -- mape: 40.7851
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 802, TRAIN LOSS:0.0107891, VALID LOSS:0.0232514
+rmse: 0.1525 -- mae: 0.1032 -- mape: 40.6506
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 803, TRAIN LOSS:0.0107758, VALID LOSS:0.0232831
+rmse: 0.1526 -- mae: 0.1033 -- mape: 40.6958
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 804, TRAIN LOSS:0.0107576, VALID LOSS:0.0232889
+rmse: 0.1526 -- mae: 0.1034 -- mape: 40.9318
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 805, TRAIN LOSS:0.0107505, VALID LOSS:0.0232813
+rmse: 0.1526 -- mae: 0.1033 -- mape: 40.6003
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 806, TRAIN LOSS:0.0107374, VALID LOSS:0.0232208
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.5700
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 807, TRAIN LOSS:0.0107392, VALID LOSS:0.0232669
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.8396
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 808, TRAIN LOSS:0.0107162, VALID LOSS:0.0232392
+rmse: 0.1524 -- mae: 0.1032 -- mape: 40.6094
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 809, TRAIN LOSS:0.0107151, VALID LOSS:0.0232096
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.5441
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 810, TRAIN LOSS:0.0106995, VALID LOSS:0.0231998
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.5620
+Validation loss decreased (0.023209 --> 0.023200).  Saving model ...
+
+
+EPOCH 811, TRAIN LOSS:0.0106916, VALID LOSS:0.0232720
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.6382
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 812, TRAIN LOSS:0.0106903, VALID LOSS:0.0231956
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.7399
+Validation loss decreased (0.023200 --> 0.023196).  Saving model ...
+
+
+EPOCH 813, TRAIN LOSS:0.0106817, VALID LOSS:0.0232120
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.5717
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 814, TRAIN LOSS:0.0106557, VALID LOSS:0.0232390
+rmse: 0.1524 -- mae: 0.1032 -- mape: 40.3717
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 815, TRAIN LOSS:0.0106422, VALID LOSS:0.0232111
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.6359
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 816, TRAIN LOSS:0.0106310, VALID LOSS:0.0232118
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.5314
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 817, TRAIN LOSS:0.0106218, VALID LOSS:0.0232982
+rmse: 0.1526 -- mae: 0.1034 -- mape: 40.5724
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 818, TRAIN LOSS:0.0106186, VALID LOSS:0.0232865
+rmse: 0.1526 -- mae: 0.1033 -- mape: 40.4573
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 819, TRAIN LOSS:0.0106171, VALID LOSS:0.0232242
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.6571
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 820, TRAIN LOSS:0.0105884, VALID LOSS:0.0232079
+rmse: 0.1523 -- mae: 0.1031 -- mape: 40.6279
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 821, TRAIN LOSS:0.0105814, VALID LOSS:0.0232540
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.4706
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 822, TRAIN LOSS:0.0105765, VALID LOSS:0.0232050
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.7027
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 823, TRAIN LOSS:0.0105520, VALID LOSS:0.0232190
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.5402
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 824, TRAIN LOSS:0.0105518, VALID LOSS:0.0232642
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.5829
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 825, TRAIN LOSS:0.0105404, VALID LOSS:0.0232705
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.6087
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 826, TRAIN LOSS:0.0105416, VALID LOSS:0.0232361
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.4269
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 827, TRAIN LOSS:0.0105287, VALID LOSS:0.0232290
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6565
+EarlyStopping counter: 15 out of 500
+
+
+EPOCH 828, TRAIN LOSS:0.0105124, VALID LOSS:0.0232432
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.5202
+EarlyStopping counter: 16 out of 500
+
+
+EPOCH 829, TRAIN LOSS:0.0105092, VALID LOSS:0.0231926
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.6369
+Validation loss decreased (0.023196 --> 0.023193).  Saving model ...
+
+
+EPOCH 830, TRAIN LOSS:0.0104913, VALID LOSS:0.0232718
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.7765
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 831, TRAIN LOSS:0.0104890, VALID LOSS:0.0232448
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6559
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 832, TRAIN LOSS:0.0104730, VALID LOSS:0.0232373
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.7490
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 833, TRAIN LOSS:0.0104681, VALID LOSS:0.0232290
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.4799
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 834, TRAIN LOSS:0.0104510, VALID LOSS:0.0232201
+rmse: 0.1524 -- mae: 0.1032 -- mape: 40.6085
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 835, TRAIN LOSS:0.0104386, VALID LOSS:0.0231391
+rmse: 0.1521 -- mae: 0.1031 -- mape: 40.5542
+Validation loss decreased (0.023193 --> 0.023139).  Saving model ...
+
+
+EPOCH 836, TRAIN LOSS:0.0104200, VALID LOSS:0.0232199
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.6503
+EarlyStopping counter: 1 out of 500
+
+
+EPOCH 837, TRAIN LOSS:0.0104178, VALID LOSS:0.0232956
+rmse: 0.1526 -- mae: 0.1035 -- mape: 40.7462
+EarlyStopping counter: 2 out of 500
+
+
+EPOCH 838, TRAIN LOSS:0.0103990, VALID LOSS:0.0232463
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.4313
+EarlyStopping counter: 3 out of 500
+
+
+EPOCH 839, TRAIN LOSS:0.0104035, VALID LOSS:0.0232831
+rmse: 0.1526 -- mae: 0.1035 -- mape: 40.6634
+EarlyStopping counter: 4 out of 500
+
+
+EPOCH 840, TRAIN LOSS:0.0104000, VALID LOSS:0.0232674
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.7733
+EarlyStopping counter: 5 out of 500
+
+
+EPOCH 841, TRAIN LOSS:0.0103763, VALID LOSS:0.0231838
+rmse: 0.1522 -- mae: 0.1032 -- mape: 40.5983
+EarlyStopping counter: 6 out of 500
+
+
+EPOCH 842, TRAIN LOSS:0.0103638, VALID LOSS:0.0232427
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6231
+EarlyStopping counter: 7 out of 500
+
+
+EPOCH 843, TRAIN LOSS:0.0103591, VALID LOSS:0.0232308
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.6513
+EarlyStopping counter: 8 out of 500
+
+
+EPOCH 844, TRAIN LOSS:0.0103416, VALID LOSS:0.0233270
+rmse: 0.1527 -- mae: 0.1035 -- mape: 40.6981
+EarlyStopping counter: 9 out of 500
+
+
+EPOCH 845, TRAIN LOSS:0.0103382, VALID LOSS:0.0232162
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.8236
+EarlyStopping counter: 10 out of 500
+
+
+EPOCH 846, TRAIN LOSS:0.0103335, VALID LOSS:0.0232577
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.6852
+EarlyStopping counter: 11 out of 500
+
+
+EPOCH 847, TRAIN LOSS:0.0103249, VALID LOSS:0.0231908
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.4949
+EarlyStopping counter: 12 out of 500
+
+
+EPOCH 848, TRAIN LOSS:0.0103146, VALID LOSS:0.0232538
+rmse: 0.1525 -- mae: 0.1032 -- mape: 40.5674
+EarlyStopping counter: 13 out of 500
+
+
+EPOCH 849, TRAIN LOSS:0.0103045, VALID LOSS:0.0232493
+rmse: 0.1525 -- mae: 0.1033 -- mape: 40.6484
+EarlyStopping counter: 14 out of 500
+
+
+EPOCH 850, TRAIN LOSS:0.0102853, VALID LOSS:0.0232172
+rmse: 0.1523 -- mae: 0.1032 -- mape: 40.4697
+EarlyStopping counter: 15 out of 500
+
+
+EPOCH 851, TRAIN LOSS:0.0102720, VALID LOSS:0.0232441
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6734
+EarlyStopping counter: 16 out of 500
+
+
+EPOCH 852, TRAIN LOSS:0.0102648, VALID LOSS:0.0232097
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.6359
+EarlyStopping counter: 17 out of 500
+
+
+EPOCH 853, TRAIN LOSS:0.0102549, VALID LOSS:0.0232415
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.8395
+EarlyStopping counter: 18 out of 500
+
+
+EPOCH 854, TRAIN LOSS:0.0102414, VALID LOSS:0.0232737
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.4925
+EarlyStopping counter: 19 out of 500
+
+
+EPOCH 855, TRAIN LOSS:0.0102349, VALID LOSS:0.0232236
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.7186
+EarlyStopping counter: 20 out of 500
+
+
+EPOCH 856, TRAIN LOSS:0.0102418, VALID LOSS:0.0232352
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.5404
+EarlyStopping counter: 21 out of 500
+
+
+EPOCH 857, TRAIN LOSS:0.0102089, VALID LOSS:0.0232547
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.8695
+EarlyStopping counter: 22 out of 500
+
+
+EPOCH 858, TRAIN LOSS:0.0102109, VALID LOSS:0.0232349
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5944
+EarlyStopping counter: 23 out of 500
+
+
+EPOCH 859, TRAIN LOSS:0.0102112, VALID LOSS:0.0232107
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.6413
+EarlyStopping counter: 24 out of 500
+
+
+EPOCH 860, TRAIN LOSS:0.0101946, VALID LOSS:0.0231434
+rmse: 0.1521 -- mae: 0.1032 -- mape: 40.5561
+EarlyStopping counter: 25 out of 500
+
+
+EPOCH 861, TRAIN LOSS:0.0101759, VALID LOSS:0.0231995
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.8407
+EarlyStopping counter: 26 out of 500
+
+
+EPOCH 862, TRAIN LOSS:0.0101713, VALID LOSS:0.0232126
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.5403
+EarlyStopping counter: 27 out of 500
+
+
+EPOCH 863, TRAIN LOSS:0.0101508, VALID LOSS:0.0232410
+rmse: 0.1524 -- mae: 0.1033 -- mape: 40.5506
+EarlyStopping counter: 28 out of 500
+
+
+EPOCH 864, TRAIN LOSS:0.0101549, VALID LOSS:0.0231773
+rmse: 0.1522 -- mae: 0.1033 -- mape: 40.6169
+EarlyStopping counter: 29 out of 500
+
+
+EPOCH 865, TRAIN LOSS:0.0101409, VALID LOSS:0.0232016
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.5041
+EarlyStopping counter: 30 out of 500
+
+
+EPOCH 866, TRAIN LOSS:0.0101372, VALID LOSS:0.0231733
+rmse: 0.1522 -- mae: 0.1033 -- mape: 40.6753
+EarlyStopping counter: 31 out of 500
+
+
+EPOCH 867, TRAIN LOSS:0.0101132, VALID LOSS:0.0231865
+rmse: 0.1522 -- mae: 0.1034 -- mape: 40.5986
+EarlyStopping counter: 32 out of 500
+
+
+EPOCH 868, TRAIN LOSS:0.0101211, VALID LOSS:0.0232285
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6247
+EarlyStopping counter: 33 out of 500
+
+
+EPOCH 869, TRAIN LOSS:0.0101100, VALID LOSS:0.0231988
+rmse: 0.1523 -- mae: 0.1035 -- mape: 40.7178
+EarlyStopping counter: 34 out of 500
+
+
+EPOCH 870, TRAIN LOSS:0.0101017, VALID LOSS:0.0232456
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6466
+EarlyStopping counter: 35 out of 500
+
+
+EPOCH 871, TRAIN LOSS:0.0100967, VALID LOSS:0.0232323
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6084
+EarlyStopping counter: 36 out of 500
+
+
+EPOCH 872, TRAIN LOSS:0.0100754, VALID LOSS:0.0232461
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6789
+EarlyStopping counter: 37 out of 500
+
+
+EPOCH 873, TRAIN LOSS:0.0100782, VALID LOSS:0.0232039
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.5220
+EarlyStopping counter: 38 out of 500
+
+
+EPOCH 874, TRAIN LOSS:0.0100676, VALID LOSS:0.0231780
+rmse: 0.1522 -- mae: 0.1032 -- mape: 40.6457
+EarlyStopping counter: 39 out of 500
+
+
+EPOCH 875, TRAIN LOSS:0.0100504, VALID LOSS:0.0232431
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.7147
+EarlyStopping counter: 40 out of 500
+
+
+EPOCH 876, TRAIN LOSS:0.0100419, VALID LOSS:0.0232381
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6149
+EarlyStopping counter: 41 out of 500
+
+
+EPOCH 877, TRAIN LOSS:0.0100259, VALID LOSS:0.0232299
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6766
+EarlyStopping counter: 42 out of 500
+
+
+EPOCH 878, TRAIN LOSS:0.0100204, VALID LOSS:0.0232144
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.6377
+EarlyStopping counter: 43 out of 500
+
+
+EPOCH 879, TRAIN LOSS:0.0100095, VALID LOSS:0.0232489
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.5033
+EarlyStopping counter: 44 out of 500
+
+
+EPOCH 880, TRAIN LOSS:0.0100020, VALID LOSS:0.0231904
+rmse: 0.1523 -- mae: 0.1035 -- mape: 40.7129
+EarlyStopping counter: 45 out of 500
+
+
+EPOCH 881, TRAIN LOSS:0.0099958, VALID LOSS:0.0232122
+rmse: 0.1523 -- mae: 0.1035 -- mape: 40.6491
+EarlyStopping counter: 46 out of 500
+
+
+EPOCH 882, TRAIN LOSS:0.0099875, VALID LOSS:0.0231899
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.7222
+EarlyStopping counter: 47 out of 500
+
+
+EPOCH 883, TRAIN LOSS:0.0099859, VALID LOSS:0.0231966
+rmse: 0.1523 -- mae: 0.1033 -- mape: 40.5125
+EarlyStopping counter: 48 out of 500
+
+
+EPOCH 884, TRAIN LOSS:0.0099775, VALID LOSS:0.0232006
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.5752
+EarlyStopping counter: 49 out of 500
+
+
+EPOCH 885, TRAIN LOSS:0.0099554, VALID LOSS:0.0232147
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.6449
+EarlyStopping counter: 50 out of 500
+
+
+EPOCH 886, TRAIN LOSS:0.0099556, VALID LOSS:0.0232377
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6718
+EarlyStopping counter: 51 out of 500
+
+
+EPOCH 887, TRAIN LOSS:0.0099451, VALID LOSS:0.0232475
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5895
+EarlyStopping counter: 52 out of 500
+
+
+EPOCH 888, TRAIN LOSS:0.0099224, VALID LOSS:0.0231964
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.6686
+EarlyStopping counter: 53 out of 500
+
+
+EPOCH 889, TRAIN LOSS:0.0099153, VALID LOSS:0.0232382
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.5271
+EarlyStopping counter: 54 out of 500
+
+
+EPOCH 890, TRAIN LOSS:0.0099242, VALID LOSS:0.0232452
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6104
+EarlyStopping counter: 55 out of 500
+
+
+EPOCH 891, TRAIN LOSS:0.0099011, VALID LOSS:0.0232583
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.6247
+EarlyStopping counter: 56 out of 500
+
+
+EPOCH 892, TRAIN LOSS:0.0098872, VALID LOSS:0.0232661
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.8376
+EarlyStopping counter: 57 out of 500
+
+
+EPOCH 893, TRAIN LOSS:0.0098820, VALID LOSS:0.0232283
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6678
+EarlyStopping counter: 58 out of 500
+
+
+EPOCH 894, TRAIN LOSS:0.0098879, VALID LOSS:0.0232670
+rmse: 0.1525 -- mae: 0.1034 -- mape: 40.5069
+EarlyStopping counter: 59 out of 500
+
+
+EPOCH 895, TRAIN LOSS:0.0098675, VALID LOSS:0.0232365
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.5538
+EarlyStopping counter: 60 out of 500
+
+
+EPOCH 896, TRAIN LOSS:0.0098636, VALID LOSS:0.0232423
+rmse: 0.1524 -- mae: 0.1036 -- mape: 40.6074
+EarlyStopping counter: 61 out of 500
+
+
+EPOCH 897, TRAIN LOSS:0.0098586, VALID LOSS:0.0233321
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7742
+EarlyStopping counter: 62 out of 500
+
+
+EPOCH 898, TRAIN LOSS:0.0098489, VALID LOSS:0.0232113
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.7899
+EarlyStopping counter: 63 out of 500
+
+
+EPOCH 899, TRAIN LOSS:0.0098289, VALID LOSS:0.0232308
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.5069
+EarlyStopping counter: 64 out of 500
+
+
+EPOCH 900, TRAIN LOSS:0.0098268, VALID LOSS:0.0232346
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6246
+EarlyStopping counter: 65 out of 500
+
+
+EPOCH 901, TRAIN LOSS:0.0098227, VALID LOSS:0.0232491
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.7126
+EarlyStopping counter: 66 out of 500
+
+
+EPOCH 902, TRAIN LOSS:0.0098002, VALID LOSS:0.0232658
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.7112
+EarlyStopping counter: 67 out of 500
+
+
+EPOCH 903, TRAIN LOSS:0.0097973, VALID LOSS:0.0232507
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.7644
+EarlyStopping counter: 68 out of 500
+
+
+EPOCH 904, TRAIN LOSS:0.0097932, VALID LOSS:0.0231876
+rmse: 0.1522 -- mae: 0.1034 -- mape: 40.5947
+EarlyStopping counter: 69 out of 500
+
+
+EPOCH 905, TRAIN LOSS:0.0097861, VALID LOSS:0.0232687
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6825
+EarlyStopping counter: 70 out of 500
+
+
+EPOCH 906, TRAIN LOSS:0.0097694, VALID LOSS:0.0233561
+rmse: 0.1528 -- mae: 0.1037 -- mape: 40.7527
+EarlyStopping counter: 71 out of 500
+
+
+EPOCH 907, TRAIN LOSS:0.0097660, VALID LOSS:0.0232590
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.5767
+EarlyStopping counter: 72 out of 500
+
+
+EPOCH 908, TRAIN LOSS:0.0097473, VALID LOSS:0.0232640
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.8002
+EarlyStopping counter: 73 out of 500
+
+
+EPOCH 909, TRAIN LOSS:0.0097527, VALID LOSS:0.0232628
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.6720
+EarlyStopping counter: 74 out of 500
+
+
+EPOCH 910, TRAIN LOSS:0.0097432, VALID LOSS:0.0232218
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.4800
+EarlyStopping counter: 75 out of 500
+
+
+EPOCH 911, TRAIN LOSS:0.0097393, VALID LOSS:0.0231758
+rmse: 0.1522 -- mae: 0.1033 -- mape: 40.4400
+EarlyStopping counter: 76 out of 500
+
+
+EPOCH 912, TRAIN LOSS:0.0097166, VALID LOSS:0.0232530
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.5415
+EarlyStopping counter: 77 out of 500
+
+
+EPOCH 913, TRAIN LOSS:0.0097223, VALID LOSS:0.0232860
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.8246
+EarlyStopping counter: 78 out of 500
+
+
+EPOCH 914, TRAIN LOSS:0.0096924, VALID LOSS:0.0232394
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5111
+EarlyStopping counter: 79 out of 500
+
+
+EPOCH 915, TRAIN LOSS:0.0097037, VALID LOSS:0.0232636
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6576
+EarlyStopping counter: 80 out of 500
+
+
+EPOCH 916, TRAIN LOSS:0.0096832, VALID LOSS:0.0232150
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.6663
+EarlyStopping counter: 81 out of 500
+
+
+EPOCH 917, TRAIN LOSS:0.0096703, VALID LOSS:0.0232579
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6352
+EarlyStopping counter: 82 out of 500
+
+
+EPOCH 918, TRAIN LOSS:0.0096652, VALID LOSS:0.0232403
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5225
+EarlyStopping counter: 83 out of 500
+
+
+EPOCH 919, TRAIN LOSS:0.0096575, VALID LOSS:0.0232663
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.7067
+EarlyStopping counter: 84 out of 500
+
+
+EPOCH 920, TRAIN LOSS:0.0096598, VALID LOSS:0.0232570
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.7523
+EarlyStopping counter: 85 out of 500
+
+
+EPOCH 921, TRAIN LOSS:0.0096485, VALID LOSS:0.0232427
+rmse: 0.1524 -- mae: 0.1036 -- mape: 40.6485
+EarlyStopping counter: 86 out of 500
+
+
+EPOCH 922, TRAIN LOSS:0.0096415, VALID LOSS:0.0232489
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6788
+EarlyStopping counter: 87 out of 500
+
+
+EPOCH 923, TRAIN LOSS:0.0096350, VALID LOSS:0.0232689
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6610
+EarlyStopping counter: 88 out of 500
+
+
+EPOCH 924, TRAIN LOSS:0.0096297, VALID LOSS:0.0232532
+rmse: 0.1525 -- mae: 0.1037 -- mape: 40.8819
+EarlyStopping counter: 89 out of 500
+
+
+EPOCH 925, TRAIN LOSS:0.0096163, VALID LOSS:0.0232419
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5338
+EarlyStopping counter: 90 out of 500
+
+
+EPOCH 926, TRAIN LOSS:0.0095864, VALID LOSS:0.0231970
+rmse: 0.1523 -- mae: 0.1034 -- mape: 40.5698
+EarlyStopping counter: 91 out of 500
+
+
+EPOCH 927, TRAIN LOSS:0.0095938, VALID LOSS:0.0232416
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6973
+EarlyStopping counter: 92 out of 500
+
+
+EPOCH 928, TRAIN LOSS:0.0095929, VALID LOSS:0.0232743
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6617
+EarlyStopping counter: 93 out of 500
+
+
+EPOCH 929, TRAIN LOSS:0.0095742, VALID LOSS:0.0232744
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6210
+EarlyStopping counter: 94 out of 500
+
+
+EPOCH 930, TRAIN LOSS:0.0095609, VALID LOSS:0.0233215
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.6808
+EarlyStopping counter: 95 out of 500
+
+
+EPOCH 931, TRAIN LOSS:0.0095720, VALID LOSS:0.0233025
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.7619
+EarlyStopping counter: 96 out of 500
+
+
+EPOCH 932, TRAIN LOSS:0.0095525, VALID LOSS:0.0232317
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5480
+EarlyStopping counter: 97 out of 500
+
+
+EPOCH 933, TRAIN LOSS:0.0095461, VALID LOSS:0.0233209
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.8162
+EarlyStopping counter: 98 out of 500
+
+
+EPOCH 934, TRAIN LOSS:0.0095529, VALID LOSS:0.0232817
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6639
+EarlyStopping counter: 99 out of 500
+
+
+EPOCH 935, TRAIN LOSS:0.0095306, VALID LOSS:0.0232575
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6234
+EarlyStopping counter: 100 out of 500
+
+
+EPOCH 936, TRAIN LOSS:0.0095203, VALID LOSS:0.0233272
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.6989
+EarlyStopping counter: 101 out of 500
+
+
+EPOCH 937, TRAIN LOSS:0.0095188, VALID LOSS:0.0232838
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.5300
+EarlyStopping counter: 102 out of 500
+
+
+EPOCH 938, TRAIN LOSS:0.0095091, VALID LOSS:0.0232531
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.7263
+EarlyStopping counter: 103 out of 500
+
+
+EPOCH 939, TRAIN LOSS:0.0095081, VALID LOSS:0.0232671
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6399
+EarlyStopping counter: 104 out of 500
+
+
+EPOCH 940, TRAIN LOSS:0.0094867, VALID LOSS:0.0232909
+rmse: 0.1526 -- mae: 0.1035 -- mape: 40.6777
+EarlyStopping counter: 105 out of 500
+
+
+EPOCH 941, TRAIN LOSS:0.0094834, VALID LOSS:0.0233079
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.6266
+EarlyStopping counter: 106 out of 500
+
+
+EPOCH 942, TRAIN LOSS:0.0094725, VALID LOSS:0.0232637
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.5133
+EarlyStopping counter: 107 out of 500
+
+
+EPOCH 943, TRAIN LOSS:0.0094757, VALID LOSS:0.0232689
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6739
+EarlyStopping counter: 108 out of 500
+
+
+EPOCH 944, TRAIN LOSS:0.0094586, VALID LOSS:0.0233108
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6897
+EarlyStopping counter: 109 out of 500
+
+
+EPOCH 945, TRAIN LOSS:0.0094568, VALID LOSS:0.0232435
+rmse: 0.1524 -- mae: 0.1037 -- mape: 40.7473
+EarlyStopping counter: 110 out of 500
+
+
+EPOCH 946, TRAIN LOSS:0.0094386, VALID LOSS:0.0232688
+rmse: 0.1525 -- mae: 0.1035 -- mape: 40.5768
+EarlyStopping counter: 111 out of 500
+
+
+EPOCH 947, TRAIN LOSS:0.0094345, VALID LOSS:0.0232488
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.4676
+EarlyStopping counter: 112 out of 500
+
+
+EPOCH 948, TRAIN LOSS:0.0094276, VALID LOSS:0.0232712
+rmse: 0.1525 -- mae: 0.1037 -- mape: 40.7167
+EarlyStopping counter: 113 out of 500
+
+
+EPOCH 949, TRAIN LOSS:0.0094159, VALID LOSS:0.0233502
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.8139
+EarlyStopping counter: 114 out of 500
+
+
+EPOCH 950, TRAIN LOSS:0.0094113, VALID LOSS:0.0232966
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.7185
+EarlyStopping counter: 115 out of 500
+
+
+EPOCH 951, TRAIN LOSS:0.0094070, VALID LOSS:0.0232876
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.6607
+EarlyStopping counter: 116 out of 500
+
+
+EPOCH 952, TRAIN LOSS:0.0094015, VALID LOSS:0.0232294
+rmse: 0.1524 -- mae: 0.1034 -- mape: 40.6716
+EarlyStopping counter: 117 out of 500
+
+
+EPOCH 953, TRAIN LOSS:0.0093872, VALID LOSS:0.0232428
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.5936
+EarlyStopping counter: 118 out of 500
+
+
+EPOCH 954, TRAIN LOSS:0.0093849, VALID LOSS:0.0232782
+rmse: 0.1525 -- mae: 0.1037 -- mape: 40.7340
+EarlyStopping counter: 119 out of 500
+
+
+EPOCH 955, TRAIN LOSS:0.0093803, VALID LOSS:0.0233513
+rmse: 0.1528 -- mae: 0.1038 -- mape: 40.8493
+EarlyStopping counter: 120 out of 500
+
+
+EPOCH 956, TRAIN LOSS:0.0093610, VALID LOSS:0.0232453
+rmse: 0.1524 -- mae: 0.1035 -- mape: 40.6062
+EarlyStopping counter: 121 out of 500
+
+
+EPOCH 957, TRAIN LOSS:0.0093583, VALID LOSS:0.0232980
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.7488
+EarlyStopping counter: 122 out of 500
+
+
+EPOCH 958, TRAIN LOSS:0.0093537, VALID LOSS:0.0233334
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6837
+EarlyStopping counter: 123 out of 500
+
+
+EPOCH 959, TRAIN LOSS:0.0093387, VALID LOSS:0.0233363
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7587
+EarlyStopping counter: 124 out of 500
+
+
+EPOCH 960, TRAIN LOSS:0.0093379, VALID LOSS:0.0233486
+rmse: 0.1528 -- mae: 0.1038 -- mape: 40.6181
+EarlyStopping counter: 125 out of 500
+
+
+EPOCH 961, TRAIN LOSS:0.0093301, VALID LOSS:0.0232508
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6541
+EarlyStopping counter: 126 out of 500
+
+
+EPOCH 962, TRAIN LOSS:0.0093233, VALID LOSS:0.0233386
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.8326
+EarlyStopping counter: 127 out of 500
+
+
+EPOCH 963, TRAIN LOSS:0.0093096, VALID LOSS:0.0233317
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7192
+EarlyStopping counter: 128 out of 500
+
+
+EPOCH 964, TRAIN LOSS:0.0093014, VALID LOSS:0.0233177
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7795
+EarlyStopping counter: 129 out of 500
+
+
+EPOCH 965, TRAIN LOSS:0.0092954, VALID LOSS:0.0232670
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.6628
+EarlyStopping counter: 130 out of 500
+
+
+EPOCH 966, TRAIN LOSS:0.0092698, VALID LOSS:0.0233360
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6264
+EarlyStopping counter: 131 out of 500
+
+
+EPOCH 967, TRAIN LOSS:0.0092939, VALID LOSS:0.0232980
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.7303
+EarlyStopping counter: 132 out of 500
+
+
+EPOCH 968, TRAIN LOSS:0.0092759, VALID LOSS:0.0233290
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.7574
+EarlyStopping counter: 133 out of 500
+
+
+EPOCH 969, TRAIN LOSS:0.0092652, VALID LOSS:0.0232971
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.6645
+EarlyStopping counter: 134 out of 500
+
+
+EPOCH 970, TRAIN LOSS:0.0092449, VALID LOSS:0.0233642
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.8793
+EarlyStopping counter: 135 out of 500
+
+
+EPOCH 971, TRAIN LOSS:0.0092439, VALID LOSS:0.0232706
+rmse: 0.1525 -- mae: 0.1036 -- mape: 40.7012
+EarlyStopping counter: 136 out of 500
+
+
+EPOCH 972, TRAIN LOSS:0.0092404, VALID LOSS:0.0233389
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.5882
+EarlyStopping counter: 137 out of 500
+
+
+EPOCH 973, TRAIN LOSS:0.0092412, VALID LOSS:0.0232908
+rmse: 0.1526 -- mae: 0.1036 -- mape: 40.6012
+EarlyStopping counter: 138 out of 500
+
+
+EPOCH 974, TRAIN LOSS:0.0092219, VALID LOSS:0.0233385
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6309
+EarlyStopping counter: 139 out of 500
+
+
+EPOCH 975, TRAIN LOSS:0.0092089, VALID LOSS:0.0233064
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.6635
+EarlyStopping counter: 140 out of 500
+
+
+EPOCH 976, TRAIN LOSS:0.0092086, VALID LOSS:0.0233742
+rmse: 0.1529 -- mae: 0.1038 -- mape: 40.6759
+EarlyStopping counter: 141 out of 500
+
+
+EPOCH 977, TRAIN LOSS:0.0092059, VALID LOSS:0.0233544
+rmse: 0.1528 -- mae: 0.1038 -- mape: 40.6655
+EarlyStopping counter: 142 out of 500
+
+
+EPOCH 978, TRAIN LOSS:0.0092094, VALID LOSS:0.0233112
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.5839
+EarlyStopping counter: 143 out of 500
+
+
+EPOCH 979, TRAIN LOSS:0.0091965, VALID LOSS:0.0233177
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.7441
+EarlyStopping counter: 144 out of 500
+
+
+EPOCH 980, TRAIN LOSS:0.0091774, VALID LOSS:0.0233426
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.8296
+EarlyStopping counter: 145 out of 500
+
+
+EPOCH 981, TRAIN LOSS:0.0091679, VALID LOSS:0.0233660
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.5987
+EarlyStopping counter: 146 out of 500
+
+
+EPOCH 982, TRAIN LOSS:0.0091674, VALID LOSS:0.0233221
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.5565
+EarlyStopping counter: 147 out of 500
+
+
+EPOCH 983, TRAIN LOSS:0.0091516, VALID LOSS:0.0233751
+rmse: 0.1529 -- mae: 0.1039 -- mape: 40.7526
+EarlyStopping counter: 148 out of 500
+
+
+EPOCH 984, TRAIN LOSS:0.0091554, VALID LOSS:0.0234186
+rmse: 0.1530 -- mae: 0.1039 -- mape: 40.7372
+EarlyStopping counter: 149 out of 500
+
+
+EPOCH 985, TRAIN LOSS:0.0091499, VALID LOSS:0.0233295
+rmse: 0.1527 -- mae: 0.1037 -- mape: 40.7263
+EarlyStopping counter: 150 out of 500
+
+
+EPOCH 986, TRAIN LOSS:0.0091507, VALID LOSS:0.0233062
+rmse: 0.1526 -- mae: 0.1037 -- mape: 40.6874
+EarlyStopping counter: 151 out of 500
+
+
+EPOCH 987, TRAIN LOSS:0.0091263, VALID LOSS:0.0233159
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6936
+EarlyStopping counter: 152 out of 500
+
+
+EPOCH 988, TRAIN LOSS:0.0091102, VALID LOSS:0.0233967
+rmse: 0.1529 -- mae: 0.1039 -- mape: 40.8134
+EarlyStopping counter: 153 out of 500
+
+
+EPOCH 989, TRAIN LOSS:0.0091271, VALID LOSS:0.0233512
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.7508
+EarlyStopping counter: 154 out of 500
+
+
+EPOCH 990, TRAIN LOSS:0.0091180, VALID LOSS:0.0233888
+rmse: 0.1529 -- mae: 0.1039 -- mape: 40.7060
+EarlyStopping counter: 155 out of 500
+
+
+EPOCH 991, TRAIN LOSS:0.0090984, VALID LOSS:0.0233665
+rmse: 0.1528 -- mae: 0.1039 -- mape: 40.6901
+EarlyStopping counter: 156 out of 500
+
+
+EPOCH 992, TRAIN LOSS:0.0090967, VALID LOSS:0.0233574
+rmse: 0.1528 -- mae: 0.1038 -- mape: 40.6953
+EarlyStopping counter: 157 out of 500
+
+
+EPOCH 993, TRAIN LOSS:0.0090934, VALID LOSS:0.0233398
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7901
+EarlyStopping counter: 158 out of 500
+
+
+EPOCH 994, TRAIN LOSS:0.0090856, VALID LOSS:0.0233410
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.7843
+EarlyStopping counter: 159 out of 500
+
+
+EPOCH 995, TRAIN LOSS:0.0090819, VALID LOSS:0.0233207
+rmse: 0.1527 -- mae: 0.1039 -- mape: 40.6580
+EarlyStopping counter: 160 out of 500
+
+
+EPOCH 996, TRAIN LOSS:0.0090592, VALID LOSS:0.0233841
+rmse: 0.1529 -- mae: 0.1039 -- mape: 40.6987
+EarlyStopping counter: 161 out of 500
+
+
+EPOCH 997, TRAIN LOSS:0.0090606, VALID LOSS:0.0234119
+rmse: 0.1530 -- mae: 0.1040 -- mape: 40.6912
+EarlyStopping counter: 162 out of 500
+
+
+EPOCH 998, TRAIN LOSS:0.0090530, VALID LOSS:0.0233830
+rmse: 0.1529 -- mae: 0.1040 -- mape: 40.8164
+EarlyStopping counter: 163 out of 500
+
+
+EPOCH 999, TRAIN LOSS:0.0090498, VALID LOSS:0.0233982
+rmse: 0.1529 -- mae: 0.1039 -- mape: 40.5557
+EarlyStopping counter: 164 out of 500
+
+
+EPOCH 1000, TRAIN LOSS:0.0090354, VALID LOSS:0.0233308
+rmse: 0.1527 -- mae: 0.1038 -- mape: 40.6808
+EarlyStopping counter: 165 out of 500
+
+
+FINAL RESULTS FOR ALL EXPERIMENTS...
+
+TRAIN SET RESULTS
+rmse list [0.10678647144289755] 
+
+rmse mean - std. dev: 0.10678647144289755 nan 
+
+mae list [0.07453978671259012] 
+
+mae mean - std. dev: 0.07453978671259012 nan 
+
+mape list [28.90510151081786] 
+
+mape mean - std. dev: 28.90510151081786 nan 
+
+TEST SET RESULTS
+rmse list [0.1527768281957464] 
+
+rmse mean - std. dev: 0.1527768281957464 nan 
+
+mae list [0.1035289680245637] 
+
+mae mean - std. dev: 0.1035289680245637 nan 
+
+mape list [41.042343662092286] 
+
+mape mean - std. dev: 41.042343662092286 nan 
+
