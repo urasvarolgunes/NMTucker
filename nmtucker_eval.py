@@ -15,7 +15,7 @@ torch.cuda.is_available() #check cuda
 import argparse
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-parser.add_argument("-num_experiments", type=int, default=3, nargs="?", help="Number of iterations.")
+parser.add_argument("-num_experiments", type=int, default=1, nargs="?", help="Number of iterations.")
 parser.add_argument("-epochs", type=int, default=10000, nargs="?", help="Number of iterations.")
 parser.add_argument("-patience", type=int, default=50, nargs="?",help="patience for early stop.")
 parser.add_argument("-batch_size", type=int, default=4096, nargs="?", help="Batch size.")
