@@ -1,4 +1,4 @@
-NMTucker: Non-linear Matryoshka Tucker Decomposition for Financial Time Series Imputation
+# NMTucker: Non-linear Matryoshka Tucker Decomposition for Financial Time Series Imputation
 
 This repository is the official PyTorch implementation of NMTucker.
 
@@ -24,4 +24,4 @@ python nmtucker_eval.py -model=ML1 -dataset=fun -core_shape=40,40,40 -regulariza
 
 Requirements:
 
-torch
+pytorch == 1.13.1
