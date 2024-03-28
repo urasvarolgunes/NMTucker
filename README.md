@@ -1,31 +1,37 @@
 # NMTucker: Non-linear Matryoshka Tucker Decomposition for Financial Time Series Imputation (ICAIF '23)
 
-This repository is the official PyTorch implementation of NMTucker.
+This repository contains the official PyTorch implementation of NMTucker.
 
-NMTucker1 example
+Paper: https://dl.acm.org/doi/abs/10.1145/3604237.3626909
+
+<br />
+
+### Usage
+- NMTucker1 example
 ```
-python nmtucker_eval.py -core_shape=40,40,40 -num_experiments=2 -dataset=fun
+python nmtucker_eval.py -dataset=fun -core_shape=40,40,40
 ```
 
-NMTucker2 example
+- NMTucker2 example
 ```
-python nmtucker_eval.py -model=ML2 -dataset=chars -core_shape=80,80,80 -core2_shape=36,36,36
+python nmtucker_eval.py -model=ML2 -dataset=fun -core_shape=80,80,80 -core2_shape=36,36,36
 ```
 
-NMTucker3 example
+- NMTucker3 example
 ```
 python nmtucker_eval.py -model=ML3 -dataset=fun -core_shape=70,70,70 -core2_shape=50,50,50 -core3_shape=35,35,35
 ```
 
-NMTucker-L1 example
+- NMTucker-L1 example
 ```
 python nmtucker_eval.py -model=ML1 -dataset=fun -core_shape=40,40,40 -regularization=L1 -lambda_l1=1e-6
 ```
 
-Requirements:
+### Requirements:
+- pytorch == 1.13.1
 
-pytorch == 1.13.1
 
+<br />
 
 If you find this work useful, please cite our paper:
 
