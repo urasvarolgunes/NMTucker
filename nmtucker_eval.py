@@ -15,8 +15,8 @@ torch.cuda.is_available() #check cuda
 import argparse
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-parser.add_argument("-num_experiments", type=int, default=1, nargs="?", help="Number of iterations.")
-parser.add_argument("-epochs", type=int, default=1000, nargs="?", help="Number of iterations.")
+parser.add_argument("-num_experiments", type=int, default=3, nargs="?", help="Number of iterations.")
+parser.add_argument("-epochs", type=int, default=10000, nargs="?", help="Number of iterations.")
 parser.add_argument("-patience", type=int, default=50, nargs="?",help="patience for early stop.")
 parser.add_argument("-batch_size", type=int, default=4096, nargs="?", help="Batch size.")
 parser.add_argument("-lr", type=float, default=3e-4, nargs="?", help="Learning rate.")
@@ -27,8 +27,8 @@ parser.add_argument("-device", type=str, default='cuda', help="cuda or cpu")
 parser.add_argument("-val_ratio", type=float, default=0.1, nargs="?", help="validation split ratio")
 parser.add_argument("-model", type=str, default='ML1', choices=["ML1", "ML2", "ML3"])
 parser.add_argument("-dataset", type=str, default='fun', help="dataset name", choices=['fun', 'eps', 'chars'])
-parser.add_argument("-lambda_l1", type=float, default=1e-3, help="strength of L1 regularization")
-parser.add_argument("-lambda_l2", type=float, default=1e-3, help="strength of L2 regularization")
+parser.add_argument("-lambda_l1", type=float, default=0, help="strength of L1 regularization")
+parser.add_argument("-lambda_l2", type=float, default=0, help="strength of L2 regularization")
 parser.add_argument("-regularization", type=str, default=None, help="L1 or L2")
 
 args = parser.parse_args()
@@ -77,11 +77,5 @@ for i in range(args.num_experiments):
     metric_dict_test['rmse'].append(rmse)
     metric_dict_test['mae'].append(mae)
     metric_dict_test['mape'].append(mape)
-
-    # do not save dict when testing stuff
-    if args.epochs > 50:
-        dic.pop('model')
-        with open(f'overfit_curves/{args.model}_{args.dataset}_{args.core_shape}_{args.core2_shape}_{args.core3_shape}_reg{args.regularization}_L1={args.lambda_l1}_L2={args.lambda_l2}_exp{i}.pkl', 'wb') as f:
-            pickle.dump(dic, f)
 
 print_results(metric_dict_train, metric_dict_test)
